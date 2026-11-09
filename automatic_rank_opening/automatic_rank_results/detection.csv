@@ -1,0 +1,10 @@
+case,rank,dimension,discarded_support_mass,leakage_rate,opening_cp_scale,near_boundary_exposure,first_order_opening,mode,finite_probe_tail
+pure_plus_loss,1,16,3.715190522751607e-32,0.3733556974385942,0.0864124640822832,0.0074671139487718806,True,first_order_opening,
+GHZ_phase_full_local_rank,1,16,0.0,1.4934227897543757,0.17282492816456635,0.02986845579508753,True,first_order_opening,
+mixed_rank2_bit,2,16,0.0,1.4934227897543764,0.17282492816456638,0.029868455795087536,True,first_order_opening,
+mixed_rank2_phase,2,16,0.0,0.0,0.0,2.2204460492503135e-18,False,smooth_within_budget,0.0
+dark_loss,1,2,0.0,0.0,0.0,0.0,False,smooth_within_budget,0.0
+unitary_support_motion,1,2,0.0,0.0,0.0,0.0,False,smooth_within_budget,5.421010862427522e-20
+Hamiltonian_activated_loss,1,2,0.0,0.0,0.0,0.0,False,delayed_opening,1.3999533340927357e-05
+full_rank,2,2,0.0,0.0,0.0,0.02,False,smooth,
+near_boundary_full_rank,2,2,0.0,0.0,0.0,1999999.9599999995,False,near_boundary,

@@ -1,0 +1,23 @@
+{
+  "n_dense": 6,
+  "n_mps_only": 64,
+  "gamma": 1.0,
+  "times": 31,
+  "max_cp_error_dense_root": 1.9596210532404795e-13,
+  "max_cp_error_analytic_root": 1.6413346598319044e-14,
+  "max_trace_distance": 1.3449636310559973e-14,
+  "max_abs_cmi_buffer_ge2": 2.6645352591003757e-15,
+  "max_bond_dimension": 4,
+  "max_discarded_weight": 3.46614757678706e-32,
+  "max_hermiticity_defect": 6.1448392721060054e-15,
+  "max_dense_sqrt_vs_analytic_error": 1.9595748222731214e-13,
+  "generator_finite_difference_errors": [
+    8.735285542761869e-10,
+    5.464184611385607e-11,
+    1.45488424937619e-11
+  ],
+  "one_step_vs_many_steps_error": 1.7187304135394226e-14,
+  "large_chain_bond_dimension": 4,
+  "large_chain_norm": 0.9999999999999996,
+  "large_chain_stabilizer_error": 1.6653345369377348e-16
+}

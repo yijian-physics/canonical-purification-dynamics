@@ -1,0 +1,11 @@
+step,time,action,solver_message,local_trial_gap
+1,0.01,kraus,,
+2,0.02,fallback,"Unreliable MPO force: residual=0.147, curvature_failure=False",inf
+3,0.03,fallback,"Unreliable MPO force: residual=0.0576, curvature_failure=False",inf
+4,0.04,fallback,"Unreliable MPO force: residual=0.0597, curvature_failure=False",inf
+5,0.05,fallback,"Unreliable MPO force: residual=0.0335, curvature_failure=False",inf
+6,0.06,fallback,"Unreliable MPO force: residual=0.0216, curvature_failure=False",inf
+7,0.07,fallback,"Unreliable MPO force: residual=0.0191, curvature_failure=False",inf
+8,0.08,fallback,"Unreliable MPO force: residual=0.018, curvature_failure=False",inf
+9,0.09,fallback,"Unreliable MPO force: residual=0.0149, curvature_failure=False",inf
+10,0.1,fallback,"Unreliable MPO force: residual=0.0128, curvature_failure=False",inf

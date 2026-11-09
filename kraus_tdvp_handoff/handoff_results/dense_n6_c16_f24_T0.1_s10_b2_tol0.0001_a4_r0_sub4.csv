@@ -1,0 +1,2 @@
+mode,n,chi,force_chi,steps,elapsed,buffer,tolerance,cadence,tdvp_substeps,seconds,global_cp_error,branch_error,physical_trace_distance,kraus_trials,kraus_subdivisions,max_buffer_gap,tdvp_accepted,tdvp_rejected,solver_rejected,audits
+dense,6,16,24,10,0.1,2,0.0001,4,4,1.2746608001179993,1.3986435566762077e-05,2.167136758503082e-15,9.14071210351186e-06,8,0,6.46205209638049e-05,9,0,0,3

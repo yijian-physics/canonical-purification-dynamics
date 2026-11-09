@@ -1,0 +1,2 @@
+n,case,seconds,idempotency_defect,pure_reconstruction_error,leakage_rate,first_order_opening,step,cp_budget,kraus_rank,jump_innovation_rank,omitted_innovation_mass,channel_cp_bound,root_compression_bound,total_bound_excluding_roundoff,trace_before_normalization,hermiticity,bond,retries,requested_chi,ket_chi
+32,product,2.3521964999381453,5.583494711718198e-15,5.485782618644053e-15,2.8889916352137255,True,2.44140625e-06,0.0001,33,32,0.0,2.8213040153577534e-05,1.7321039084100034e-09,2.8214772257485944e-05,0.999999999903654,2.1864236054607428e-15,16,0,16,8

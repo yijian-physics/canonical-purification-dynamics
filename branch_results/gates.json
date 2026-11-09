@@ -1,0 +1,9 @@
+{
+  "angle_slopes": {
+    "0.0": 0.49996416949951616,
+    "0.3": 0.9997620062796176
+  },
+  "largest_trajectory_cp_error": 3.073799809097305e-13,
+  "largest_scaling_cp_error": 6.404664463402179e-14,
+  "example_word": "IZZYIZ"
+}

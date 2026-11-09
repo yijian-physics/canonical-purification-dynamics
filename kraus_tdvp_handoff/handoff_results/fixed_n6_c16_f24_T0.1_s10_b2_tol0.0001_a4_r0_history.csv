@@ -1,0 +1,11 @@
+step,time,action
+1,0.01,fixed_kraus
+2,0.02,fixed_kraus
+3,0.03,fixed_kraus
+4,0.04,fixed_kraus
+5,0.05,fixed_kraus
+6,0.06,fixed_kraus
+7,0.07,fixed_kraus
+8,0.08,fixed_kraus
+9,0.09,fixed_kraus
+10,0.1,fixed_kraus
