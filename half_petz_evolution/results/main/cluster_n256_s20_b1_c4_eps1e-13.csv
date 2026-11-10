@@ -1,0 +1,2 @@
+n,family,steps,time,buffer,chi,cutoff,cp_error,max_cp_error,max_norm_defect,truncation_sum,spectral_mass,largest_inverse,cache_discarded_mass,setup_seconds,evolution_seconds
+256,cluster,20,1.0,1,4,1e-13,3.002684032264114e-13,3.002684032264114e-13,2.615685446016869e-13,1.0621614595800263e-11,0.0,72.57114422462968,5.961813408150287e-29,0.06087910011410713,6.21882970072329

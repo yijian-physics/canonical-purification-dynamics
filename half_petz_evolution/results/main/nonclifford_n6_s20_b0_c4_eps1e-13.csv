@@ -1,0 +1,2 @@
+n,family,steps,time,buffer,chi,cutoff,cp_error,max_cp_error,max_norm_defect,truncation_sum,spectral_mass,largest_inverse,cache_discarded_mass,setup_seconds,evolution_seconds,dense_root_cp_error,analytic_reference_dense_check,physical_density_error
+6,nonclifford,20,1.0,0,4,1e-13,0.18392215715811683,0.18392215715811683,0.05006848127861929,0.0,0.0,6.303811339069873,0.0,0.0006279000081121922,0.0737630007788539,0.18392215715811588,8.162646387832337e-15,0.04513596844666382

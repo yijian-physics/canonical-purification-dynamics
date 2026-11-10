@@ -22,7 +22,7 @@ The algorithm must supply this new tensor direction. Our small-system implementa
 
 **Test of time resolution.** Uniform loss of a single excitation has the exact root $e^{-\gamma t/2}P_W+\sqrt{1-e^{-\gamma t}}P_{\rm vac}$ and requires at most bond four. At $N=16$, $\gamma=0.7$, $T=1$, and 80 grid intervals, the global CP error fell from $3.32\times10^{-4}$ on a uniform $t$ grid to $8.35\times10^{-7}$ on a uniform $\sqrt t$ grid. Both runs used the known positive first step on their respective grids. This isolates the time singularity. A separate six-spin interacting-loss test exposed an additional cost after startup: the compressed MPO Sylvester solver failed its residual check on all nine attempted handoffs. That benchmark tested the solver without establishing a recovery radius for the trajectory. [Clock comparison](cp_tdvp/results/clock.csv) · [Interacting-loss test](kraus_tdvp_handoff/report.md)
 
-## 2. Apply a finite unitary on doubled sites
+## 2. Apply a finite local lift on doubled sites
 
 For one physical step $\rho'=\Phi_S(\rho)$, seek a unitary $U$ acting on the **physical and reference spins** of $W=S\cup B$, where $B$ is the active buffer. Let $E$ be the exterior. The channel–unitary correspondence bounds the best attainable global vector error by
 
@@ -33,7 +33,18 @@ $$
 
 with conditional mutual information in nats. Exact recovery on $W$ makes the difference zero by data processing in both directions. For approximate recovery, the quantitative question is how wide $B$ must be at the desired error. The bound concerns information **lost in this step**, so it can be small even when the initial conditional mutual information is large. [Li, Firanko and Hsieh, Corollary 13](https://arxiv.org/html/2605.00088v2#S5.SS2)
 
-**How to find the gate.** Take a larger fitting window $R\supset W$. Obtain its physical marginal $\rho_R$, apply the known channel to get $\rho'_R$, and form their canonical roots. Reshape the two root vectors into matrices $L,T$, with the doubled sites of $W$ as rows. Solve $\min_{U^\dagger U=I}\|UL-T\|_F$ by taking a unitary polar factor of $TL^\dagger$. Apply that gate to the current CP MPS and split by SVD. The width of $W$ determines which gates can be represented. The extra sites in $R$ determine how much exterior information the fit sees. A small fitting residual alone leaves the global error undetermined. [Finite-unitary algorithm and marginal construction](local_cp_large/report.md)
+**Construct the lift directly.** The half-Petz construction removes the variational gate solve. With $r=\rho_W$ and $s=\mathcal N_W(r)$, its forward amplitude map is
+
+$$
+\mathcal F_W(Q)=s^{-1/2}\mathcal N_W(r^{1/2}Q)
+=\sum_\mu(s^{-1/2}K_\mu r^{1/2})QK_\mu^\dagger .
+$$
+
+The factors act on $W$ and the inverse is restricted to the retained support. The code applies this linear map directly, without forming a full unitary extension. It uses independently evolved local physical factors and their SVDs to retain root-scale populations. This construction uses $W$ alone. At fixed buffer and bond, each sweep has linear cost in chain length. [Half-Petz construction](https://arxiv.org/html/2610.41926v1) · [Evolution code and tests](half_petz_evolution/report.md)
+
+**Repeated-evolution test.** With a three-site window, bond four and 20 sweeps from the pure state to $t=1$, the global CP errors at 256 spins are $3.00\times10^{-13}$ for cluster dephasing and $5.40\times10^{-13}$ for the non-Clifford controlled-phase family. The exact future CP enters only for scoring. Small startup steps expose inverse conditioning, with errors around $5\times10^{-9}$ at $t=10^{-8}$ on six spins. These are tests on two explicitly locally reversible families. A general global error certificate remains open.
+
+**Earlier variational construction.** Take a larger fitting window $R\supset W$. Obtain its physical marginal $\rho_R$, apply the known channel to get $\rho'_R$, and form their canonical roots. Reshape the two root vectors into matrices $L,T$, with the doubled sites of $W$ as rows. Solve $\min_{U^\dagger U=I}\|UL-T\|_F$ by taking a unitary polar factor of $TL^\dagger$. Apply that gate to the current CP MPS and split by SVD. The width of $W$ determines which gates can be represented. The extra sites in $R$ determine how much exterior information the fit sees. A small fitting residual alone leaves the global error undetermined. [Finite-unitary algorithm and marginal construction](local_cp_large/report.md)
 
 **Test of spatial support.** In a 64-site classical Ising chain under bit flips at $t=0.5$, increasing the active gate from three to five doubled sites reduced the two-site CP marginal discrepancy from $2.95\times10^{-3}$ to $1.11\times10^{-4}$. Doubling the bond cap at the latter width gave essentially the same error. In a dephased quantum Ising Gibbs state on 128 sites, a five-site gate at bond 24 gave a doubled two-site discrepancy of $8.69\times10^{-6}$ at $t=1$, measured against an eight-site root reference. The classical study also bounded the full exterior contribution at $t=0.2$, giving a local CP error bound of $5.39\times10^{-4}$ through 256 sites. The quantum figure is a finite-window diagnostic. [Ising tests and certification](local_cp_large/report.md)
 
