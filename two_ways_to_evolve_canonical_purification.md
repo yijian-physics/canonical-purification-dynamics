@@ -2,6 +2,8 @@
 
 We are given the initial canonical purification and a **specified path of local physical channels**. The promise is that each step is locally reversible on the state encountered along that path, to the accuracy of interest. For a step on sites $S$, this means that a recovery acting on $S$ and a surrounding buffer can restore the pre-step state, including its correlations with the exterior. The recovery need only exist. The numerical task is to construct the evolution of $|\Psi(t)\rangle=\mathop{\mathrm{vec}}\nolimits \sqrt{\rho(t)}$, represented as an MPS with each physical spin paired with its reference.
 
+**Measured accuracy tradeoff.** For a single tilted-dephasing update with approximate three-site reversibility, fitting a three-site unitary reduced global CP error by about **289 times** relative to the direct three-site half-Petz lift at tilt 0.1. Widening the active region to five sites brought both constructions to numerical precision. The result was checked through 256 spins. The fitted gate uses five-site physical data, while the three-site half-Petz lift uses three-site data. This is an accuracy comparison at fixed active support. [Full comparison, code and data](tilted_half_petz_comparison/report.md)
+
 ## 1. Evolve the MPS tensors by TDVP
 
 On a smooth, full-rank segment, write $X=\sqrt{\rho}$. Differentiating $X^2=\rho$ gives the force $F=\dot X$ from the current state and Lindblad generator $\mathcal L$,
@@ -47,6 +49,27 @@ The factors act on $W$ and the inverse is restricted to the retained support. Th
 **Earlier variational construction.** Take a larger fitting window $R\supset W$. Obtain its physical marginal $\rho_R$, apply the known channel to get $\rho'_R$, and form their canonical roots. Reshape the two root vectors into matrices $L,T$, with the doubled sites of $W$ as rows. Solve $\min_{U^\dagger U=I}\|UL-T\|_F$ by taking a unitary polar factor of $TL^\dagger$. Apply that gate to the current CP MPS and split by SVD. The width of $W$ determines which gates can be represented. The extra sites in $R$ determine how much exterior information the fit sees. A small fitting residual alone leaves the global error undetermined. [Finite-unitary algorithm and marginal construction](local_cp_large/report.md)
 
 **Test of spatial support.** In a 64-site classical Ising chain under bit flips at $t=0.5$, increasing the active gate from three to five doubled sites reduced the two-site CP marginal discrepancy from $2.95\times10^{-3}$ to $1.11\times10^{-4}$. Doubling the bond cap at the latter width gave essentially the same error. In a dephased quantum Ising Gibbs state on 128 sites, a five-site gate at bond 24 gave a doubled two-site discrepancy of $8.69\times10^{-6}$ at $t=1$, measured against an eight-site root reference. The classical study also bounded the full exterior contribution at $t=0.2$, giving a local CP error bound of $5.39\times10^{-4}$ through 256 sites. The quantum figure is a finite-window diagnostic. [Ising tests and certification](local_cp_large/report.md)
+
+### Half-Petz versus fitting under approximate reversibility
+
+We tested a pure controlled-phase chain with bond angle 0.37 and one central channel
+
+$$
+\mathcal N_{p,\theta}(\rho)=(1-p)\rho+pP_\theta\rho P_\theta,\qquad
+P_\theta=\cos\theta\,Z+\sin\theta\,X,\quad p=0.1.
+$$
+
+The three-site recovery is exact at zero tilt and approximately reversible at nonzero tilt, with the explicit bound $\|\mathcal R_0\mathcal N_{p,\theta}(\rho)-\rho\|_1\le4p|\sin(\theta/2)|$. At eight spins, the global CP vector errors for three active sites are
+
+| Tilt $\theta$ | Direct half-Petz | Local-data unitary fit |
+|---:|---:|---:|
+| 0.05 | $4.90\times10^{-4}$ | $8.47\times10^{-7}$ |
+| 0.10 | $9.82\times10^{-4}$ | $3.40\times10^{-6}$ |
+| 0.20 | $1.98\times10^{-3}$ | $1.38\times10^{-5}$ |
+
+The fit uses a five-site physical fitting region and approaches the independently computed optimum over all three-site unitaries. At tilt 0.1 that optimum is $3.3977\times10^{-6}$, compared with the practical fit's $3.3989\times10^{-6}$. The errors remain stable through 256 spins. With five active sites, an exact recovery is available and all tested constructions attain global CP errors below $2\times10^{-13}$.
+
+This single-update experiment supports spending optimization effort to achieve higher accuracy on smaller active support, or enlarging the active window for the explicit half-Petz construction. The physical-data regions differ between the two methods, and the timing measurements leave their general cost comparison open. Repeated evolution from mixed inputs remains to be compared. [Report and figure](tilted_half_petz_comparison/report.md)
 
 ## A common test under the promise
 

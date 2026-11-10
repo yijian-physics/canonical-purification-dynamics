@@ -6,11 +6,14 @@ The current scope assumes a specified path of physical channels whose steps are 
 
 Read [the algorithm note](two_ways_to_evolve_canonical_purification.md) for the assumptions, algorithms and numerical evidence. The note proposes a common-trajectory comparison at matched global CP error. That comparison remains open.
 
+**Latest comparison.** On a tilted-noise benchmark, fitting a three-site unitary gives about **289 times lower global CP error** than a three-site half-Petz update at tilt 0.1. A five-site active window restores numerical precision for both. The accuracy difference persists through 256 spins. The unitary fit uses five-site physical data, and half-Petz uses its active window. These are single-update results. [Comparison report and figure](tilted_half_petz_comparison/report.md)
+
 ## Implementations
 
 | Directory or entry point | Content |
 |---|---|
 | [cp_tdvp](cp_tdvp/report.md) | MPS tensor TDVP, square-root-time integration, dense and single-excitation force backends |
+| [tilted_half_petz_comparison](tilted_half_petz_comparison/report.md) | Half-Petz versus local-data fitting and the exact-target unitary optimum, through 256 spins |
 | [half_petz_evolution](half_petz_evolution/report.md) | Explicit half-Petz MPS evolution, local Kraus-factor caches and global CP-error benchmarks through 256 spins |
 | [local_cp_large](local_cp_large/report.md) | Finite doubled-site unitary fitting from physical marginals, MPS application and local error checks |
 | [automatic_rank_opening](automatic_rank_opening/report.md) | Support leakage detection, finite positive startup and guarded continuation |

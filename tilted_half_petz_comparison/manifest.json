@@ -1,0 +1,19 @@
+{
+  "cluster_dephasing.py": "3df997df9aae794528cf472ca318c37a87063e384de92b009b3639d660ae6bdb",
+  "compare_tilted_half_petz.py": "438af28abac79b8189c39cb4d7c20fc151104767561cd6050ed9217f5b210590",
+  "comparison.pdf": "4decbe96c704f79cfeb4cf1ebc7cfbad0de470c5902953fc3187bd61c4beaae5",
+  "comparison.png": "05053f38cb9951a4cb7bf993483401e4a028097f2ef57a1c6e9b125ac4d652ff",
+  "half_petz_evolution.py": "1f0b3109be92206c0d07c556871aeb87c79db5b958cb2a2b16f2173fb909a2b2",
+  "report.md": "e4e73f573869a30a4fdd9d083a8b88aa35615b40361a83fe4c2500e4a70be47f",
+  "requirements.txt": "bed7e1a30bdcae21f788e3851b6128a63227b7feeb372026fa50b320afe6507f",
+  "summarize_tilted_half_petz.py": "5c316bcff487160f1b0f49aced480a1fbc35af91cee8ee789ab4e6a64f389fe0",
+  "tdvp_core.py": "683da52a52d62e256806188a89d66a3c2ca78b993d1972c482eb67dcff5a1976",
+  "tilted_half_petz_results/comparison.pdf": "4decbe96c704f79cfeb4cf1ebc7cfbad0de470c5902953fc3187bd61c4beaae5",
+  "tilted_half_petz_results/comparison.png": "05053f38cb9951a4cb7bf993483401e4a028097f2ef57a1c6e9b125ac4d652ff",
+  "tilted_half_petz_results/n256.csv": "28640d8902d6b59fbe5cb324a7cb89841e938c5ad21b91925e835b9510df88e2",
+  "tilted_half_petz_results/n32.csv": "263e8ce733c6d53cc4145bce3a0f7c568e3863d95d7b8a2816ff7d88308e80a8",
+  "tilted_half_petz_results/n6.csv": "785a10ba767e5ba0b279887702316836b0e3d85866f10ff9ea984059d11f9711",
+  "tilted_half_petz_results/n64.csv": "6d8032a28249b565cb74fe92470063b19d7be505ad45bfbba221098fd6347df8",
+  "tilted_half_petz_results/n8.csv": "de478e26c50d971a1da48175692c4141e57971e056232ab1a80c5237c8603125",
+  "tilted_half_petz_results/summary.csv": "06d85bea3511db85cdfc5f36f15283335f0b1397175cee010c69e40575bfdf94"
+}

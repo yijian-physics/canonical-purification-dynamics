@@ -1,6 +1,6 @@
 {
   ".gitignore": "98238729c26d1e88e17c1e61d9e4a6de0789dcc9144ac466a358b0b96bf409bc",
-  "README.md": "4b3c12cf822b2f0e4939dd5116daea140c404b9f2b9555e77e8ee4de085a808b",
+  "README.md": "963a65626554e0e5045f438547824960a75d763581000167a66adf8b7dc9685a",
   "automatic_rank_opening/audit_rank_handoff.py": "3c9acad3b4cd0473dac5e4586626e3201e7ea9aa5bfaa6e04162599ca154479c",
   "automatic_rank_opening/automatic_rank_opening.py": "8c772ae84091b21ea44687c60551068da18441d89f991a00fc630fe44fa7b0eb",
   "automatic_rank_opening/automatic_rank_results/Hamiltonian_activated_loss_0.0001_history.csv": "cd6136e3a120263c52764322f7fd7be0c60521d79281c5f43b5ba97c8815ae5d",
@@ -278,5 +278,23 @@
   "local_cp_large/summary.png": "fdd416843b2d645a4e6b35dac322c9e34c45b286e2981e9b496fec9a71f9501c",
   "local_cp_large/summary.svg": "b59a31524858b42412c93217c8a788ecb4efb8e6d66472a27da2bc427442bfe8",
   "requirements.txt": "bed7e1a30bdcae21f788e3851b6128a63227b7feeb372026fa50b320afe6507f",
-  "two_ways_to_evolve_canonical_purification.md": "6ffcf85d7ef0fffb746727df129cdad51f480189dad02dfa3d8c4f82dd4b8d90"
+  "tilted_half_petz_comparison/cluster_dephasing.py": "3df997df9aae794528cf472ca318c37a87063e384de92b009b3639d660ae6bdb",
+  "tilted_half_petz_comparison/compare_tilted_half_petz.py": "438af28abac79b8189c39cb4d7c20fc151104767561cd6050ed9217f5b210590",
+  "tilted_half_petz_comparison/comparison.pdf": "4decbe96c704f79cfeb4cf1ebc7cfbad0de470c5902953fc3187bd61c4beaae5",
+  "tilted_half_petz_comparison/comparison.png": "05053f38cb9951a4cb7bf993483401e4a028097f2ef57a1c6e9b125ac4d652ff",
+  "tilted_half_petz_comparison/half_petz_evolution.py": "1f0b3109be92206c0d07c556871aeb87c79db5b958cb2a2b16f2173fb909a2b2",
+  "tilted_half_petz_comparison/manifest.json": "1c04d00cdeb5046523c976b0910e99962a990c9adc29aee0eca699d63ea49812",
+  "tilted_half_petz_comparison/report.md": "e4e73f573869a30a4fdd9d083a8b88aa35615b40361a83fe4c2500e4a70be47f",
+  "tilted_half_petz_comparison/requirements.txt": "bed7e1a30bdcae21f788e3851b6128a63227b7feeb372026fa50b320afe6507f",
+  "tilted_half_petz_comparison/summarize_tilted_half_petz.py": "5c316bcff487160f1b0f49aced480a1fbc35af91cee8ee789ab4e6a64f389fe0",
+  "tilted_half_petz_comparison/tdvp_core.py": "683da52a52d62e256806188a89d66a3c2ca78b993d1972c482eb67dcff5a1976",
+  "tilted_half_petz_comparison/tilted_half_petz_results/comparison.pdf": "4decbe96c704f79cfeb4cf1ebc7cfbad0de470c5902953fc3187bd61c4beaae5",
+  "tilted_half_petz_comparison/tilted_half_petz_results/comparison.png": "05053f38cb9951a4cb7bf993483401e4a028097f2ef57a1c6e9b125ac4d652ff",
+  "tilted_half_petz_comparison/tilted_half_petz_results/n256.csv": "28640d8902d6b59fbe5cb324a7cb89841e938c5ad21b91925e835b9510df88e2",
+  "tilted_half_petz_comparison/tilted_half_petz_results/n32.csv": "263e8ce733c6d53cc4145bce3a0f7c568e3863d95d7b8a2816ff7d88308e80a8",
+  "tilted_half_petz_comparison/tilted_half_petz_results/n6.csv": "785a10ba767e5ba0b279887702316836b0e3d85866f10ff9ea984059d11f9711",
+  "tilted_half_petz_comparison/tilted_half_petz_results/n64.csv": "6d8032a28249b565cb74fe92470063b19d7be505ad45bfbba221098fd6347df8",
+  "tilted_half_petz_comparison/tilted_half_petz_results/n8.csv": "de478e26c50d971a1da48175692c4141e57971e056232ab1a80c5237c8603125",
+  "tilted_half_petz_comparison/tilted_half_petz_results/summary.csv": "06d85bea3511db85cdfc5f36f15283335f0b1397175cee010c69e40575bfdf94",
+  "two_ways_to_evolve_canonical_purification.md": "784674511039add7506517dadea8befbe8f58619aa720a1eaecbb1dec7cc9f97"
 }
