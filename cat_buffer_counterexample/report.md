@@ -4,16 +4,16 @@ The finite-buffer trace-polar Kraus update fails for a local noise channel actin
 
 Let P₊ and P₋ project onto the normalized GHZ± cats. Start with Q₀=P₊ and apply the channel Φ(X)=(1−p)X+p ZⱼXZⱼ to one spin. Since Zⱼ exchanges the cats, the exact density and amplitude are
 
-\[
+$$
 \rho'=(1-p)P_+ + pP_-,\qquad \sqrt{\rho'}=\sqrt{1-p}\,P_+ + \sqrt p\,P_-.
-\]
+$$
 
 For any proper window W containing j, tracing out even one spin removes the off-diagonal terms between the two ferromagnetic strings. Thus A=Tr_out Q₀ is half the projector S onto the two uniform strings in W. It commutes with Zⱼ. Write a=√(1−p), b=√p. The local polar objective uses C=[aA,bZⱼA]. Because CC†=A², its two reference blocks on the support are aS and bZⱼS. Inserting them into the update gives
 
-\[
+$$
 Q_{\rm raw}=(1-p)Q_0+pZ_jQ_0Z_j=\rho',\qquad
 Q_{\rm alg}=\frac{\rho'}{\sqrt{(1-p)^2+p^2}}.
-\]
+$$
 
 The result is positive. Trace optimization is already stationary. Its represented density assigns probability p²/[(1−p)²+p²] to the minus cat. The unnormalized squared-norm loss is 2p(1−p), so the physical-loss check can flag the step. Successive proper buffers all give the same incorrect answer.
 

@@ -8,41 +8,41 @@ There is now an implemented automatic detector and handler. The detector uses **
 
 **The detector.** Let Q=√ρ, P be the support projector of ρ, and R=I−P. For a Lindblad generator,
 
-\[
+$$
 B=R\mathcal L(\rho)R
  =\sum_\mu (RL_\mu Q)(RL_\mu Q)^\dagger\ge0.
-\]
+$$
 
 The Hamiltonian and anticommutator terms vanish in this block. Thus
 
-\[
+$$
 \beta=\operatorname{Tr}B=\sum_\mu\|RL_\mu Q\|_F^2
-\]
+$$
 
 detects first-order population entering the kernel. When β>0,
 
-\[
+$$
 \sqrt{\rho(t+h)}=Q+\sqrt h\,\sqrt B+O(h),
 \qquad \|\sqrt h\sqrt B\|_F=\sqrt{h\beta}.
-\]
+$$
 
 This identifies both the missing CP direction and its leading magnitude. Setting kernel denominators to zero in the Sylvester equation would discard this term. Changing the clock to u=√(t−t_event) makes the leading derivative finite, but does not create a missing direction in the tensor representation. Singular square-root perturbations are discussed more generally by [Carlsson](https://arxiv.org/abs/1810.01464). Adaptive density-rank methods also use leakage/error estimates to enlarge support; see [Le Bris, Rouchon and Roussel](https://cas.minesparis.psl.eu/~rouchon/publications/PR2015/PhysRevA.92.062126.pdf). The present target is the canonical square root and its CP error.
 
 For a pure state, no global eigendecomposition is needed:
 
-\[
+$$
 \beta=\sum_\mu\left(\langle L_\mu^\dagger L_\mu\rangle-
  |\langle L_\mu\rangle|^2\right).
-\]
+$$
 
 The code evaluates the norms of the residual vectors (Lμ−⟨Lμ⟩)|ψ⟩ directly, avoiding subtraction of two nearly equal expectation values. It first audits Q²≈Q and extracts a ket MPS by conditioning reference spins, with normalization at every site. This works for entangled pure inputs even when their one-site marginals are full rank.
 
 For a supplied mixed-state factor ρ=ZZ†, whose columns are MPSs, the implementation also computes support leakage without a dense physical matrix. Set G=Z†Z and Mμ=Z†LμZ. Then
 
-\[
+$$
 \beta=\frac{\sum_\mu\{\operatorname{Tr}(Z^\dagger L_\mu^\dagger L_\mu Z)
  -\operatorname{Tr}(M_\mu^\dagger G^+M_\mu)\}}{\operatorname{Tr}G}.
-\]
+$$
 
 The denominator normalizes the factor state. Pairwise MPS environments provide all one-site transition elements in a sweep. The dense matrices scale with the number of factor columns, not 2ᴺ. Conditioning and discarded numerical support mass are reported. The roundoff warning scale is a heuristic diagnostic, not interval arithmetic. For a general mixed MPO with no supplied support representation, efficient support detection remains unresolved; local marginals cannot replace the missing global support information.
 
@@ -70,17 +70,17 @@ The ordinary opening probe scales as h¹ᐟ². The Hamiltonian-activated loss ex
 
 **Performing the event.** In the general dense backend define S=ΣLμ†Lμ. For h||S||≤1,
 
-\[
+$$
 K_0=\sqrt{I-hS},\qquad K_\mu=\sqrt h L_\mu,
 \qquad \sum_aK_a^\dagger K_a=I.
-\]
+$$
 
 Hamiltonian half steps surround this dissipative channel. Apply the resulting Kraus operators to Q and stack the factors:
 
-\[
+$$
 \mathcal Z_h=[\widetilde K_0Q,\widetilde K_1Q,\ldots]=U\Sigma V^\dagger,
 \qquad Q_{\rm new}=U\Sigma U^\dagger.
-\]
+$$
 
 This produces the positive canonical root of the finite channel output. The √h amplitudes enter explicitly. Forming the density matrix first and cutting its small eigenvalues would lose more information than factor SVD. The dissipative step has first-order density accuracy; Hamiltonian half steps do not make it a second-order dissipative method.
 
@@ -97,36 +97,36 @@ The finer run automatically chooses an initial physical step of 1.953125 × 10�
 
 **The large-system finite startup.** The MPS backend currently implements the interacting model from the previous study:
 
-\[
+$$
 H=.7\sum Z_jZ_{j+1}+.43\sum X_j+.19\sum Z_j,
 \quad L_j=\sqrt{.3+.12\cos^2j}\,\sigma^-_j.
-\]
+$$
 
 Let G_eff=−iH−ΣLμ†Lμ/2 and V(s)=exp(sG_eff). A positive approximation retains the no-jump trajectory and midpoint approximations to the one-jump trajectories:
 
-\[
+$$
 z_0=V(h)|\psi\rangle,\qquad
 z_\mu=\sqrt h\,V(h/2)L_\mu V(h/2)|\psi\rangle.
-\]
+$$
 
 All columns are MPSs. Contractive Lie products approximate V using onsite factors and ZZ gates. The factor state is positive but not exactly trace preserving; its canonical root is normalized explicitly. The old no-jump direction is removed before diagonalizing the innovation Gram matrix. This keeps the order-one population out of the small-eigenvalue calculation. A small SVD then produces the canonical root as a sum of positive dyads, followed by controlled MPO rounding. The code retains root-scale information and reports every truncation contribution.
 
 The step is chosen automatically from a conservative analytic error budget. Define Λ=Σ||Lμ||², C²=Σ||[Lμ,G_eff]||², and C_AB≥||[A,B]|| for the onsite/ZZ split G_eff=A+B. In exact arithmetic, a purification error bound for the uncompressed trajectory approximation is
 
-\[
+$$
 e(h)\le
 \sqrt{\tfrac12(\Lambda h)^2+\tfrac1{12}h^3C^2}
 +\sqrt{(h^2C_{AB}/2)^2+h\Lambda(h^2C_{AB}/4)^2}.
-\]
+$$
 
 The first term bounds omitted trajectories with at least two jumps and midpoint quadrature of the one-jump amplitudes. The jump count is dominated by a Poisson process of rate Λ. The derivative of a one-jump amplitude is V(h−s)[Lμ,G_eff]V(s)|ψ⟩, giving the midpoint bound. The second term is the contraction-semigroup Lie-product error. Local commutator norms give explicit upper bounds for the constants.
 
 Purification errors translate to CP-root errors using
 
-\[
+$$
 \|\sqrt{AA^\dagger}-\sqrt{BB^\dagger}\|_F
  \le\sqrt2\,\|A-B\|_F.
-\]
+$$
 
 One proof applies the Frobenius Lipschitz inequality for the absolute-value function on Hermitian matrices to the Hermitian dilations of A and B, then keeps the AA† block. Normalization, input reconstruction, discarded innovation modes, and tensor rounding are added separately. The reported bound excludes floating-point and small-Gram eigensolver errors; it is not a computer-assisted interval certificate. Dense checks verify the root construction and the bound on small systems.
 
