@@ -1,6 +1,6 @@
 # Two ways to evolve a canonical purification under locally reversible noise
 
-We are given the initial canonical purification and a **specified path of local physical channels**. The promise is that each step is locally reversible on the state encountered along that path, to the accuracy of interest. For a step on sites $S$, this means that a recovery acting on $S$ and a surrounding buffer can restore the pre-step state, including its correlations with the exterior. The recovery need only exist. The numerical task is to construct the evolution of $|\Psi(t)\rangle=\operatorname{vec}\sqrt{\rho(t)}$, represented as an MPS with each physical spin paired with its reference.
+We are given the initial canonical purification and a **specified path of local physical channels**. The promise is that each step is locally reversible on the state encountered along that path, to the accuracy of interest. For a step on sites $S$, this means that a recovery acting on $S$ and a surrounding buffer can restore the pre-step state, including its correlations with the exterior. The recovery need only exist. The numerical task is to construct the evolution of $|\Psi(t)\rangle=\mathop{\mathrm{vec}}\nolimits \sqrt{\rho(t)}$, represented as an MPS with each physical spin paired with its reference.
 
 ## 1. Evolve the MPS tensors by TDVP
 
@@ -10,7 +10,7 @@ $$
 XF+FX=\mathcal L(X^2).
 $$
 
-Choose the variations of adjacent MPS tensors that minimize $\|\dot\Psi-\operatorname{vec}F\|_2$ in the two-site variation space. The implementation projects the force, takes a midpoint step, splits the updated tensors by SVD, and normalizes. Two-site variations allow the spatial bond to grow. Step doubling checks time resolution, and the discarded Schmidt weights monitor spatial compression. [TDVP implementation and tests](cp_tdvp/report.md) · [MPS tangent projection](https://arxiv.org/abs/1408.5056)
+Choose the variations of adjacent MPS tensors that minimize $\|\dot\Psi-\mathop{\mathrm{vec}}\nolimits F\|_2$ in the two-site variation space. The implementation projects the force, takes a midpoint step, splits the updated tensors by SVD, and normalizes. Two-site variations allow the spatial bond to grow. Step doubling checks time resolution, and the discarded Schmidt weights monitor spatial compression. [TDVP implementation and tests](cp_tdvp/report.md) · [MPS tangent projection](https://arxiv.org/abs/1408.5056)
 
 **What changes at rank opening.** At time $t_0$, let $P_0$ project onto the kernel of $\rho(t_0)$ and put $B=P_0\mathcal L(\rho)P_0$. When $B\ne0$, noise populates that kernel at first order, and
 

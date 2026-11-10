@@ -19,7 +19,7 @@ d_R(U_A)^2,
 d_R(U_A)=\left\|(U_A\otimes1)|\sqrt{\rho_R}\rangle
                        -|\sqrt{\sigma_R}\rangle\right\|_2.
 $$
-These roots are computed from **local physical data**, without receiving the global target CP. Flatten the two vectors into matrices $L,T$, with doubled active sites as rows. Minimizing this cost is equivalent to maximizing $\operatorname{Re}\operatorname{Tr}(U_A^\dagger TL^\dagger)$. Its polar/SVD solution avoids nonlinear Hamiltonian optimization. The code adds $10^{-12}1$ to favor the identity on poorly determined directions and reports the residual against the original cost.
+These roots are computed from **local physical data**, without receiving the global target CP. Flatten the two vectors into matrices $L,T$, with doubled active sites as rows. Minimizing this cost is equivalent to maximizing $\mathop{\mathrm{Re}}\nolimits \mathop{\mathrm{Tr}}\nolimits (U_A^\dagger TL^\dagger)$. Its polar/SVD solution avoids nonlinear Hamiltonian optimization. The code adds $10^{-12}1$ to favor the identity on poorly determined directions and reports the residual against the original cost.
 
 The gate is stored as $U=1+Q(V-1)Q^\dagger$, where the columns of $Q$ span the columns of $L,T$. Its retained rank is at most $2\,4^{|B|}$, rather than necessarily $4^{|A|}$. For a five-site active region and one training site on either side, this is at most 32. Apply this compact gate to the MPS, split by SVD with bond cap $\chi$, and normalize at the current orthogonality center. This also fixes an unnecessary traversal to the first site after every gate.
 
@@ -47,9 +47,9 @@ The present experiments use the finite-step fit, not this tangent solver. Finite
 
 Choose a doubled probe $C\bar C$, a physical surrounding buffer $B$, and exterior $E$. Define
 $$
-\gamma_C=\operatorname{Tr}_{BE\bar B\bar E}|\sqrt{\rho}\rangle\langle\sqrt{\rho}|,
+\gamma_C=\mathop{\mathrm{Tr}}\nolimits _{BE\bar B\bar E}|\sqrt{\rho}\rangle\langle\sqrt{\rho}|,
 \quad
-\gamma_C^{(R)}=\operatorname{Tr}_{B\bar B}|\sqrt{\rho_{CB}}\rangle\langle\sqrt{\rho_{CB}}|.
+\gamma_C^{(R)}=\mathop{\mathrm{Tr}}\nolimits _{B\bar B}|\sqrt{\rho_{CB}}\rangle\langle\sqrt{\rho_{CB}}|.
 $$
 Let $\widetilde\gamma_C$ be the corresponding marginal of the actual, compressed output MPS. The local-computability fidelity inequality, converted to trace distance, gives the following endpoint bound. The cited theorem supplies the comparison of the two exact CP marginals; the triangle inequality supplies the comparison with the numerical output. [Li, Firanko and Hsieh, Theorem 11, v2](https://arxiv.org/pdf/2605.00088)
 

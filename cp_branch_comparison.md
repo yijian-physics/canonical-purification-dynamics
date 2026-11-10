@@ -10,13 +10,13 @@ $$
 K=[K_0,K_1]=[\sqrt{1-p}\,S,\sqrt p\,Z_j S],\qquad KK^\dagger=\sigma .
 $$
 
-A right unitary on its enlarged reference leaves this density exactly unchanged while all labels are retained. Designate label zero as the column block to keep. Its amplitude after the rotation can be written $X=KW$, where $W^\dagger W=I$; these columns can be completed to a unitary. With no restriction on $W$, maximize $\operatorname{Re}\operatorname{Tr}KW$. For the thin SVD $K=L D R^\dagger$, $W=R L^\dagger$ achieves the upper bound $\operatorname{Tr}D$, gives $KW=L D L^\dagger=\sqrt{\sigma}$, and leaves no weight in the other label. This is the polar-decomposition form of optimizing a purification overlap with the vectorized identity. See [Uhlmann's original purification-overlap formulation](https://doi.org/10.1016/0034-4877(76)90060-4).
+A right unitary on its enlarged reference leaves this density exactly unchanged while all labels are retained. Designate label zero as the column block to keep. Its amplitude after the rotation can be written $X=KW$, where $W^\dagger W=I$; these columns can be completed to a unitary. With no restriction on $W$, maximize $\mathop{\mathrm{Re}}\nolimits \mathop{\mathrm{Tr}}\nolimits KW$. For the thin SVD $K=L D R^\dagger$, $W=R L^\dagger$ achieves the upper bound $\mathop{\mathrm{Tr}}\nolimits D$, gives $KW=L D L^\dagger=\sqrt{\sigma}$, and leaves no weight in the other label. This is the polar-decomposition form of optimizing a purification overlap with the vectorized identity. See [Uhlmann's original purification-overlap formulation](https://doi.org/10.1016/0034-4877(76)90060-4).
 
 For a block $B$ containing $j$, restrict $W$ to stack local blocks $w_e$ acting on the reference qubits in $B$, with identity on the spectators. The trace objective then depends only on
 
 $$
-M_B=[\operatorname{Tr}_{\bar B}K_0,\operatorname{Tr}_{\bar B}K_1]
-    =[k_0 S_B,k_1 S_B],\quad S_B=\operatorname{Tr}_{\bar B} S ,
+M_B=[\mathop{\mathrm{Tr}}\nolimits _{\bar B}K_0,\mathop{\mathrm{Tr}}\nolimits _{\bar B}K_1]
+    =[k_0 S_B,k_1 S_B],\quad S_B=\mathop{\mathrm{Tr}}\nolimits _{\bar B} S ,
 $$
 
 where $k_0=\sqrt{1-p}\,I_B$, $k_1=\sqrt p\,Z_j$. The partial trace is of the **amplitude**, not the physical density. An SVD $M_B=L_B D_B R_B^\dagger$ gives the exact local trace maximizer $w=R_B L_B^\dagger$. Split it into block rows $w_0,w_1$, then update $X=\sum_e k_e S w_e$, extending the local factors by identities. On a three-qubit reference block the search matrix is only $8\times16$. The MPS implementation contracts spectator trace environments and applies this map on the active block, followed by local bond truncation. It does not construct the global density or its square root.
@@ -39,7 +39,7 @@ On the full-rank sample the search found $P=Z^{a}_{j-1} Z^{p}_j Y^{a}_j Z^{a}_{j
 
 ## Direct two-tensor trace maximization
 
-For an isolated bulk step, SLSQP optimized all real and imaginary entries of two neighboring MPS tensors at internal bond four. It maximized $\operatorname{Re}\operatorname{Tr}X/\sqrt{2^N}$ at $\|X\|_F=1$, subject to $\|XX^\dagger-\sigma\|_F/\|\sigma\|_F\le\epsilon$. A deterministic perturbation in the trace-gradient direction starts the search; each smaller tolerance continues from the previous solution. The square root is used for scoring, never in the objective. All six runs reported success and the measured residuals were within $10^{-6}$ relative of their specified tolerances. The optimizer is local.
+For an isolated bulk step, SLSQP optimized all real and imaginary entries of two neighboring MPS tensors at internal bond four. It maximized $\mathop{\mathrm{Re}}\nolimits \mathop{\mathrm{Tr}}\nolimits X/\sqrt{2^N}$ at $\|X\|_F=1$, subject to $\|XX^\dagger-\sigma\|_F/\|\sigma\|_F\le\epsilon$. A deterministic perturbation in the trace-gradient direction starts the search; each smaller tolerance continues from the previous solution. The square root is used for scoring, never in the objective. All six runs reported success and the measured residuals were within $10^{-6}$ relative of their specified tolerances. The optimizer is local.
 
 | Relative density tolerance | CP error from pure state | CP error from full rank, $t=0.3$ |
 |---:|---:|---:|

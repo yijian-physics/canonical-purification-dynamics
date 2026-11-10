@@ -16,7 +16,7 @@ $$
 The Hamiltonian and anticommutator terms vanish in this block. Thus
 
 $$
-\beta=\operatorname{Tr}B=\sum_\mu\|RL_\mu Q\|_F^2
+\beta=\mathop{\mathrm{Tr}}\nolimits B=\sum_\mu\|RL_\mu Q\|_F^2
 $$
 
 detects first-order population entering the kernel. When β>0,
@@ -40,8 +40,8 @@ The code evaluates the norms of the residual vectors (Lμ−⟨Lμ⟩)|ψ⟩ dir
 For a supplied mixed-state factor ρ=ZZ†, whose columns are MPSs, the implementation also computes support leakage without a dense physical matrix. Set G=Z†Z and Mμ=Z†LμZ. Then
 
 $$
-\beta=\frac{\sum_\mu\{\operatorname{Tr}(Z^\dagger L_\mu^\dagger L_\mu Z)
- -\operatorname{Tr}(M_\mu^\dagger G^+M_\mu)\}}{\operatorname{Tr}G}.
+\beta=\frac{\sum_\mu\{\mathop{\mathrm{Tr}}\nolimits (Z^\dagger L_\mu^\dagger L_\mu Z)
+ -\mathop{\mathrm{Tr}}\nolimits (M_\mu^\dagger G^+M_\mu)\}}{\mathop{\mathrm{Tr}}\nolimits G}.
 $$
 
 The denominator normalizes the factor state. Pairwise MPS environments provide all one-site transition elements in a sweep. The dense matrices scale with the number of factor columns, not 2ᴺ. Conditioning and discarded numerical support mass are reported. The roundoff warning scale is a heuristic diagnostic, not interval arithmetic. For a general mixed MPO with no supplied support representation, efficient support detection remains unresolved; local marginals cannot replace the missing global support information.

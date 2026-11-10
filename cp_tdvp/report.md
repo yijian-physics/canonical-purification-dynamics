@@ -10,7 +10,7 @@ There are two force backends. The generic Lindblad backend currently uses dense 
 
 ## 1. The dynamical target
 
-Let $X=\sqrt\rho\ge0$, normalized by $\operatorname{Tr}X^2=1$, and vectorize it as an MPS with local dimension four, pairing physical and reference spins. On a smooth path,
+Let $X=\sqrt\rho\ge0$, normalized by $\mathop{\mathrm{Tr}}\nolimits X^2=1$, and vectorize it as an MPS with local dimension four, pairing physical and reference spins. On a smooth path,
 
 $$
 \mathcal S_X(\dot X):=X\dot X+\dot X X=\mathcal L(X^2).
@@ -23,15 +23,15 @@ F(X)=\mathcal S_X^{-1}[\mathcal L(X^2)],\qquad
 F_{ab}=\frac{[U^\dagger\mathcal L(X^2)U]_{ab}}{x_a+x_b}
 $$
 
-in an eigenbasis $X=U\operatorname{diag}(x_a)U^\dagger$. On a constant-rank path the compatible support solution is used; a nonzero kernel-kernel forcing block indicates rank opening and cannot be discarded as though an ordinary derivative existed.
+in an eigenbasis $X=U\mathop{\mathrm{diag}}\nolimits (x_a)U^\dagger$. On a constant-rank path the compatible support solution is used; a nonzero kernel-kernel forcing block indicates rank opening and cannot be discarded as though an ordinary derivative existed.
 
 The CP-vector TDVP target is
 
 $$
-\dot\Psi=P_{T_\Psi\mathcal M_\chi}\operatorname{vec}F(X),
+\dot\Psi=P_{T_\Psi\mathcal M_\chi}\mathop{\mathrm{vec}}\nolimits F(X),
 \qquad
 \min_{\dot\Psi\in T_\Psi\mathcal M_\chi}
-\|\dot\Psi-\operatorname{vec}F(X)\|_2^2.
+\|\dot\Psi-\mathop{\mathrm{vec}}\nolimits F(X)\|_2^2.
 $$
 
 The normalization direction is removed numerically. This is the standard tangent-space construction applied to the nonlinear CP force. We use the MPS projector structure from [Haegeman et al., 2011](https://arxiv.org/abs/1103.0936) and [Haegeman et al., 2016](https://arxiv.org/abs/1408.5056). Our time integrator is a retracted explicit midpoint method, not the projector-splitting integrator of the latter paper.
@@ -42,7 +42,7 @@ For an approximate amplitude A that is slightly off the canonical branch, the de
 
 ## 2. Deriving the square-root onset
 
-Let $P=\operatorname{supp}\rho_0$, $Q=I-P$, and $G=\mathcal L(\rho_0)$. The kernel block is positive:
+Let $P=\mathop{\mathrm{supp}}\nolimits \rho_0$, $Q=I-P$, and $G=\mathcal L(\rho_0)$. The kernel block is positive:
 
 $$
 QGQ=\sum_\mu QL_\mu\rho_0L_\mu^\dagger Q\ge0.
@@ -123,7 +123,7 @@ Step doubling estimates local time error as the distance between one full step a
 For an amplitude A, the density is $AA^\dagger$. Right multiplication by a reference-space unitary preserves this density. The optimization
 
 $$
-\max_{U\text{ unitary}}\operatorname{ReTr}(AU)=\|A\|_1
+\max_{U\text{ unitary}}\mathop{\mathrm{ReTr}}\nolimits (AU)=\|A\|_1
 $$
 
 selects $AU=\sqrt{AA^\dagger}$. In the dense backend this is an SVD/polar correction, not a spatially local doubled-chain unitary.
@@ -136,7 +136,7 @@ $$
 b(A)=\|A-\sqrt{AA^\dagger}\|_F.
 $$
 
-For reference, if $\Delta=\|A\|_1-\operatorname{ReTr}A$, polar decomposition gives
+For reference, if $\Delta=\|A\|_1-\mathop{\mathrm{ReTr}}\nolimits A$, polar decomposition gives
 
 $$
 b(A)^2\le2\|A\|_{\rm op}\Delta.
