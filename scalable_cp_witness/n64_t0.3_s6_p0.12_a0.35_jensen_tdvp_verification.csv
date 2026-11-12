@@ -1,0 +1,2 @@
+n,time,stored_bound,kraus_qr_bound,branch_distance,rehermitization,weighted_residual
+64,0.3,8.824676395149567e-06,8.822001010417359e-06,2.4773744352803654e-07,3.2031065841961574e-15,8.32652612015818e-06

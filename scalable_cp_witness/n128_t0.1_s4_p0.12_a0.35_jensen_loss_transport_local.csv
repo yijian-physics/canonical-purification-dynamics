@@ -1,0 +1,3 @@
+n,time,accepted,actual,factor_bond,root_bond,prediction_bound,used_prediction,used_transport,seconds,bound,witness,weighted_residual,scalar_bound,no_error_mass,residual_rounding
+128,0.0,True,,4,4,,False,False,0.11966330000723246,6.029713515685246e-14,5.352850242951393e-15,4.9591434670948396e-14,4.4405990823252123e-10,,1.2735448107226315e-27
+128,0.005,False,,6,8,,False,True,40.53298760000325,0.00040531128988001246,5.959273828971295e-06,0.0003933927422220699,5.675581419875178,,0.0

@@ -1,0 +1,2 @@
+n,chi,time,target,initial_status,cp_error,seconds,max_sign_iterations,force_budget_misses,status,coordinate,last_accepted_bound,accepted,cp_bound,rejected
+8,64,0.29999999999999993,0.3,rank_bridge_required,9.124331076032369e-05,93.65373810000165,58,0,accepted,0.5477225575051661,0.0002562287300524718,41,0.0002562287300524718,1

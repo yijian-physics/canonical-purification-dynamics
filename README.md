@@ -8,11 +8,14 @@ Read [the algorithm note](two_ways_to_evolve_canonical_purification.md) for the 
 
 **Latest comparison.** On a tilted-noise benchmark, fitting a three-site unitary gives about **289 times lower global CP error** than a three-site half-Petz update at tilt 0.1. A five-site active window restores numerical precision for both. The accuracy difference persists through 256 spins. The unitary fit uses five-site physical data, and half-Petz uses its active window. These are single-update results. [Comparison report and figure](tilted_half_petz_comparison/report.md)
 
+**TDVP at 512 spins.** A positive MPO witness and an independent density-residual check bounded the global CP error by $2.97\times10^{-6}$ on a correlated mixed chain under uniform dephasing. On an exactly solvable noncommuting parity ensemble at the same size, the measured CP error was $2.32\times10^{-7}$. The full-rank extension and its scaling limits are described in the [witness study](scalable_cp_witness/report.md).
+
 ## Implementations
 
 | Directory or entry point | Content |
 |---|---|
 | [cp_tdvp](cp_tdvp/report.md) | MPS tensor TDVP, square-root-time integration, dense and single-excitation force backends |
+| [scalable_cp_witness](scalable_cp_witness/report.md) | Two-site TDVP, positive-factor correction, global CP bounds and a long-range parity benchmark through 512 spins |
 | [tilted_half_petz_comparison](tilted_half_petz_comparison/report.md) | Half-Petz versus local-data fitting and the exact-target unitary optimum, through 256 spins |
 | [half_petz_evolution](half_petz_evolution/report.md) | Explicit half-Petz MPS evolution, local Kraus-factor caches and global CP-error benchmarks through 256 spins |
 | [local_cp_large](local_cp_large/report.md) | Finite doubled-site unitary fitting from physical marginals, MPS application and local error checks |

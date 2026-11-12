@@ -24,6 +24,20 @@ The algorithm must supply this new tensor direction. Our small-system implementa
 
 **Test of time resolution.** Uniform loss of a single excitation has the exact root $e^{-\gamma t/2}P_W+\sqrt{1-e^{-\gamma t}}P_{\rm vac}$ and requires at most bond four. At $N=16$, $\gamma=0.7$, $T=1$, and 80 grid intervals, the global CP error fell from $3.32\times10^{-4}$ on a uniform $t$ grid to $8.35\times10^{-7}$ on a uniform $\sqrt t$ grid. Both runs used the known positive first step on their respective grids. This isolates the time singularity. A separate six-spin interacting-loss test exposed an additional cost after startup: the compressed MPO Sylvester solver failed its residual check on all nine attempted handoffs. That benchmark tested the solver without establishing a recovery radius for the trajectory. [Clock comparison](cp_tdvp/results/clock.csv) · [Interacting-loss test](kraus_tdvp_handoff/report.md)
 
+### Extending TDVP with a checked positive witness
+
+Increasing the stored bond helps once the time-step and force errors are small enough. On an eight-spin critical Ising chain under uniform dephasing, correcting each of eight TDVP steps reduced the final CP error at $t=0.3$ from $2.72\times10^{-3}$ to $4.92\times10^{-6}$ at bond 64. Bond 128 reached $3.10\times10^{-7}$. The reference Schmidt spectrum shows that both corrected errors reach the corresponding representation floors to the precision quoted. These small-chain controls use dense Sylvester solves. [Bond sweep and Schmidt bounds](scalable_cp_witness/critical_late.csv) · [Uncorrected trajectory](scalable_cp_witness/trajectory_n8_chi64_s8_correct0.csv) · [Corrected trajectory](scalable_cp_witness/trajectory_n8_chi64_s8_correct1.csv)
+
+A full-rank extension gives a global endpoint test even when a spatial recovery radius is unknown. Store a second MPO $G$ and measure how close the Hermitian CP candidate $X$ is to $GG^\dagger$. Independently evolve the physical density and an upper bound $M\succeq\rho^{-1}$. For $E=X^2-\rho$,
+
+$$
+\|X-\sqrt{\rho}\|_F \le 2\|X-GG^\dagger\|_F+\sqrt{\mathrm{Tr}(E^\dagger E M)}.
+$$
+
+The first term pays for possible negative eigenvalues after compression. The second checks the candidate against the physical channel. If a two-site TDVP step misses the requested accuracy, update the factor using the density residual and recheck the stored tensors. Increase the working and state bonds or retry with a smaller step as needed. This extension requires a tractable physical density and inverse bound. The positive-witness check itself also admits a weaker gap-free bound.
+
+**Test at 512 spins.** On a correlated mixed chain under uniform dephasing, four TDVP steps with correction reached $t=0.1$ with a global CP-error bound of $2.97\times10^{-6}$ at CP bond 8 and witness bond 6. An independent Kraus contraction reproduced the bound. On a full-rank, noncommuting parity ensemble, the conditional mutual information persists at arbitrary buffer width in a full-chain tripartition. At 512 spins and $t=1$, the exact root gave a measured CP error of $2.32\times10^{-7}$ against a bound of $5.81\times10^{-7}$. These are finite-chain MPO sweeps. Generic critical inputs and rank-opening trajectories still require separate controls. [Algorithm, failure cases, code and data](scalable_cp_witness/report.md)
+
 ## 2. Apply a finite local lift on doubled sites
 
 For one physical step $\rho'=\Phi_S(\rho)$, seek a unitary $U$ acting on the **physical and reference spins** of $W=S\cup B$, where $B$ is the active buffer. Let $E$ be the exterior. The channel–unitary correspondence bounds the best attainable global vector error by
