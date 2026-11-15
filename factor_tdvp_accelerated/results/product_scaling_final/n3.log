@@ -1,0 +1,1 @@
+{"n": 3, "status": "completed", "scope": "analytic product-path force only", "setup_seconds": 0.0012331249999999738, "force_seconds": 0.018563832999999974, "relative_velocity_error": 5.531909471869905e-15, "independent_global_check": "Frobenius distance to exact product-rule factor derivative via MPO contractions", "peak_process_memory_mib": 42.96875}

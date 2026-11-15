@@ -1,0 +1,22 @@
+{
+  "kind": "trajectory",
+  "family": "D",
+  "method": "matrix_free",
+  "n": 6,
+  "steps": 5,
+  "chi": 4,
+  "work_bond": 32,
+  "total": 0.1,
+  "solver_tolerance": 1e-08,
+  "status": "failed",
+  "global_cp_error": null,
+  "global_cp_bound": null,
+  "native_seconds": 0.42247129199999733,
+  "root_bond": null,
+  "factor_bond": null,
+  "error_message": "CompressionError: MPO work bond discarded too much for a reliable Krylov operation",
+  "peak_process_memory_mib": 79.796875,
+  "accuracy_kind": "measured",
+  "wall_seconds": 0.6151375520000073,
+  "directory": "D006_matrix_free_05_tol0"
+}

@@ -1,0 +1,22 @@
+test_complex_nonhermitian_h_k_r_adjoint_identity (factor_tdvp_accelerated.test_matrix_free_solver.AdjointTests) ... ok
+test_real_linearity_and_physical_gauge_null (factor_tdvp_accelerated.test_matrix_free_solver.AdjointTests) ... ok
+test_delayed_support_opening_is_bridged (factor_tdvp_accelerated.test_matrix_free_solver.IntegratedEvolutionTests) ... ok
+test_first_order_opening_bridge_then_matrix_free_tangent (factor_tdvp_accelerated.test_matrix_free_solver.IntegratedEvolutionTests) ... ok
+test_repeated_opening_after_generator_change (factor_tdvp_accelerated.test_matrix_free_solver.IntegratedEvolutionTests) ... ok
+test_retraction_keeps_positive_root_and_physical_normalization (factor_tdvp_accelerated.test_matrix_free_solver.IntegratedEvolutionTests) ... ok
+test_smooth_nonhermitian_factor_second_order_and_positivity (factor_tdvp_accelerated.test_matrix_free_solver.IntegratedEvolutionTests) ... ok
+test_truncation_rank_loss_remains_guarded (factor_tdvp_accelerated.test_matrix_free_solver.IntegratedEvolutionTests) ... ok
+test_damping_preconditioning_matches_augmented_dense_oracle (factor_tdvp_accelerated.test_matrix_free_solver.SolverTests) ... ok
+test_full_and_restricted_minimum_norm_match_explicit (factor_tdvp_accelerated.test_matrix_free_solver.SolverTests) ... ok
+test_inadequate_work_bond_is_guarded (factor_tdvp_accelerated.test_matrix_free_solver.SolverTests) ... ok
+test_iteration_limit_is_guarded_and_diagnostics_retained (factor_tdvp_accelerated.test_matrix_free_solver.SolverTests) ... ok
+test_production_force_forbids_dense_export_and_explicit_basis (factor_tdvp_accelerated.test_matrix_free_solver.SolverTests) ... ok
+test_stationarity_does_not_claim_small_physical_residual (factor_tdvp_accelerated.test_matrix_free_solver.SolverTests) ... ok
+test_zero_generator_returns_zero_velocity (factor_tdvp_accelerated.test_matrix_free_solver.SolverTests) ... ok
+test_decode_and_environment_projection_match_old_basis (factor_tdvp_accelerated.test_matrix_free_solver.TangentCoordinateTests) ... ok
+test_real_coordinate_pairing (factor_tdvp_accelerated.test_matrix_free_solver.TangentCoordinateTests) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.590s
+
+OK

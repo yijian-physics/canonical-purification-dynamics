@@ -1,0 +1,22 @@
+{
+  "kind": "trajectory",
+  "family": "D",
+  "method": "root",
+  "n": 3,
+  "steps": 5,
+  "chi": 4,
+  "work_bond": 4,
+  "total": 0.1,
+  "solver_tolerance": 1e-08,
+  "status": "completed",
+  "global_cp_error": 9.276230787503505e-07,
+  "global_cp_bound": null,
+  "native_seconds": 0.13855343800000242,
+  "root_bond": 4,
+  "factor_bond": null,
+  "error_message": null,
+  "peak_process_memory_mib": 92.35546875,
+  "accuracy_kind": "measured",
+  "wall_seconds": 0.6150998049999963,
+  "directory": "D003_root_05_tol0"
+}

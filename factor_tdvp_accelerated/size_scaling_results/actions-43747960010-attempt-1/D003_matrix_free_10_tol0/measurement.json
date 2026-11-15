@@ -1,0 +1,22 @@
+{
+  "kind": "trajectory",
+  "family": "D",
+  "method": "matrix_free",
+  "n": 3,
+  "steps": 10,
+  "chi": 4,
+  "work_bond": 4,
+  "total": 0.1,
+  "solver_tolerance": 1e-08,
+  "status": "completed",
+  "global_cp_error": 2.296274663738343e-07,
+  "global_cp_bound": null,
+  "native_seconds": 1.5189525759999967,
+  "root_bond": 16,
+  "factor_bond": 4,
+  "error_message": null,
+  "peak_process_memory_mib": 80.40625,
+  "accuracy_kind": "measured",
+  "wall_seconds": 1.7175716659999978,
+  "directory": "D003_matrix_free_10_tol0"
+}

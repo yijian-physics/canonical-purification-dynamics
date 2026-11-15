@@ -1,0 +1,63 @@
+{
+  "status": "completed",
+  "global_cp_error": 3.963622894457374e-06,
+  "global_cp_bound": 9.932927950356696e-06,
+  "reached_time": 1.0,
+  "root_bond": 2,
+  "factor_bond": 2,
+  "positivity_witness_distance": 4.602589610148178e-16,
+  "accepted_steps": 5,
+  "correction_trial_count": 33,
+  "accepted_correction_trials": 33,
+  "used_predictions": 0,
+  "max_residual_rounding": 3.1430760320818343e-21,
+  "accuracy_kind": "measured_global_and_bound",
+  "auxiliary_information": "independently propagated density and inverse-bound metric included in total",
+  "time_grid": [
+    0.2,
+    0.4,
+    0.6000000000000001,
+    0.8,
+    1.0
+  ],
+  "kind": "trajectory",
+  "family": "E",
+  "n": 8,
+  "method": "correction_only",
+  "steps": 5,
+  "total": 1.0,
+  "tolerance": 1e-05,
+  "requested_repeats": 3,
+  "memory_enforcement": "child getrusage peak-RSS watchdog, sampled every 250ms; transient overshoot possible",
+  "worker_rss_limit_mib": 2048.0,
+  "worker_instrumentation_sha256": "cad58a30a6b073cf76f771d5a8cd74aa9f88985a0e844efe6543a07425930c5a",
+  "total_seconds": 0.216684417,
+  "peak_process_memory_mib": 46.546875,
+  "timing_exclusive_seconds": {
+    "reference_metric_initialization": 0.000556082999999985,
+    "hermitian_retraction": 0.03153795500000023,
+    "factor_root_construction_and_normalization": 0.022026293999999863,
+    "physical_or_inverse_metric_propagation": 0.00039200300000002963,
+    "certification": 0.057953913999999856,
+    "correction_direction": 0.08871004400000018,
+    "other_worker_seconds": 0.015508123999999845
+  },
+  "timing_inclusive_seconds": {
+    "reference_metric_initialization": 0.000556082999999985,
+    "hermitian_retraction": 0.03153795500000023,
+    "factor_root_construction_and_normalization": 0.03787995899999991,
+    "physical_or_inverse_metric_propagation": 0.00039200300000002963,
+    "certification": 0.05811841499999987,
+    "correction_direction": 0.08871004400000018
+  },
+  "timing_calls": {
+    "reference_metric_initialization": 1,
+    "hermitian_retraction": 67,
+    "factor_root_construction_and_normalization": 34,
+    "physical_or_inverse_metric_propagation": 12,
+    "certification": 39,
+    "correction_direction": 33
+  },
+  "timing_semantics": "exclusive categories partition worker wall time; inclusive contextual categories overlap; other includes scoring, correction application, I/O and uninstrumented setup",
+  "timing_partition_error_seconds": 0.0
+}

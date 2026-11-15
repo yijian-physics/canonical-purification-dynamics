@@ -1,0 +1,53 @@
+test_first_opening_bridge_then_factor_tangent (factor_tdvp.test_factor_tdvp.FactorEvolutionTests) ... ok
+test_full_rank_nonhermitian_gauge_refines (factor_tdvp.test_factor_tdvp.FactorEvolutionTests) ... ok
+test_spurious_truncation_rank_loss_is_guarded (factor_tdvp.test_factor_tdvp.FactorEvolutionTests) ... ok
+test_full_tangent_horizontal_and_positive_gauge_oracles (factor_tdvp.test_factor_tdvp.FactorJacobianTests) ... ok
+test_jacobian_finite_difference_and_mpo (factor_tdvp.test_factor_tdvp.FactorJacobianTests) ... ok
+test_jacobian_is_real_linear_not_complex_linear (factor_tdvp.test_factor_tdvp.FactorJacobianTests) ... ok
+test_one_site_tangent_orthonormality_and_existing_projector (factor_tdvp.test_factor_tdvp.FactorJacobianTests) ... ok
+test_restricted_tangent_stationarity_does_not_hide_physical_residual (factor_tdvp.test_factor_tdvp.FactorJacobianTests) ... ok
+test_right_unitary_gauge_is_null (factor_tdvp.test_factor_tdvp.FactorJacobianTests) ... ok
+test_nonhermitian_factor_positivity_and_reconstruction (factor_tdvp.test_factor_tdvp.FactorRetractionTests) ... ok
+test_physical_normalization_is_not_frobenius_factor_normalization (factor_tdvp.test_factor_tdvp.FactorRetractionTests) ... ok
+test_retraction_reports_root_error (factor_tdvp.test_factor_tdvp.FactorRetractionTests) ... ok
+test_correlated_three_spin_dephasing (factor_tdvp.test_rank_bridge.RankBridgeTests) ... ok
+test_delayed_and_unitary_classification (factor_tdvp.test_rank_bridge.RankBridgeTests) ... ok
+test_first_opening_fourth_root_scale (factor_tdvp.test_rank_bridge.RankBridgeTests) ... ok
+test_full_rank_stiffness_is_not_opening (factor_tdvp.test_rank_bridge.RankBridgeTests) ... ok
+test_kraus_completeness_and_arbitrary_factor (factor_tdvp.test_rank_bridge.RankBridgeTests) ... ok
+test_repeated_generator_change (factor_tdvp.test_rank_bridge.RankBridgeTests) ... ok
+test_smooth_mpo_truncation_cannot_silently_lose_support (factor_tdvp.test_rank_bridge.RankBridgeTests) ... ok
+test_superoperator_convention (factor_tdvp.test_rank_bridge.RankBridgeTests) ... ok
+test_unresolved_tiny_delayed_bridge_is_guarded (factor_tdvp.test_rank_bridge.RankBridgeTests) ... ok
+test_factor_metrics_use_squared_positive_root (factor_tdvp_comparison.test_comparison.MetricTests) ... ok
+test_local_root_fit_does_not_determine_global_extension (factor_tdvp_comparison.test_comparison.MetricTests) ... ok
+test_nonpositive_reference_is_rejected (factor_tdvp_comparison.test_comparison.MetricTests) ... ok
+test_reported_error_categories_stay_distinct (factor_tdvp_comparison.test_comparison.MetricTests) ... ok
+test_right_unitary_gauge_is_not_removed_from_cp_error (factor_tdvp_comparison.test_comparison.MetricTests) ... ok
+test_scoring_never_normalizes_a_bad_output (factor_tdvp_comparison.test_comparison.MetricTests) ... ok
+test_cluster_analytic_root_against_independent_channel (factor_tdvp_comparison.test_comparison.ReferenceTests) ... ok
+test_mixed_chain_preparation_matches_existing_witness (factor_tdvp_comparison.test_comparison.ReferenceTests) ... ok
+test_nonclifford_inhomogeneous_angles (factor_tdvp_comparison.test_comparison.ReferenceTests) ... ok
+test_tilted_semigroup_endpoint_matches_finite_channel (factor_tdvp_comparison.test_comparison.ReferenceTests) ... ok
+test_complex_nonhermitian_h_k_r_adjoint_identity (factor_tdvp_accelerated.test_matrix_free_solver.AdjointTests) ... ok
+test_real_linearity_and_physical_gauge_null (factor_tdvp_accelerated.test_matrix_free_solver.AdjointTests) ... ok
+test_delayed_support_opening_is_bridged (factor_tdvp_accelerated.test_matrix_free_solver.IntegratedEvolutionTests) ... ok
+test_first_order_opening_bridge_then_matrix_free_tangent (factor_tdvp_accelerated.test_matrix_free_solver.IntegratedEvolutionTests) ... ok
+test_repeated_opening_after_generator_change (factor_tdvp_accelerated.test_matrix_free_solver.IntegratedEvolutionTests) ... ok
+test_retraction_keeps_positive_root_and_physical_normalization (factor_tdvp_accelerated.test_matrix_free_solver.IntegratedEvolutionTests) ... ok
+test_smooth_nonhermitian_factor_second_order_and_positivity (factor_tdvp_accelerated.test_matrix_free_solver.IntegratedEvolutionTests) ... ok
+test_truncation_rank_loss_remains_guarded (factor_tdvp_accelerated.test_matrix_free_solver.IntegratedEvolutionTests) ... ok
+test_damping_preconditioning_matches_augmented_dense_oracle (factor_tdvp_accelerated.test_matrix_free_solver.SolverTests) ... ok
+test_full_and_restricted_minimum_norm_match_explicit (factor_tdvp_accelerated.test_matrix_free_solver.SolverTests) ... ok
+test_inadequate_work_bond_is_guarded (factor_tdvp_accelerated.test_matrix_free_solver.SolverTests) ... ok
+test_iteration_limit_is_guarded_and_diagnostics_retained (factor_tdvp_accelerated.test_matrix_free_solver.SolverTests) ... ok
+test_production_force_forbids_dense_export_and_explicit_basis (factor_tdvp_accelerated.test_matrix_free_solver.SolverTests) ... ok
+test_stationarity_does_not_claim_small_physical_residual (factor_tdvp_accelerated.test_matrix_free_solver.SolverTests) ... ok
+test_zero_generator_returns_zero_velocity (factor_tdvp_accelerated.test_matrix_free_solver.SolverTests) ... ok
+test_decode_and_environment_projection_match_old_basis (factor_tdvp_accelerated.test_matrix_free_solver.TangentCoordinateTests) ... ok
+test_real_coordinate_pairing (factor_tdvp_accelerated.test_matrix_free_solver.TangentCoordinateTests) ... ok
+
+----------------------------------------------------------------------
+Ran 48 tests in 1.079s
+
+OK

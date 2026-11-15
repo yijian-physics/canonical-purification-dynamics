@@ -1,0 +1,12 @@
+n64_t0.1_s5_p0.12_a0.35_jensen_tdvp start 0.0 5.0524504367853885e-14
+n64_t0.1_s5_p0.12_a0.35_jensen_tdvp endpoint 0.0 True 5.0524504367853885e-14  seconds 0.05360662499999999
+n64_t0.1_s5_p0.12_a0.35_jensen_tdvp start 0.02 4.02808916958946e-06
+n64_t0.1_s5_p0.12_a0.35_jensen_tdvp endpoint 0.02 True 4.02808916958946e-06  seconds 1.452732791
+n64_t0.1_s5_p0.12_a0.35_jensen_tdvp start 0.04 1.0032178312102976e-05
+n64_t0.1_s5_p0.12_a0.35_jensen_tdvp endpoint 0.04 True 1.2196611348332337e-06  seconds 3.501784583
+n64_t0.1_s5_p0.12_a0.35_jensen_tdvp start 0.06 1.4075821569302366e-05
+n64_t0.1_s5_p0.12_a0.35_jensen_tdvp endpoint 0.06 True 2.1976058110777457e-06  seconds 5.411081666
+n64_t0.1_s5_p0.12_a0.35_jensen_tdvp start 0.08 2.34196457898418e-05
+n64_t0.1_s5_p0.12_a0.35_jensen_tdvp endpoint 0.08 True 3.2171575239410054e-06  seconds 7.32166
+n64_t0.1_s5_p0.12_a0.35_jensen_tdvp start 0.1 3.455274242324005e-05
+n64_t0.1_s5_p0.12_a0.35_jensen_tdvp endpoint 0.1 True 4.222851432584899e-06  seconds 9.244955625

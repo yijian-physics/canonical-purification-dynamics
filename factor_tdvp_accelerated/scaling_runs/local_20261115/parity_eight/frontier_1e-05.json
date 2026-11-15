@@ -1,0 +1,11 @@
+[
+  {
+    "family": "E",
+    "n": 8,
+    "method": "matrix_free",
+    "total": 1.0,
+    "target": 1e-05,
+    "attained": false,
+    "reason": "No complete configuration with at least three distinct repeats met target in every repeat"
+  }
+]

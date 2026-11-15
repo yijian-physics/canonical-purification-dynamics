@@ -1,0 +1,60 @@
+{
+  "status": "completed",
+  "global_cp_error": 2.0605171149974315e-09,
+  "global_cp_bound": 4.238348955406824e-09,
+  "reached_time": 0.1,
+  "root_bond": 4,
+  "factor_bond": 4,
+  "positivity_witness_distance": 4.187792934376603e-16,
+  "accepted_steps": 5,
+  "correction_trial_count": 15,
+  "accepted_correction_trials": 15,
+  "used_predictions": 0,
+  "max_residual_rounding": 0.0,
+  "accuracy_kind": "measured_global_and_bound",
+  "auxiliary_information": "independently propagated density and inverse-bound metric included in total",
+  "time_grid": [
+    0.02,
+    0.04,
+    0.06,
+    0.08,
+    0.1
+  ],
+  "kind": "trajectory",
+  "family": "D",
+  "n": 3,
+  "method": "correction_only",
+  "steps": 5,
+  "total": 0.1,
+  "tolerance": 1e-07,
+  "requested_repeats": 3,
+  "total_seconds": 0.051726875000000005,
+  "peak_process_memory_mib": 45.59375,
+  "timing_exclusive_seconds": {
+    "reference_metric_initialization": 0.0003883339999999902,
+    "hermitian_retraction": 0.005890582000000033,
+    "factor_root_construction_and_normalization": 0.00537949900000001,
+    "physical_or_inverse_metric_propagation": 0.00028095699999999835,
+    "certification": 0.01373129199999995,
+    "correction_direction": 0.01619083599999996,
+    "other_worker_seconds": 0.009865375000000065
+  },
+  "timing_inclusive_seconds": {
+    "reference_metric_initialization": 0.0003883339999999902,
+    "hermitian_retraction": 0.005890582000000033,
+    "factor_root_construction_and_normalization": 0.008727457000000022,
+    "physical_or_inverse_metric_propagation": 0.00028095699999999835,
+    "certification": 0.013850665999999956,
+    "correction_direction": 0.01619083599999996
+  },
+  "timing_calls": {
+    "reference_metric_initialization": 1,
+    "hermitian_retraction": 31,
+    "factor_root_construction_and_normalization": 16,
+    "physical_or_inverse_metric_propagation": 12,
+    "certification": 21,
+    "correction_direction": 15
+  },
+  "timing_semantics": "exclusive categories partition worker wall time; inclusive contextual categories overlap; other includes scoring, correction application, I/O and uninstrumented setup",
+  "timing_partition_error_seconds": 0.0
+}

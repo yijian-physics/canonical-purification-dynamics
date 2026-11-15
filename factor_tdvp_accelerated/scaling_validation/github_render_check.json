@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-15",
+  "commit_inspected": "164fb0d6e7150ca494087d6c03e9c1a7d5e9e7e3",
+  "url": "https://github.com/xiaoyanghuangphys-create/canonical-purification-dynamics/blob/164fb0d/factor_tdvp_accelerated/scaling_report.md",
+  "method": "Live GitHub Preview in a browser, after asynchronous math rendering; accessibility content and visual screenshots inspected.",
+  "math_renderer_elements": 3,
+  "typeset_equations_observed": ["Parity density", "Global canonical-root error", "Witness fit and factor tangent objectives"],
+  "visually_inspected_sections": ["Benchmark definitions and comparison rules", "Why the costs differ"],
+  "rendering_errors_observed": false,
+  "note": "The later documentation-only validation note does not change the inspected equations."
+}

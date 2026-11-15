@@ -1,0 +1,60 @@
+{
+  "status": "completed",
+  "global_cp_error": 3.16679005457459e-07,
+  "global_cp_bound": 6.631108824099012e-07,
+  "reached_time": 0.1,
+  "root_bond": 6,
+  "factor_bond": 4,
+  "positivity_witness_distance": 8.528707631749957e-09,
+  "accepted_steps": 5,
+  "correction_trial_count": 10,
+  "accepted_correction_trials": 10,
+  "used_predictions": 0,
+  "max_residual_rounding": 1.1384048988197709e-33,
+  "accuracy_kind": "measured_global_and_bound",
+  "auxiliary_information": "independently propagated density and inverse-bound metric included in total",
+  "time_grid": [
+    0.02,
+    0.04,
+    0.06,
+    0.08,
+    0.1
+  ],
+  "kind": "trajectory",
+  "family": "D",
+  "n": 4,
+  "method": "correction_only",
+  "steps": 5,
+  "total": 0.1,
+  "tolerance": 1e-06,
+  "requested_repeats": 3,
+  "total_seconds": 0.06320049999999999,
+  "peak_process_memory_mib": 45.953125,
+  "timing_exclusive_seconds": {
+    "reference_metric_initialization": 0.0004191249999999924,
+    "hermitian_retraction": 0.006726832999999988,
+    "factor_root_construction_and_normalization": 0.005820835999999996,
+    "physical_or_inverse_metric_propagation": 0.0003280809999999801,
+    "certification": 0.01801791900000005,
+    "correction_direction": 0.019772707999999972,
+    "other_worker_seconds": 0.012114998000000016
+  },
+  "timing_inclusive_seconds": {
+    "reference_metric_initialization": 0.0004191249999999924,
+    "hermitian_retraction": 0.006726832999999988,
+    "factor_root_construction_and_normalization": 0.009676294000000002,
+    "physical_or_inverse_metric_propagation": 0.0003280809999999801,
+    "certification": 0.01815312600000002,
+    "correction_direction": 0.019772707999999972
+  },
+  "timing_calls": {
+    "reference_metric_initialization": 1,
+    "hermitian_retraction": 21,
+    "factor_root_construction_and_normalization": 11,
+    "physical_or_inverse_metric_propagation": 12,
+    "certification": 16,
+    "correction_direction": 10
+  },
+  "timing_semantics": "exclusive categories partition worker wall time; inclusive contextual categories overlap; other includes scoring, correction application, I/O and uninstrumented setup",
+  "timing_partition_error_seconds": 0.0
+}

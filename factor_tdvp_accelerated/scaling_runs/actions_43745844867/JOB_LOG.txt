@@ -1,0 +1,350 @@
+﻿2026-11-15T18:16:50.1803972Z Current runner version: '2.338.2'
+2026-11-15T18:16:50.1832772Z ##[group]Runner Image Provisioner
+2026-11-15T18:16:50.1833791Z Hosted Compute Agent
+2026-11-15T18:16:50.1834557Z Version: 20261103.629
+2026-11-15T18:16:50.1835448Z Commit: 15dbd9ccb5dbf34fae002b6ed1a2670f52df37bc
+2026-11-15T18:16:50.1836352Z Build Date: 2026-11-03T17:26:59Z
+2026-11-15T18:16:50.1837190Z Worker ID: {0b9f0a48-08c0-4c1f-999e-f2d1dfe25d49}
+2026-11-15T18:16:50.1838226Z Region: eastus2
+2026-11-15T18:16:50.1838987Z Cloud: Azure
+2026-11-15T18:16:50.1839809Z ##[endgroup]
+2026-11-15T18:16:50.1842175Z ##[group]Operating System
+2026-11-15T18:16:50.1842918Z Ubuntu
+2026-11-15T18:16:50.1843637Z 24.04.5
+2026-11-15T18:16:50.1844276Z LTS
+2026-11-15T18:16:50.1844978Z ##[endgroup]
+2026-11-15T18:16:50.1845654Z ##[group]Runner Image
+2026-11-15T18:16:50.1846774Z Image: ubuntu-24.04
+2026-11-15T18:16:50.1847574Z Version: 20261111.370.1
+2026-11-15T18:16:50.1849174Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261111.370/images/ubuntu/Ubuntu2404-Readme.md
+2026-11-15T18:16:50.1851561Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261111.370
+2026-11-15T18:16:50.1852931Z ##[endgroup]
+2026-11-15T18:16:50.1854304Z ##[group]GITHUB_TOKEN Permissions
+2026-11-15T18:16:50.1856575Z Contents: write
+2026-11-15T18:16:50.1857361Z Metadata: read
+2026-11-15T18:16:50.1858011Z ##[endgroup]
+2026-11-15T18:16:50.1860543Z Secret source: Actions
+2026-11-15T18:16:50.1861632Z Cache mode: write
+2026-11-15T18:16:50.1862570Z Prepare workflow directory
+2026-11-15T18:16:50.2286125Z Prepare all required actions
+2026-11-15T18:16:50.2341197Z Getting action download info
+2026-11-15T18:16:50.4375541Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-11-15T18:16:50.5797950Z Download action repository 'actions/setup-python@v5' (SHA:a26af69be951a213d495a4c3e4e4022e16d87065)
+2026-11-15T18:16:50.7490389Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+2026-11-15T18:16:51.0187212Z Complete job name: run-scaling-audit
+2026-11-15T18:16:51.0936325Z ##[group]Run actions/checkout@v4
+2026-11-15T18:16:51.0937031Z with:
+2026-11-15T18:16:51.0937429Z   ref: research/factor-vs-witness-scaling
+2026-11-15T18:16:51.0938072Z   repository: xiaoyanghuangphys-create/canonical-purification-dynamics
+2026-11-15T18:16:51.0941767Z   token: ***
+2026-11-15T18:16:51.0942136Z   ssh-strict: true
+2026-11-15T18:16:51.0942510Z   ssh-user: git
+2026-11-15T18:16:51.0942874Z   persist-credentials: true
+2026-11-15T18:16:51.0943276Z   clean: true
+2026-11-15T18:16:51.0943638Z   sparse-checkout-cone-mode: true
+2026-11-15T18:16:51.0944058Z   fetch-depth: 1
+2026-11-15T18:16:51.0944411Z   fetch-tags: false
+2026-11-15T18:16:51.0944776Z   show-progress: true
+2026-11-15T18:16:51.0945148Z   lfs: false
+2026-11-15T18:16:51.0945493Z   submodules: false
+2026-11-15T18:16:51.0945863Z   set-safe-directory: true
+2026-11-15T18:16:51.0946269Z   allow-unsafe-pr-checkout: false
+2026-11-15T18:16:51.0946890Z env:
+2026-11-15T18:16:51.0947234Z   OPENBLAS_NUM_THREADS: 1
+2026-11-15T18:16:51.0947672Z   OMP_NUM_THREADS: 1
+2026-11-15T18:16:51.0948036Z   MKL_NUM_THREADS: 1
+2026-11-15T18:16:51.0948406Z   VECLIB_MAXIMUM_THREADS: 1
+2026-11-15T18:16:51.0948801Z   NUMEXPR_NUM_THREADS: 1
+2026-11-15T18:16:51.0949171Z   MPLBACKEND: Agg
+2026-11-15T18:16:51.0949517Z ##[endgroup]
+2026-11-15T18:16:51.3042368Z Syncing repository: xiaoyanghuangphys-create/canonical-purification-dynamics
+2026-11-15T18:16:51.3044220Z ##[group]Getting Git version info
+2026-11-15T18:16:51.3045041Z Working directory is '/home/runner/work/canonical-purification-dynamics/canonical-purification-dynamics'
+2026-11-15T18:16:51.3051354Z [command]/usr/bin/git version
+2026-11-15T18:16:51.3244984Z git version 2.56.1
+2026-11-15T18:16:51.3263324Z ##[endgroup]
+2026-11-15T18:16:51.3277062Z Temporarily overriding HOME='/home/runner/work/_temp/d0940b64-77fe-4b74-a0f5-855ae6ea95bc' before making global git config changes
+2026-11-15T18:16:51.3278794Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-15T18:16:51.3283072Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/canonical-purification-dynamics/canonical-purification-dynamics
+2026-11-15T18:16:51.3326991Z Deleting the contents of '/home/runner/work/canonical-purification-dynamics/canonical-purification-dynamics'
+2026-11-15T18:16:51.3330969Z ##[group]Initializing the repository
+2026-11-15T18:16:51.3334292Z [command]/usr/bin/git init /home/runner/work/canonical-purification-dynamics/canonical-purification-dynamics
+2026-11-15T18:16:51.3425622Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-11-15T18:16:51.3426994Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-11-15T18:16:51.3428155Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-11-15T18:16:51.3429071Z hint: call:
+2026-11-15T18:16:51.3429551Z hint:
+2026-11-15T18:16:51.3430353Z hint: 	git config --global init.defaultBranch <name>
+2026-11-15T18:16:51.3431170Z hint:
+2026-11-15T18:16:51.3431901Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-11-15T18:16:51.3433058Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-11-15T18:16:51.3433978Z hint:
+2026-11-15T18:16:51.3434472Z hint: 	git branch -m <name>
+2026-11-15T18:16:51.3435035Z hint:
+2026-11-15T18:16:51.3435802Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-11-15T18:16:51.3437483Z Initialized empty Git repository in /home/runner/work/canonical-purification-dynamics/canonical-purification-dynamics/.git/
+2026-11-15T18:16:51.3440611Z [command]/usr/bin/git remote add origin https://github.com/xiaoyanghuangphys-create/canonical-purification-dynamics
+2026-11-15T18:16:51.3489245Z ##[endgroup]
+2026-11-15T18:16:51.3490356Z ##[group]Disabling automatic garbage collection
+2026-11-15T18:16:51.3494786Z [command]/usr/bin/git config --local gc.auto 0
+2026-11-15T18:16:51.3529981Z ##[endgroup]
+2026-11-15T18:16:51.3531139Z ##[group]Setting up auth
+2026-11-15T18:16:51.3531768Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-15T18:16:51.3562371Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-15T18:16:51.3888148Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-15T18:16:51.3930888Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-15T18:16:51.4143959Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-15T18:16:51.4181723Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-15T18:16:51.4384544Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-11-15T18:16:51.4425612Z ##[endgroup]
+2026-11-15T18:16:51.4426298Z ##[group]Fetching the repository
+2026-11-15T18:16:51.4451590Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +refs/heads/research/factor-vs-witness-scaling*:refs/remotes/origin/research/factor-vs-witness-scaling* +refs/tags/research/factor-vs-witness-scaling*:refs/tags/research/factor-vs-witness-scaling*
+2026-11-15T18:16:52.5243209Z From https://github.com/xiaoyanghuangphys-create/canonical-purification-dynamics
+2026-11-15T18:16:52.5247897Z  * [new branch]      research/factor-vs-witness-scaling -> origin/research/factor-vs-witness-scaling
+2026-11-15T18:16:52.5249688Z ##[endgroup]
+2026-11-15T18:16:52.5250303Z ##[group]Determining the checkout info
+2026-11-15T18:16:52.5254108Z [command]/usr/bin/git branch --list --remote origin/research/factor-vs-witness-scaling
+2026-11-15T18:16:52.5289829Z   origin/research/factor-vs-witness-scaling
+2026-11-15T18:16:52.5293347Z ##[endgroup]
+2026-11-15T18:16:52.5297260Z [command]/usr/bin/git sparse-checkout disable
+2026-11-15T18:16:52.5594517Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-11-15T18:16:52.5631760Z ##[group]Checking out the ref
+2026-11-15T18:16:52.5632912Z [command]/usr/bin/git checkout --progress --force -B research/factor-vs-witness-scaling refs/remotes/origin/research/factor-vs-witness-scaling
+2026-11-15T18:16:52.6753034Z Switched to a new branch 'research/factor-vs-witness-scaling'
+2026-11-15T18:16:52.6756054Z branch 'research/factor-vs-witness-scaling' set up to track 'origin/research/factor-vs-witness-scaling'.
+2026-11-15T18:16:52.6766543Z ##[endgroup]
+2026-11-15T18:16:52.6812249Z [command]/usr/bin/git log -1 --format=%H
+2026-11-15T18:16:52.6840653Z 5cfb7dda1f231ae57a7206801ef5ed2460edeaa2
+2026-11-15T18:16:52.7073971Z ##[group]Run actions/setup-python@v5
+2026-11-15T18:16:52.7074305Z with:
+2026-11-15T18:16:52.7074550Z   python-version: 3.11
+2026-11-15T18:16:52.7074827Z   check-latest: false
+2026-11-15T18:16:52.7142325Z   token: ***
+2026-11-15T18:16:52.7142604Z   update-environment: true
+2026-11-15T18:16:52.7142900Z   allow-prereleases: false
+2026-11-15T18:16:52.7143169Z   freethreaded: false
+2026-11-15T18:16:52.7143409Z env:
+2026-11-15T18:16:52.7143643Z   OPENBLAS_NUM_THREADS: 1
+2026-11-15T18:16:52.7143910Z   OMP_NUM_THREADS: 1
+2026-11-15T18:16:52.7144152Z   MKL_NUM_THREADS: 1
+2026-11-15T18:16:52.7144408Z   VECLIB_MAXIMUM_THREADS: 1
+2026-11-15T18:16:52.7144704Z   NUMEXPR_NUM_THREADS: 1
+2026-11-15T18:16:52.7145007Z   MPLBACKEND: Agg
+2026-11-15T18:16:52.7145241Z ##[endgroup]
+2026-11-15T18:16:52.8237694Z ##[group]Installed versions
+2026-11-15T18:16:52.8326190Z (node:2135) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-15T18:16:52.8327210Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-15T18:16:52.8327912Z Successfully set up CPython (3.11.18)
+2026-11-15T18:16:52.8328653Z ##[endgroup]
+2026-11-15T18:16:52.8486848Z ##[group]Run python -m pip install -r requirements.txt
+2026-11-15T18:16:52.8487593Z [36;1mpython -m pip install -r requirements.txt[0m
+2026-11-15T18:16:52.8525896Z shell: /usr/bin/bash -e {0}
+2026-11-15T18:16:52.8526369Z env:
+2026-11-15T18:16:52.8526757Z   OPENBLAS_NUM_THREADS: 1
+2026-11-15T18:16:52.8527191Z   OMP_NUM_THREADS: 1
+2026-11-15T18:16:52.8527641Z   MKL_NUM_THREADS: 1
+2026-11-15T18:16:52.8528117Z   VECLIB_MAXIMUM_THREADS: 1
+2026-11-15T18:16:52.8528552Z   NUMEXPR_NUM_THREADS: 1
+2026-11-15T18:16:52.8529047Z   MPLBACKEND: Agg
+2026-11-15T18:16:52.8529714Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.18/x64
+2026-11-15T18:16:52.8530833Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.18/x64/lib/pkgconfig
+2026-11-15T18:16:52.8531635Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+2026-11-15T18:16:52.8532361Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+2026-11-15T18:16:52.8533118Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+2026-11-15T18:16:52.8533788Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.18/x64/lib
+2026-11-15T18:16:52.8534303Z ##[endgroup]
+2026-11-15T18:16:53.9170186Z Collecting numpy==2.1.2 (from -r requirements.txt (line 1))
+2026-11-15T18:16:53.9903676Z   Downloading numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (60 kB)
+2026-11-15T18:16:54.1074412Z Collecting scipy==1.16.2 (from -r requirements.txt (line 2))
+2026-11-15T18:16:54.1206597Z   Downloading scipy-1.16.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (62 kB)
+2026-11-15T18:16:54.2499025Z Collecting matplotlib==3.10.3 (from -r requirements.txt (line 3))
+2026-11-15T18:16:54.2632378Z   Downloading matplotlib-3.10.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
+2026-11-15T18:16:54.3293168Z Collecting contourpy>=1.0.1 (from matplotlib==3.10.3->-r requirements.txt (line 3))
+2026-11-15T18:16:54.3426355Z   Downloading contourpy-1.3.3-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (5.5 kB)
+2026-11-15T18:16:54.4842553Z Collecting cycler>=0.10 (from matplotlib==3.10.3->-r requirements.txt (line 3))
+2026-11-15T18:16:54.4968366Z   Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+2026-11-15T18:16:54.6121869Z Collecting fonttools>=4.22.0 (from matplotlib==3.10.3->-r requirements.txt (line 3))
+2026-11-15T18:16:54.6256460Z   Downloading fonttools-4.68.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (139 kB)
+2026-11-15T18:16:54.7555041Z Collecting kiwisolver>=1.3.1 (from matplotlib==3.10.3->-r requirements.txt (line 3))
+2026-11-15T18:16:54.7686425Z   Downloading kiwisolver-1.5.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (5.2 kB)
+2026-11-15T18:16:54.7957502Z Collecting packaging>=20.0 (from matplotlib==3.10.3->-r requirements.txt (line 3))
+2026-11-15T18:16:54.8087174Z   Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+2026-11-15T18:16:54.9868739Z Collecting pillow>=8 (from matplotlib==3.10.3->-r requirements.txt (line 3))
+2026-11-15T18:16:55.0000392Z   Downloading pillow-13.0.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.1 kB)
+2026-11-15T18:16:55.0294641Z Collecting pyparsing>=2.3.1 (from matplotlib==3.10.3->-r requirements.txt (line 3))
+2026-11-15T18:16:55.0421868Z   Downloading pyparsing-3.3.3-py3-none-any.whl.metadata (5.9 kB)
+2026-11-15T18:16:55.2273224Z Collecting python-dateutil>=2.7 (from matplotlib==3.10.3->-r requirements.txt (line 3))
+2026-11-15T18:16:55.2401773Z   Downloading python_dateutil-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+2026-11-15T18:16:55.2667404Z Collecting tzdata (from python-dateutil>=2.7->matplotlib==3.10.3->-r requirements.txt (line 3))
+2026-11-15T18:16:55.2796084Z   Downloading tzdata-2026.6-py2.py3-none-any.whl.metadata (1.4 kB)
+2026-11-15T18:16:55.2957492Z Downloading numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.3 MB)
+2026-11-15T18:16:55.5052930Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.3/16.3 MB 81.4 MB/s  0:00:00
+2026-11-15T18:16:55.5203696Z Downloading scipy-1.16.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (35.9 MB)
+2026-11-15T18:16:55.8176695Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.9/35.9 MB 120.6 MB/s  0:00:00
+2026-11-15T18:16:55.8329840Z Downloading matplotlib-3.10.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (8.6 MB)
+2026-11-15T18:16:55.9051976Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.6/8.6 MB 119.0 MB/s  0:00:00
+2026-11-15T18:16:55.9181687Z Downloading contourpy-1.3.3-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (355 kB)
+2026-11-15T18:16:55.9348966Z Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+2026-11-15T18:16:55.9490494Z Downloading fonttools-4.68.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (5.5 MB)
+2026-11-15T18:16:55.9860315Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.5/5.5 MB 150.7 MB/s  0:00:00
+2026-11-15T18:16:55.9996685Z Downloading kiwisolver-1.5.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.4 MB)
+2026-11-15T18:16:56.0112379Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 121.7 MB/s  0:00:00
+2026-11-15T18:16:56.0245100Z Downloading packaging-26.3-py3-none-any.whl (129 kB)
+2026-11-15T18:16:56.0396373Z Downloading pillow-13.0.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (7.1 MB)
+2026-11-15T18:16:56.0921825Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.1/7.1 MB 136.9 MB/s  0:00:00
+2026-11-15T18:16:56.1051146Z Downloading pyparsing-3.3.3-py3-none-any.whl (126 kB)
+2026-11-15T18:16:56.1208324Z Downloading python_dateutil-4.0.0-py3-none-any.whl (92 kB)
+2026-11-15T18:16:56.1423126Z Downloading tzdata-2026.6-py2.py3-none-any.whl (348 kB)
+2026-11-15T18:16:56.4864130Z Installing collected packages: tzdata, pyparsing, pillow, packaging, numpy, kiwisolver, fonttools, cycler, scipy, python-dateutil, contourpy, matplotlib
+2026-11-15T18:17:03.1957570Z 
+2026-11-15T18:17:03.1967605Z Successfully installed contourpy-1.3.3 cycler-0.12.1 fonttools-4.68.0 kiwisolver-1.5.1 matplotlib-3.10.3 numpy-2.1.2 packaging-26.3 pillow-13.0.0 pyparsing-3.3.3 python-dateutil-4.0.0 scipy-1.16.2 tzdata-2026.6
+2026-11-15T18:17:03.2774053Z ##[group]Run python -m factor_tdvp_accelerated.size_scaling \
+2026-11-15T18:17:03.2774455Z [36;1mpython -m factor_tdvp_accelerated.size_scaling \[0m
+2026-11-15T18:17:03.2774813Z [36;1m  --suite full --out factor_tdvp_accelerated/size_scaling_results \[0m
+2026-11-15T18:17:03.2775118Z [36;1m  --timeout 90[0m
+2026-11-15T18:17:03.2793209Z shell: /usr/bin/bash -e {0}
+2026-11-15T18:17:03.2793414Z env:
+2026-11-15T18:17:03.2793587Z   OPENBLAS_NUM_THREADS: 1
+2026-11-15T18:17:03.2793776Z   OMP_NUM_THREADS: 1
+2026-11-15T18:17:03.2793950Z   MKL_NUM_THREADS: 1
+2026-11-15T18:17:03.2794120Z   VECLIB_MAXIMUM_THREADS: 1
+2026-11-15T18:17:03.2794309Z   NUMEXPR_NUM_THREADS: 1
+2026-11-15T18:17:03.2794488Z   MPLBACKEND: Agg
+2026-11-15T18:17:03.2794737Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.18/x64
+2026-11-15T18:17:03.2795081Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.18/x64/lib/pkgconfig
+2026-11-15T18:17:03.2795413Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+2026-11-15T18:17:03.2795747Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+2026-11-15T18:17:03.2796042Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+2026-11-15T18:17:03.2796337Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.18/x64/lib
+2026-11-15T18:17:03.2796589Z ##[endgroup]
+2026-11-15T18:17:03.9275607Z D003_root_05_tol0: completed, error=9.276230787503505e-07, bound=None, wall=0.615s
+2026-11-15T18:17:04.8940631Z D003_matrix_free_05_tol0: completed, error=9.323700037005576e-07, bound=None, wall=0.966s
+2026-11-15T18:17:05.2101212Z D003_root_10_tol0: completed, error=2.2846681793052848e-07, bound=None, wall=0.315s
+2026-11-15T18:17:06.9791391Z D003_matrix_free_10_tol0: completed, error=2.296274663738343e-07, bound=None, wall=1.77s
+2026-11-15T18:17:07.3453309Z D003_root_20_tol0: completed, error=5.6692218600094433e-08, bound=None, wall=0.365s
+2026-11-15T18:17:10.5675594Z D003_matrix_free_20_tol0: completed, error=5.697946423787253e-08, bound=None, wall=3.22s
+2026-11-15T18:17:10.8834826Z D004_root_05_tol0: completed, error=1.1321244584652779e-06, bound=None, wall=0.315s
+2026-11-15T18:17:13.8555634Z D004_matrix_free_05_tol0: completed, error=1.137602034168257e-06, bound=None, wall=2.97s
+2026-11-15T18:17:14.2217184Z D004_root_10_tol0: completed, error=2.7882429707902677e-07, bound=None, wall=0.365s
+2026-11-15T18:17:19.8003086Z D004_matrix_free_10_tol0: completed, error=2.801704711759604e-07, bound=None, wall=5.58s
+2026-11-15T18:17:20.2666411Z D005_root_05_tol0: completed, error=1.3149517610760559e-06, bound=None, wall=0.465s
+2026-11-15T18:17:35.7663918Z D005_matrix_free_05_tol0: completed, error=1.3164307440083085e-06, bound=None, wall=15.5s
+2026-11-15T18:17:38.0371046Z D006_root_05_tol0: completed, error=1.470629617098531e-06, bound=None, wall=2.27s
+2026-11-15T18:17:38.6538121Z D006_matrix_free_05_tol0: failed, error=None, bound=None, wall=0.615s
+2026-11-15T18:17:38.9700987Z D003_witness_05_tol1e-05: completed, error=1.1480351937140182e-06, bound=2.342573554044823e-06, wall=0.315s
+2026-11-15T18:17:39.3365033Z D003_witness_05_tol1e-07: completed, error=3.0875514203060492e-09, bound=6.289437165860632e-09, wall=0.365s
+2026-11-15T18:17:39.6025554Z D003_correction_only_05_tol1e-05: completed, error=1.196255311143111e-07, bound=2.443429285064875e-07, wall=0.264s
+2026-11-15T18:17:39.8686410Z D003_correction_only_05_tol1e-07: completed, error=2.060517112599675e-09, bound=4.2383495806677595e-09, wall=0.265s
+2026-11-15T18:17:40.2851543Z D004_witness_05_tol1e-05: completed, error=1.4553628887702684e-06, bound=3.54433897302191e-06, wall=0.415s
+2026-11-15T18:17:40.9022763Z D004_witness_05_tol1e-07: completed, error=3.7758023104271136e-08, bound=8.215764398070718e-08, wall=0.615s
+2026-11-15T18:17:41.2186307Z D004_correction_only_05_tol1e-05: completed, error=3.1667900559434633e-07, bound=6.631108824487457e-07, wall=0.315s
+2026-11-15T18:17:41.6853168Z D004_correction_only_05_tol1e-07: completed, error=3.775802157379296e-08, bound=8.21576402627473e-08, wall=0.465s
+2026-11-15T18:17:42.3024755Z D005_witness_05_tol1e-05: completed, error=1.7409371376414372e-06, bound=4.370024090796458e-06, wall=0.615s
+2026-11-15T18:17:42.9696631Z D006_witness_05_tol1e-05: completed, error=2.0184905952090275e-06, bound=5.138659894059813e-06, wall=0.665s
+2026-11-15T18:17:43.9378693Z D008_witness_05_tol1e-05: completed, error=2.5568754247504045e-06, bound=6.685228428318002e-06, wall=0.966s
+2026-11-15T18:17:44.5053596Z D008_correction_only_05_tol1e-05: completed, error=6.982427786807424e-07, bound=1.4619020173353625e-06, wall=0.566s
+2026-11-15T18:17:46.3253308Z D016_witness_05_tol1e-05: completed, error=None, bound=1.8836503391535739e-06, wall=1.82s
+2026-11-15T18:17:50.0999602Z D032_witness_05_tol1e-05: completed, error=None, bound=2.8420238927710968e-06, wall=3.77s
+2026-11-15T18:17:58.1335549Z D064_witness_05_tol1e-05: completed, error=None, bound=4.222851432655953e-06, wall=8.03s
+2026-11-15T18:18:15.0372410Z D128_witness_05_tol1e-05: completed, error=None, bound=7.3314691158761776e-06, wall=16.9s
+2026-11-15T18:18:53.8388491Z D256_witness_05_tol1e-05: completed, error=None, bound=8.943669588227428e-06, wall=38.8s
+2026-11-15T18:18:53.8501015Z ##[group]Run actions/upload-artifact@v4
+2026-11-15T18:18:53.8501244Z with:
+2026-11-15T18:18:53.8501418Z   name: factor-vs-witness-raw
+2026-11-15T18:18:53.8501658Z   path: factor_tdvp_accelerated/size_scaling_results/
+2026-11-15T18:18:53.8501912Z   retention-days: 14
+2026-11-15T18:18:53.8502093Z   if-no-files-found: warn
+2026-11-15T18:18:53.8502286Z   compression-level: 6
+2026-11-15T18:18:53.8502467Z   overwrite: false
+2026-11-15T18:18:53.8502649Z   include-hidden-files: false
+2026-11-15T18:18:53.8502833Z env:
+2026-11-15T18:18:53.8502991Z   OPENBLAS_NUM_THREADS: 1
+2026-11-15T18:18:53.8503173Z   OMP_NUM_THREADS: 1
+2026-11-15T18:18:53.8503339Z   MKL_NUM_THREADS: 1
+2026-11-15T18:18:53.8503527Z   VECLIB_MAXIMUM_THREADS: 1
+2026-11-15T18:18:53.8503717Z   NUMEXPR_NUM_THREADS: 1
+2026-11-15T18:18:53.8503900Z   MPLBACKEND: Agg
+2026-11-15T18:18:53.8504116Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.18/x64
+2026-11-15T18:18:53.8504487Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.18/x64/lib/pkgconfig
+2026-11-15T18:18:53.8504822Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+2026-11-15T18:18:53.8505113Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+2026-11-15T18:18:53.8505398Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+2026-11-15T18:18:53.8505690Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.18/x64/lib
+2026-11-15T18:18:53.8505943Z ##[endgroup]
+2026-11-15T18:18:53.9867012Z (node:2232) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-15T18:18:53.9867962Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-15T18:18:54.0220845Z With the provided path, there will be 165 files uploaded
+2026-11-15T18:18:54.0222088Z Artifact name is valid!
+2026-11-15T18:18:54.0222567Z Root directory input is valid!
+2026-11-15T18:18:54.2636407Z Beginning upload of artifact content to blob storage
+2026-11-15T18:18:54.4306930Z (node:2232) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-11-15T18:18:54.5425941Z Uploaded bytes 1492006
+2026-11-15T18:18:54.5658777Z Finished uploading artifact content to blob storage!
+2026-11-15T18:18:54.5659531Z SHA256 digest of uploaded artifact zip is b0a82dcb403875d5083fa49c8b0ca7e69574f7b652aa0d56874ac16baac065b0
+2026-11-15T18:18:54.5661105Z Finalizing artifact upload
+2026-11-15T18:18:54.9108089Z Artifact factor-vs-witness-raw.zip successfully finalized. Artifact ID 14174167664
+2026-11-15T18:18:54.9108995Z Artifact factor-vs-witness-raw has been successfully uploaded! Final size is 1492006 bytes. Artifact ID is 14174167664
+2026-11-15T18:18:54.9114177Z Artifact download URL: https://github.com/xiaoyanghuangphys-create/canonical-purification-dynamics/actions/runs/43745844867/artifacts/14174167664
+2026-11-15T18:18:54.9253537Z ##[group]Run if [ -f factor_tdvp_accelerated/size_scaling_results/measurements.csv ]; then
+2026-11-15T18:18:54.9254044Z [36;1mif [ -f factor_tdvp_accelerated/size_scaling_results/measurements.csv ]; then[0m
+2026-11-15T18:18:54.9254406Z [36;1m  git config user.name "github-actions[bot]"[0m
+2026-11-15T18:18:54.9254764Z [36;1m  git config user.email "41898282+github-actions[bot]@users.noreply.github.com"[0m
+2026-11-15T18:18:54.9255172Z [36;1m  git add -f factor_tdvp_accelerated/size_scaling_results/measurements.csv[0m
+2026-11-15T18:18:54.9255562Z [36;1m  git add -f factor_tdvp_accelerated/size_scaling_results/measurements.json[0m
+2026-11-15T18:18:54.9255939Z [36;1m  git add -f factor_tdvp_accelerated/size_scaling_results/report.md[0m
+2026-11-15T18:18:54.9256330Z [36;1m  git add -f factor_tdvp_accelerated/size_scaling_results/environment.json[0m
+2026-11-15T18:18:54.9256729Z [36;1m  git add -f factor_tdvp_accelerated/size_scaling_results/frontier_*.csv || true[0m
+2026-11-15T18:18:54.9257101Z [36;1m  if ! git diff --cached --quiet; then[0m
+2026-11-15T18:18:54.9257438Z [36;1m    git commit -m "Record isolated factor versus witness scaling measurements"[0m
+2026-11-15T18:18:54.9257813Z [36;1m    git push origin HEAD:research/factor-vs-witness-scaling[0m
+2026-11-15T18:18:54.9258104Z [36;1m  fi[0m
+2026-11-15T18:18:54.9258270Z [36;1mfi[0m
+2026-11-15T18:18:54.9276268Z shell: /usr/bin/bash -e {0}
+2026-11-15T18:18:54.9276470Z env:
+2026-11-15T18:18:54.9276648Z   OPENBLAS_NUM_THREADS: 1
+2026-11-15T18:18:54.9276844Z   OMP_NUM_THREADS: 1
+2026-11-15T18:18:54.9277020Z   MKL_NUM_THREADS: 1
+2026-11-15T18:18:54.9277192Z   VECLIB_MAXIMUM_THREADS: 1
+2026-11-15T18:18:54.9277390Z   NUMEXPR_NUM_THREADS: 1
+2026-11-15T18:18:54.9277580Z   MPLBACKEND: Agg
+2026-11-15T18:18:54.9277805Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.18/x64
+2026-11-15T18:18:54.9278148Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.18/x64/lib/pkgconfig
+2026-11-15T18:18:54.9278494Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+2026-11-15T18:18:54.9278794Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+2026-11-15T18:18:54.9279089Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+2026-11-15T18:18:54.9279385Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.18/x64/lib
+2026-11-15T18:18:54.9279650Z ##[endgroup]
+2026-11-15T18:18:55.0251674Z [research/factor-vs-witness-scaling 8d8a461] Record isolated factor versus witness scaling measurements
+2026-11-15T18:18:55.0252451Z  6 files changed, 847 insertions(+)
+2026-11-15T18:18:55.0252961Z  create mode 100644 factor_tdvp_accelerated/size_scaling_results/environment.json
+2026-11-15T18:18:55.0253673Z  create mode 100644 factor_tdvp_accelerated/size_scaling_results/frontier_1e-05.csv
+2026-11-15T18:18:55.0254512Z  create mode 100644 factor_tdvp_accelerated/size_scaling_results/frontier_1e-07.csv
+2026-11-15T18:18:55.0255277Z  create mode 100644 factor_tdvp_accelerated/size_scaling_results/measurements.csv
+2026-11-15T18:18:55.0255990Z  create mode 100644 factor_tdvp_accelerated/size_scaling_results/measurements.json
+2026-11-15T18:18:55.0256664Z  create mode 100644 factor_tdvp_accelerated/size_scaling_results/report.md
+2026-11-15T18:18:55.4655588Z To https://github.com/xiaoyanghuangphys-create/canonical-purification-dynamics
+2026-11-15T18:18:55.4656345Z  ! [rejected]        HEAD -> research/factor-vs-witness-scaling (fetch first)
+2026-11-15T18:18:55.4657136Z error: failed to push some refs to 'https://github.com/xiaoyanghuangphys-create/canonical-purification-dynamics'
+2026-11-15T18:18:55.4668607Z hint: Updates were rejected because the remote contains work that you do not
+2026-11-15T18:18:55.4669067Z hint: have locally. This is usually caused by another repository pushing to
+2026-11-15T18:18:55.4669834Z hint: the same ref. If you want to integrate the remote changes, use
+2026-11-15T18:18:55.4670314Z hint: 'git pull' before pushing again.
+2026-11-15T18:18:55.4670854Z hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+2026-11-15T18:18:55.4682973Z ##[error]Process completed with exit code 1.
+2026-11-15T18:18:55.4778001Z Post job cleanup.
+2026-11-15T18:18:55.5520678Z [command]/usr/bin/git version
+2026-11-15T18:18:55.5555578Z git version 2.56.1
+2026-11-15T18:18:55.5586101Z Temporarily overriding HOME='/home/runner/work/_temp/10b04259-7968-4b59-b95c-7dda6802c940' before making global git config changes
+2026-11-15T18:18:55.5587148Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-15T18:18:55.5590335Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/canonical-purification-dynamics/canonical-purification-dynamics
+2026-11-15T18:18:55.5626229Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-15T18:18:55.5659223Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-15T18:18:55.5888032Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-15T18:18:55.5912359Z http.https://github.com/.extraheader
+2026-11-15T18:18:55.5923283Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-11-15T18:18:55.5959178Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-15T18:18:55.6189039Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-15T18:18:55.6228673Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-15T18:18:55.6562310Z Cleaning up orphan processes
+2026-11-15T18:18:55.6829807Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-python@v5, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+

@@ -1,0 +1,98 @@
+name: Factor vs witness scaling audit
+on:
+  push:
+    branches:
+      - research/factor-vs-witness-scaling
+    paths:
+      - factor_tdvp_accelerated/size_scaling.py
+      - .github/workflows/factor-vs-witness-scaling.yml
+      - .github/scripts/publish_benchmark_results.py
+      - .github/scripts/record_benchmark_hardware.py
+  workflow_dispatch:
+
+# Serialize benchmark publishers; an in-progress run is never cancelled for a
+# newer commit. External commits can still advance the branch, so publication
+# also fetches/rebases and retries an ordinary (never forced) push.
+concurrency:
+  group: factor-vs-witness-scaling-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  run-scaling-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: write
+    env:
+      OPENBLAS_NUM_THREADS: "1"
+      OMP_NUM_THREADS: "1"
+      MKL_NUM_THREADS: "1"
+      VECLIB_MAXIMUM_THREADS: "1"
+      NUMEXPR_NUM_THREADS: "1"
+      MPLBACKEND: Agg
+      RESULTS_DIR: factor_tdvp_accelerated/size_scaling_results/actions-${{ github.run_id }}-attempt-${{ github.run_attempt }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/factor-vs-witness-scaling
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Test concurrent publication against local Git remotes
+        run: python -m unittest discover -s .github/scripts -p 'test_publish*.py' -v
+      - name: Install numerical requirements
+        run: python -m pip install -r requirements.txt
+      - name: Run audited full size sweep (each case isolated and time-limited)
+        run: |
+          set -euo pipefail
+          # Linux RLIMIT_AS is inherited by each benchmark subprocess.
+          # This is a 6 GiB address-space cap, not an aggregate RSS limit.
+          ulimit -v 6291456
+          python -m factor_tdvp_accelerated.size_scaling \
+            --suite full --out "$RESULTS_DIR" \
+            --timeout 90 2>&1 | tee "$RUNNER_TEMP/benchmark-suite.log"
+      - name: Record hardware and execution source for complete or partial runs
+        if: always()
+        run: |
+          if [ -d "$RESULTS_DIR" ]; then
+            if [ -f "$RUNNER_TEMP/benchmark-suite.log" ]; then
+              cp "$RUNNER_TEMP/benchmark-suite.log" "$RESULTS_DIR/suite.log"
+            fi
+            python .github/scripts/record_benchmark_hardware.py \
+              --results "$RESULTS_DIR" --address-space-limit-bytes 6442450944
+          fi
+      - name: Preserve all raw results before publication
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: factor-vs-witness-raw-${{ github.run_id }}-attempt-${{ github.run_attempt }}
+          path: ${{ env.RESULTS_DIR }}/
+          retention-days: 90
+          include-hidden-files: true
+          if-no-files-found: warn
+      - name: Publish immutable run with concurrent-update retries
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -d "$RESULTS_DIR" ]; then
+            python .github/scripts/publish_benchmark_results.py \
+              --results "$RESULTS_DIR" \
+              --branch research/factor-vs-witness-scaling \
+              --attempts 5 2>&1 | tee "$RUNNER_TEMP/benchmark-publication.log"
+          else
+            echo "No run directory was produced; preceding failure remains visible." \
+              | tee "$RUNNER_TEMP/benchmark-publication.log"
+          fi
+      - name: Preserve publication diagnostics even after push failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: factor-vs-witness-publication-${{ github.run_id }}-attempt-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/benchmark-publication.log
+          retention-days: 90
+          if-no-files-found: warn

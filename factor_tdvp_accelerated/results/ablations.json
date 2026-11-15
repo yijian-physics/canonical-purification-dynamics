@@ -1,0 +1,114 @@
+{
+  "conditioning": [
+    {
+      "population": 0.2,
+      "condition": 2.8284271247461903,
+      "predicted": 2.8284271247461903,
+      "iterations": 3,
+      "column_scaled_iterations": 2,
+      "residual": 2.7052788744732945e-16,
+      "column_scaled_residual": 1.1102230246251565e-16,
+      "scope": "dense qubit oracle; column scaling is not a scalable preconditioner"
+    },
+    {
+      "population": 0.02,
+      "condition": 18.520259177452132,
+      "predicted": 18.520259177452136,
+      "iterations": 3,
+      "column_scaled_iterations": 2,
+      "residual": 1.388158980087209e-14,
+      "column_scaled_residual": 9.614813431917819e-17,
+      "scope": "dense qubit oracle; column scaling is not a scalable preconditioner"
+    },
+    {
+      "population": 0.002,
+      "condition": 105.57848097003786,
+      "predicted": 105.57848097003787,
+      "iterations": 3,
+      "column_scaled_iterations": 2,
+      "residual": 1.5211269938424278e-12,
+      "column_scaled_residual": 9.614813431917819e-17,
+      "scope": "dense qubit oracle; column scaling is not a scalable preconditioner"
+    },
+    {
+      "population": 2e-05,
+      "condition": 3343.6513692338453,
+      "predicted": 3343.6513692338467,
+      "iterations": 4,
+      "column_scaled_iterations": 2,
+      "residual": 3.721379810800337e-11,
+      "column_scaled_residual": 1.0749688212373146e-16,
+      "scope": "dense qubit oracle; column scaling is not a scalable preconditioner"
+    }
+  ],
+  "variational_ablations": [
+    {
+      "method": "density",
+      "density_residual": 0.09000533317163925,
+      "root_velocity_residual": 0.16305010350774862,
+      "horizontal_defect": 0.7895783359346442,
+      "velocity_norm": 0.7257385437187419,
+      "density_stationarity": 1.7368253862094471e-15,
+      "scope": "restricted bond-two two-spin tangent; modified objectives explicitly labelled"
+    },
+    {
+      "method": "horizontal_penalty",
+      "density_residual": 0.18785658673934122,
+      "root_velocity_residual": 0.2759894162327912,
+      "horizontal_defect": 0.14964347665474406,
+      "velocity_norm": 0.4239184340324829,
+      "density_stationarity": 0.09791537470720085,
+      "scope": "restricted bond-two two-spin tangent; modified objectives explicitly labelled"
+    },
+    {
+      "method": "ridge",
+      "density_residual": 0.09000576342124697,
+      "root_velocity_residual": 0.1630247381265442,
+      "horizontal_defect": 0.7878675351188885,
+      "velocity_norm": 0.7246689956208017,
+      "density_stationarity": 7.246689956220825e-05,
+      "scope": "restricted bond-two two-spin tangent; modified objectives explicitly labelled"
+    },
+    {
+      "method": "root_metric",
+      "density_residual": 0.11054767216221077,
+      "root_velocity_residual": 0.15146730474744718,
+      "horizontal_defect": 0.7430183483454451,
+      "velocity_norm": 0.6835223554948068,
+      "density_stationarity": 0.09418485373469797,
+      "scope": "restricted bond-two two-spin tangent; modified objectives explicitly labelled"
+    }
+  ],
+  "certification": [
+    {
+      "perturbation": 0.01,
+      "global_cp_error": 0.011650407165828493,
+      "inverse_weighted_bound": 0.028432757120823687,
+      "witness_defect": 0.0,
+      "inverse_reference_seconds": 2.0124999999981963e-05,
+      "weighted_contraction_seconds": 1.3291999999998083e-05,
+      "redundant_witness_check_seconds": 9.416999999956044e-06,
+      "interpretation": "ordinary floating-point dense reference; excludes witness fitting, not a rigorous roundoff bound"
+    },
+    {
+      "perturbation": 0.0001,
+      "global_cp_error": 0.00011599356669284881,
+      "inverse_weighted_bound": 0.00028077543579018517,
+      "witness_defect": 0.0,
+      "inverse_reference_seconds": 1.2208000000013541e-05,
+      "weighted_contraction_seconds": 1.0542000000002272e-05,
+      "redundant_witness_check_seconds": 8.291999999965327e-06,
+      "interpretation": "ordinary floating-point dense reference; excludes witness fitting, not a rigorous roundoff bound"
+    },
+    {
+      "perturbation": 1e-06,
+      "global_cp_error": 1.15988362112714e-06,
+      "inverse_weighted_bound": 2.80739966936004e-06,
+      "witness_defect": 0.0,
+      "inverse_reference_seconds": 1.083299999998788e-05,
+      "weighted_contraction_seconds": 1.0167000000005366e-05,
+      "redundant_witness_check_seconds": 7.832999999957124e-06,
+      "interpretation": "ordinary floating-point dense reference; excludes witness fitting, not a rigorous roundoff bound"
+    }
+  ]
+}

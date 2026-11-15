@@ -1,0 +1,15 @@
+{
+  "suite": "full",
+  "command": [
+    "/home/runner/work/canonical-purification-dynamics/canonical-purification-dynamics/factor_tdvp_accelerated/size_scaling.py",
+    "--suite",
+    "full",
+    "--out",
+    "factor_tdvp_accelerated/size_scaling_results/actions-43747960010-attempt-1",
+    "--timeout",
+    "90"
+  ],
+  "python": "3.11.18 (main, Oct 26 2026, 02:48:34) [GCC 13.3.0]",
+  "timeout_per_worker": 90.0,
+  "BLAS_threads": 1
+}

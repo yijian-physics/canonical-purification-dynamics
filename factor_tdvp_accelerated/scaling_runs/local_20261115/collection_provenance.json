@@ -1,0 +1,18 @@
+{
+  "source_tables_sha256": {
+    "measurements_main.json": "bd2c03371e602baa7c1ea920b8025c94b0601e3b5f73be576887b99d2c4a8f09",
+    "supplemental/measurements.json": "495ee0093bc228f2f1016ddb4e0652c93c1edff8e1331ed424cbd85ce974a6d3",
+    "parity_eight/measurements.json": "b67703ac254d5dfc0d7a615312c9cefb31bccfa312fd5eefdaaead57460624f5"
+  },
+  "row_count": 328,
+  "status_counts": {
+    "completed": 289,
+    "failed": 5,
+    "timeout": 4,
+    "unsupported": 30
+  },
+  "row_transform": "Only prefix supplemental/ or parity_eight/ to appended directory paths. No numerical values, runtimes, original statuses or original monitor text changed.",
+  "source_note": "Initial runner exact snapshot not retained; environment keeps source-at-start hash. Later source snapshots identified by hash are retained. Numerical solver source unchanged.",
+  "resource_note": "Sandbox denied parent ps monitor. Later sampled child RSS guard was validated; early normal-exit high-water measurements do not prove cap enforcement.",
+  "verification": "Each immutable source table checksum retained. No overlapping or duplicate constituent table is included twice."
+}

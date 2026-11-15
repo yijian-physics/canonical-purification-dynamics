@@ -1,0 +1,113 @@
+{
+  "baseline_commit": "cdd8e549f2f8a416446a549b56fa11cbaafeece4",
+  "files": {
+    "factor_tdvp/report.md": {
+      "formula_count_before": 173,
+      "formula_count_after": 173,
+      "display_count": 23,
+      "inline_count": 150,
+      "math_content_preserved": true,
+      "math_mismatches": [],
+      "prose_unchanged_except_navigation_and_number_transfer": true,
+      "numerical_token_sequence_preserved_except_number_transfer": true,
+      "equation_numbers_before": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "equation_numbers_after": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "equation_numbers_preserved": true,
+      "live_github": {
+        "url": "https://github.com/xiaoyanghuangphys-create/canonical-purification-dynamics/blob/research/factor-tdvp-benchmarks/factor_tdvp/report.md#recorded-small-experiments",
+        "renderers": 173,
+        "all_tex_matches_current_source": true,
+        "tex_mismatches": [],
+        "math_nodes_present": 173,
+        "rendered_text_and_dimensions_nonempty": true,
+        "missing_math_nodes": 0,
+        "literal_unrendered_expressions": [],
+        "table_column_counts": [
+          5,
+          4,
+          3,
+          2
+        ],
+        "all_table_rows_have_expected_columns": true,
+        "dom_normalization": "Whitespace and the extra backslash inserted by GitHub before multiline TeX line-break whitespace only."
+      }
+    },
+    "factor_tdvp_comparison/report.md": {
+      "formula_count_before": 183,
+      "formula_count_after": 183,
+      "display_count": 2,
+      "inline_count": 181,
+      "math_content_preserved": true,
+      "math_mismatches": [],
+      "prose_unchanged_except_navigation_and_number_transfer": true,
+      "numerical_token_sequence_preserved_except_number_transfer": true,
+      "equation_numbers_before": [],
+      "equation_numbers_after": [],
+      "equation_numbers_preserved": true,
+      "live_github": {
+        "url": "https://github.com/xiaoyanghuangphys-create/canonical-purification-dynamics/blob/research/factor-tdvp-benchmarks/factor_tdvp_comparison/report.md#experimental-definitions-and-fair-comparison",
+        "renderers": 183,
+        "all_tex_matches_current_source": true,
+        "tex_mismatches": [],
+        "math_nodes_present": 183,
+        "rendered_text_and_dimensions_nonempty": true,
+        "missing_math_nodes": 0,
+        "literal_unrendered_expressions": [],
+        "table_column_counts": [
+          3,
+          5,
+          5,
+          6,
+          3,
+          5,
+          4
+        ],
+        "all_table_rows_have_expected_columns": true,
+        "dom_normalization": "Whitespace and the extra backslash inserted by GitHub before multiline TeX line-break whitespace only."
+      }
+    },
+    "README.md": {
+      "formula_count_before": 3,
+      "formula_count_after": 3,
+      "display_count": 0,
+      "inline_count": 3,
+      "math_content_preserved": true,
+      "math_mismatches": [],
+      "prose_unchanged_except_navigation_and_number_transfer": true,
+      "numerical_token_sequence_preserved_except_number_transfer": true,
+      "equation_numbers_before": [],
+      "equation_numbers_after": [],
+      "equation_numbers_preserved": true,
+      "live_github": {
+        "url": "https://github.com/xiaoyanghuangphys-create/canonical-purification-dynamics/blob/research/factor-tdvp-benchmarks/README.md",
+        "math_nodes_present": 3,
+        "missing_math_nodes": 0,
+        "literal_unrendered_expressions": []
+      }
+    }
+  },
+  "limitations": "Source preservation and complete live GitHub DOM audit complement, but do not replace, the separate visual screenshot review.",
+  "verified_markdown_commit": "bcbcc31ef7fe073d31bd9ecbcb9f168e760e5c7c"
+}

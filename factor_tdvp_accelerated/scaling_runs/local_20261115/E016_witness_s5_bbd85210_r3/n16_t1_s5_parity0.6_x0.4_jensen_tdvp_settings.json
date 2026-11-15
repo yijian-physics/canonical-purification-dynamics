@@ -1,0 +1,33 @@
+{
+  "n": 16,
+  "times": [
+    0.2,
+    0.4,
+    0.6000000000000001,
+    0.8,
+    1.0
+  ],
+  "levels": [
+    [
+      4,
+      6,
+      8
+    ],
+    [
+      6,
+      8,
+      12
+    ]
+  ],
+  "tolerance": 1e-05,
+  "passes": 8,
+  "family": "parity",
+  "noise": "dephasing",
+  "tdvp": true,
+  "jensen": true,
+  "transport": false,
+  "local_correction": false,
+  "max_halvings": 0,
+  "polarization": null,
+  "angle": null
+}

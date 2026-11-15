@@ -1,0 +1,9 @@
+test_existing_remote_run_collision_fails_without_overwrite (test_publish_benchmark_results.PublicationIntegrationTests) ... ok
+test_failed_push_preserves_local_commit_and_partial_raw_files (test_publish_benchmark_results.PublicationIntegrationTests) ... ok
+test_remote_advance_during_push_rebases_without_losing_logs (test_publish_benchmark_results.PublicationIntegrationTests) ... ok
+test_unrelated_tracked_edits_are_not_published (test_publish_benchmark_results.PublicationIntegrationTests) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 3.353s
+
+OK

@@ -1,0 +1,10 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "matplotlib": "3.10.8",
+  "base_commit": "4af4c9f9d9f5dbc03e896508592563abb2a74839",
+  "recovered_factor_commit": "a93549e2cc7a962ca686ac8b377dd815c92e102d",
+  "repository": "xiaoyanghuangphys-create/canonical-purification-dynamics",
+  "timing_caveat": "Single samples; some workers ran concurrently. Profiling adds overhead. These are observed wall times, not isolated-machine speed guarantees."
+}

@@ -1,0 +1,13 @@
+n3_t0.1_s5_p0.12_a0.35_jensen start 0.0 2.8123277697398215e-15
+n3_t0.1_s5_p0.12_a0.35_jensen endpoint 0.0 True 2.8123277697398215e-15 1.2509056511015721e-15 seconds 0.0019917909999999928
+n3_t0.1_s5_p0.12_a0.35_jensen start 0.02 0.00189733014262287
+n3_t0.1_s5_p0.12_a0.35_jensen endpoint 0.02 True 1.3263321991131718e-07 6.487117395859552e-08 seconds 0.008862041000000015
+n3_t0.1_s5_p0.12_a0.35_jensen start 0.04 0.001833571633649207
+n3_t0.1_s5_p0.12_a0.35_jensen endpoint 0.04 True 1.4770756597931855e-07 7.224144562123399e-08 seconds 0.015109499999999998
+n3_t0.1_s5_p0.12_a0.35_jensen start 0.06 0.0017721594202577532
+n3_t0.1_s5_p0.12_a0.35_jensen endpoint 0.06 True 1.733338214800686e-07 8.478164650372524e-08 seconds 0.021278291000000005
+n3_t0.1_s5_p0.12_a0.35_jensen start 0.08 0.0017131005606638408
+n3_t0.1_s5_p0.12_a0.35_jensen endpoint 0.08 True 2.0630938206695407e-07 1.0094831447502104e-07 seconds 0.027450791000000002
+n3_t0.1_s5_p0.12_a0.35_jensen start 0.1 0.0016563002007802215
+n3_t0.1_s5_p0.12_a0.35_jensen endpoint 0.1 True 2.443429288594663e-07 1.1962553117838406e-07 seconds 0.033545666
+{"kind": "trajectory", "family": "D", "n": 3, "method": "correction_only", "tolerance": 1e-05, "steps": 5, "status": "completed", "time": 0.1, "reached_time": 0.1, "global_cp_error": 1.1962553117838406e-07, "global_cp_bound": 2.443429288594663e-07, "density_error": 8.320109831911883e-08, "normalization_defect": 6.661338147750939e-16, "h_bond": 4, "x_bond": 4, "total_seconds": 0.03539070799999999, "native_combined_seconds": 0.03443375000000001, "scoring_seconds": 0.0006472919999999938, "peak_process_memory_mib": 45.328125, "time_grid": [0.02, 0.04, 0.06, 0.08, 0.1], "used_predictions": 0, "certificate_kind": "independent_density_inverse_metric_bound_float_evaluation", "timing_categories_overlap": true, "timing_note": "reference calls may be nested in predictor/certificate; native time includes initialization, I/O and internal exact scoring", "reference_seconds": 0.00027008099999994983, "certificate_seconds": 0.01012512499999993, "prediction_seconds": 0.0, "correction_seconds": 0.010227083000000026}

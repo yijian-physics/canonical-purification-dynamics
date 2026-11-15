@@ -1,0 +1,27 @@
+% Shared layout for the two research notes.
+\usepackage[dvipsnames]{xcolor}
+\usepackage{microtype}
+\usepackage{fvextra}
+\usepackage{etoolbox}
+\usepackage{needspace}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{xurl}
+\usepackage{array}
+\DefineVerbatimEnvironment{verbatim}{Verbatim}{breaklines=true,breakanywhere=true,fontsize=\small}
+\RecustomVerbatimEnvironment{Verbatim}{Verbatim}{breaklines=true,breakanywhere=true,fontsize=\small}
+\setlength{\emergencystretch}{3em}
+\setlength{\parskip}{0.42em}
+\setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.16}
+\AtBeginEnvironment{longtable}{\small}
+\pretocmd{\section}{\needspace{5\baselineskip}}{}{}
+\pretocmd{\subsection}{\needspace{4\baselineskip}}{}{}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\sffamily Canonical-purification dynamics}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.25pt}
+\setlength{\headheight}{14pt}
+\allowdisplaybreaks[1]

@@ -1,0 +1,11 @@
+n3_t0.1_s4_p0.12_a0.35_jensen_tdvp start 0.0 2.8123277697398215e-15
+n3_t0.1_s4_p0.12_a0.35_jensen_tdvp endpoint 0.0 True 2.8123277697398215e-15 1.2509056511015721e-15 seconds 0.016861666999999997
+n3_t0.1_s4_p0.12_a0.35_jensen_tdvp start 0.005 2.7133586772345682e-08
+n3_t0.1_s4_p0.12_a0.35_jensen_tdvp endpoint 0.005 True 2.7133586772345682e-08 1.3272373838328939e-08 seconds 0.042680124999999985
+n3_t0.1_s4_p0.12_a0.35_jensen_tdvp start 0.02 2.6995953081316736e-07
+n3_t0.1_s4_p0.12_a0.35_jensen_tdvp endpoint 0.02 True 2.6995953081316736e-07 1.322451889462938e-07 seconds 0.06012462499999999
+n3_t0.1_s4_p0.12_a0.35_jensen_tdvp start 0.05 1.809262782212e-06
+n3_t0.1_s4_p0.12_a0.35_jensen_tdvp endpoint 0.05 True 1.809262782212e-06 8.868956056843526e-07 seconds 0.07699724999999999
+n3_t0.1_s4_p0.12_a0.35_jensen_tdvp start 0.1 8.083692680729646e-06
+n3_t0.1_s4_p0.12_a0.35_jensen_tdvp endpoint 0.1 True 8.083692680729646e-06 3.962635561083894e-06 seconds 0.093750959
+{"kind": "trajectory", "family": "D", "n": 3, "method": "witness", "tolerance": 0.001, "status": "completed", "time": 0.1, "reached_time": 0.1, "global_cp_error": 3.962635561083894e-06, "global_cp_bound": 8.083692680729646e-06, "density_error": 2.8136679143605266e-06, "normalization_defect": 0.0, "h_bond": 4, "x_bond": 4, "total_seconds": 0.09612979200000002, "native_combined_seconds": 0.09462650000000003, "scoring_seconds": 0.001171874999999989, "peak_process_memory_mib": 50.75, "time_grid": [0.005, 0.02, 0.05, 0.1], "used_predictions": 4, "certificate_kind": "independent_density_inverse_metric_bound_float_evaluation", "timing_categories_overlap": true, "timing_note": "reference calls may be nested in predictor/certificate; native time includes initialization, I/O and internal exact scoring", "reference_seconds": 0.0002355819999999842, "certificate_seconds": 0.008965581999999972, "prediction_seconds": 0.040525792000000005, "correction_seconds": 0.0}
