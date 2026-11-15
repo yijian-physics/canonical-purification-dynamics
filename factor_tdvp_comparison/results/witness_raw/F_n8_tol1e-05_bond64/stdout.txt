@@ -1,0 +1,9 @@
+trajectory_n8_chi64_s8_correct1 1 2.5243202636504904e-06 5.920475154209761e-06
+trajectory_n8_chi64_s8_correct1 2 3.415943605532352e-06 7.93057029071667e-06
+trajectory_n8_chi64_s8_correct1 3 4.118326490335398e-06 9.461733294065697e-06
+trajectory_n8_chi64_s8_correct1 4 4.670346099549398e-06 1.0810900622197222e-05
+trajectory_n8_chi64_s8_correct1 5 5.089372261467619e-06 1.1899154666992884e-05
+trajectory_n8_chi64_s8_correct1 6 5.327866956035844e-06 1.2604417147856273e-05
+trajectory_n8_chi64_s8_correct1 7 5.205173587217835e-06 1.2337554867279441e-05
+trajectory_n8_chi64_s8_correct1 8 4.920535544440589e-06 1.1947940645616492e-05
+{"benchmark": "F", "method": "corrected_root_tdvp", "n": 8, "status": "success", "global_cp_error": 4.920535544440589e-06, "global_cp_bound": 1.1947940645616492e-05, "error_kind": "measured_global_and_analytic_bound", "density_error": null, "time": 0.3, "dt": null, "seed_time": 0.01, "steps": 8, "h_bond": null, "x_bond": 64, "x_bond_limit": 64, "accepted_steps": 8, "rejected_steps": 0, "rank_events": 1, "setup_seconds": null, "evolution_seconds": null, "scoring_seconds": null, "native_combined_seconds": 7.8826079079999545, "native_includes_scoring": true, "timing_scope": "setup_evolution_correction_and_scoring_combined", "command": "python scalable_cp_witness/code/cp_accuracy_refinement.py trajectory --n 8 --bond 64 --intervals 8 --out factor_tdvp_comparison/results/witness_raw/F_n8_tol1e-05_bond64", "worker_total_seconds": 7.882941321000089, "peak_rss_mb": 147.09375}

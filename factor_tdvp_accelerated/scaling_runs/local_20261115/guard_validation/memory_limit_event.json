@@ -1,0 +1,6 @@
+{
+  "status": "memory_limit",
+  "peak_process_memory_mib": 43.609375,
+  "limit_mib": 1.0,
+  "interval_seconds": 0.25
+}

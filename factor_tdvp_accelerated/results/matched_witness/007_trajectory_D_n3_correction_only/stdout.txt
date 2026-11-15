@@ -1,0 +1,23 @@
+n3_t0.1_s10_p0.12_a0.35_jensen start 0.0 2.8123277697398215e-15
+n3_t0.1_s10_p0.12_a0.35_jensen endpoint 0.0 True 2.8123277697398215e-15 1.2509056511015721e-15 seconds 0.0020037910000000048
+n3_t0.1_s10_p0.12_a0.35_jensen start 0.01 0.0009567979123082785
+n3_t0.1_s10_p0.12_a0.35_jensen endpoint 0.01 True 0.0009567979123082785 0.00047120455088684317 seconds 0.003979040999999989
+n3_t0.1_s10_p0.12_a0.35_jensen start 0.02 0.00189733014262287
+n3_t0.1_s10_p0.12_a0.35_jensen endpoint 0.02 True 1.414417059522617e-05 6.923655653447561e-06 seconds 0.007917625000000011
+n3_t0.1_s10_p0.12_a0.35_jensen start 0.03 0.0009123387900549438
+n3_t0.1_s10_p0.12_a0.35_jensen endpoint 0.03 True 0.0009123387900549438 0.00044934402606994233 seconds 0.009474416000000013
+n3_t0.1_s10_p0.12_a0.35_jensen start 0.04 0.001821249392054595
+n3_t0.1_s10_p0.12_a0.35_jensen endpoint 0.04 True 1.424021314876174e-05 6.978387325350425e-06 seconds 0.013381458000000013
+n3_t0.1_s10_p0.12_a0.35_jensen start 0.05 0.0008815833505423099
+n3_t0.1_s10_p0.12_a0.35_jensen endpoint 0.05 True 0.0008815833505423099 0.00043417555859764196 seconds 0.014905583
+n3_t0.1_s10_p0.12_a0.35_jensen start 0.06 0.0017600807669566673
+n3_t0.1_s10_p0.12_a0.35_jensen endpoint 0.06 True 1.4853497829932082e-05 7.290302774803659e-06 seconds 0.018698957999999988
+n3_t0.1_s10_p0.12_a0.35_jensen start 0.07 0.000851954309297159
+n3_t0.1_s10_p0.12_a0.35_jensen endpoint 0.07 True 0.000851954309297159 0.0004195698168824696 seconds 0.020266375000000003
+n3_t0.1_s10_p0.12_a0.35_jensen start 0.08 0.0017011956342313577
+n3_t0.1_s10_p0.12_a0.35_jensen endpoint 0.08 True 1.5696013994603504e-05 7.71581001897798e-06 seconds 0.024087250000000004
+n3_t0.1_s10_p0.12_a0.35_jensen start 0.09 0.000823502906998676
+n3_t0.1_s10_p0.12_a0.35_jensen endpoint 0.09 True 0.000823502906998676 0.0004055503171229657 seconds 0.02568204099999999
+n3_t0.1_s10_p0.12_a0.35_jensen start 0.1 0.0016445999010111657
+n3_t0.1_s10_p0.12_a0.35_jensen endpoint 0.1 True 1.6650020189888046e-05 8.19565590472081e-06 seconds 0.029568665999999993
+{"kind": "trajectory", "family": "D", "n": 3, "method": "correction_only", "tolerance": 0.001, "steps": 10, "status": "completed", "time": 0.1, "reached_time": 0.1, "global_cp_error": 8.19565590472081e-06, "global_cp_bound": 1.6650020189888046e-05, "density_error": 5.7304768680626745e-06, "normalization_defect": 0.0, "h_bond": 4, "x_bond": 4, "total_seconds": 0.031518041999999996, "native_combined_seconds": 0.030490083, "scoring_seconds": 0.0006811669999999825, "peak_process_memory_mib": 45.09375, "time_grid": [0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.1], "used_predictions": 0, "certificate_kind": "independent_density_inverse_metric_bound_float_evaluation", "timing_categories_overlap": true, "timing_note": "reference calls may be nested in predictor/certificate; native time includes initialization, I/O and internal exact scoring", "reference_seconds": 0.0004834999999999423, "certificate_seconds": 0.010403038999999975, "prediction_seconds": 0.0, "correction_seconds": 0.005280416999999982}

@@ -1,0 +1,32 @@
+{
+  "command": [
+    "/Users/xiaoyanghuang/Documents/ChatGPT/Tensor Network study/canonical-purification-dynamics/factor_tdvp_accelerated/repeated_scaling.py",
+    "--suite",
+    "parity_eight",
+    "--out",
+    "factor_tdvp_accelerated/scaling_runs/local_20261115/parity_eight",
+    "--timeout",
+    "45",
+    "--memory-mib",
+    "2048",
+    "--budget",
+    "140"
+  ],
+  "python": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+  "numpy": "2.0.2",
+  "scipy": "1.13.1",
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "hardware": {
+    "hw.model": "unavailable",
+    "hw.memsize": "unavailable",
+    "machdep.cpu.brand_string": "unavailable"
+  },
+  "blas": [],
+  "blas_threads": 1,
+  "timeout_seconds": 45.0,
+  "rss_limit_mib": 2048.0,
+  "source_sha256": {
+    "repeated_scaling.py": "7609cf3733072f6bb5b28d42286ef65a9187d6bbe2408412cb0774bc7c47996b",
+    "matrix_free_solver.py": "db47cc315503747d1c60e15500b3c86a104503c2432cd25a505edab5f3626de0"
+  }
+}

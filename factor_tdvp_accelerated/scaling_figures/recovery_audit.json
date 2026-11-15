@@ -1,0 +1,7637 @@
+{
+  "run_id": 43745844867,
+  "artifact_id": 14174167664,
+  "archive_sha256": "b0a82dcb403875d5083fa49c8b0ca7e69574f7b652aa0d56874ac16baac065b0",
+  "files_checked": 165,
+  "case_count": 31,
+  "status_counts": {
+    "completed": 30,
+    "failed": 1
+  },
+  "all_original_hashes_match": true,
+  "failures": [],
+  "environment": {
+    "suite": "full",
+    "command": [
+      "/home/runner/work/canonical-purification-dynamics/canonical-purification-dynamics/factor_tdvp_accelerated/size_scaling.py",
+      "--suite",
+      "full",
+      "--out",
+      "factor_tdvp_accelerated/size_scaling_results",
+      "--timeout",
+      "90"
+    ],
+    "python": "3.11.18 (main, Oct 26 2026, 02:48:34) [GCC 13.3.0]",
+    "timeout_per_worker": 90.0,
+    "BLAS_threads": 1
+  },
+  "files": [
+    {
+      "path": "D003_correction_only_05_tol1e-05/measurement.json",
+      "bytes": 472,
+      "sha256": "ef1dcb93ae9053f93c3f33fb661cb0101de78941a612c5282f3edb36ebfa23a2",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 17
+    },
+    {
+      "path": "D003_correction_only_05_tol1e-05/n3_t0.1_s5_p0.12_a0.35_jensen.csv",
+      "bytes": 1342,
+      "sha256": "fd6df737a191052f63f18de66bf6324993c635f0c295c8692407f00add97c28e",
+      "unchanged": true,
+      "rows": 6
+    },
+    {
+      "path": "D003_correction_only_05_tol1e-05/n3_t0.1_s5_p0.12_a0.35_jensen_last_accepted.npz",
+      "bytes": 3358,
+      "sha256": "f35868e44d6388be94a43cdc4f81b32122b190b9a8f4981c549f7a4991db41d7",
+      "unchanged": true,
+      "arrays": {
+        "time": [],
+        "bound": [],
+        "g0": [
+          1,
+          4,
+          4
+        ],
+        "g1": [
+          4,
+          4,
+          4
+        ],
+        "g2": [
+          4,
+          4,
+          1
+        ],
+        "x0": [
+          1,
+          4,
+          4
+        ],
+        "x1": [
+          4,
+          4,
+          4
+        ],
+        "x2": [
+          4,
+          4,
+          1
+        ]
+      },
+      "all_finite": true
+    },
+    {
+      "path": "D003_correction_only_05_tol1e-05/n3_t0.1_s5_p0.12_a0.35_jensen_settings.json",
+      "bytes": 452,
+      "sha256": "7314229a117bc3c9f5464ec73587cd55b9521ebf68e3df6a089cb7f1fc663f54",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 14
+    },
+    {
+      "path": "D003_correction_only_05_tol1e-05/n3_t0.1_s5_p0.12_a0.35_jensen_trials.csv",
+      "bytes": 1515,
+      "sha256": "5223f8dec4af5b4c63432b2092638b39e7fe86f9c66a6338559ca96b64c2764c",
+      "unchanged": true,
+      "rows": 10
+    },
+    {
+      "path": "D003_correction_only_05_tol1e-05/stdout.txt",
+      "bytes": 1111,
+      "sha256": "d7bf527259bb092b97f655f9b84413634d15b2661c633b0db76caafc1f9542a2",
+      "unchanged": true,
+      "lines": 12,
+      "traceback_lines": []
+    },
+    {
+      "path": "D003_correction_only_05_tol1e-07/measurement.json",
+      "bytes": 474,
+      "sha256": "8ef9b19fb831e014064c209940e0f7e816f19981c99b6363ea42d203d2d9783a",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 17
+    },
+    {
+      "path": "D003_correction_only_05_tol1e-07/n3_t0.1_s5_p0.12_a0.35_jensen.csv",
+      "bytes": 1339,
+      "sha256": "abd17c483950e0f99c93e4e31c143d2dfa2bdd546fdbf72dced30ed68db44cff",
+      "unchanged": true,
+      "rows": 6
+    },
+    {
+      "path": "D003_correction_only_05_tol1e-07/n3_t0.1_s5_p0.12_a0.35_jensen_last_accepted.npz",
+      "bytes": 3351,
+      "sha256": "2f07e76fbe246c8b117e6d8cb66f8d46d2e23bab5f0182b7293a0f02b39b3e06",
+      "unchanged": true,
+      "arrays": {
+        "time": [],
+        "bound": [],
+        "g0": [
+          1,
+          4,
+          4
+        ],
+        "g1": [
+          4,
+          4,
+          4
+        ],
+        "g2": [
+          4,
+          4,
+          1
+        ],
+        "x0": [
+          1,
+          4,
+          4
+        ],
+        "x1": [
+          4,
+          4,
+          4
+        ],
+        "x2": [
+          4,
+          4,
+          1
+        ]
+      },
+      "all_finite": true
+    },
+    {
+      "path": "D003_correction_only_05_tol1e-07/n3_t0.1_s5_p0.12_a0.35_jensen_settings.json",
+      "bytes": 452,
+      "sha256": "b490a1c591620268c0a77a7a2fe527c759bc17a71e250568e182b47e41092730",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 14
+    },
+    {
+      "path": "D003_correction_only_05_tol1e-07/n3_t0.1_s5_p0.12_a0.35_jensen_trials.csv",
+      "bytes": 2199,
+      "sha256": "0eb7cc95d7b9eb763f8ce2ca9d83422c1f7900d51a93141c9aa362ade56f7858",
+      "unchanged": true,
+      "rows": 15
+    },
+    {
+      "path": "D003_correction_only_05_tol1e-07/stdout.txt",
+      "bytes": 1111,
+      "sha256": "fc97da1960f98830fd0e84f00c3e18defc4133254f6f8837afedfb8c751214d7",
+      "unchanged": true,
+      "lines": 12,
+      "traceback_lines": []
+    },
+    {
+      "path": "D003_matrix_free_05_tol0/measurement.json",
+      "bytes": 517,
+      "sha256": "cbe7078155b3b0b642932fb4cad5c540c7316ceb3297b8e366193e44a5d736eb",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 20
+    },
+    {
+      "path": "D003_matrix_free_05_tol0/solves.json",
+      "bytes": 81258,
+      "sha256": "978a8a968b59d4e8f2b165b6fc3dd902e0254b662ca1dd6d0b824761f092dd83",
+      "unchanged": true,
+      "json_kind": "list",
+      "entries": 10
+    },
+    {
+      "path": "D003_matrix_free_05_tol0/stdout.txt",
+      "bytes": 1719,
+      "sha256": "57cdf299bedfef8b366be1ce9eb8f07e18610e431b8fd1c31d495c62c108bd2b",
+      "unchanged": true,
+      "lines": 1,
+      "traceback_lines": []
+    },
+    {
+      "path": "D003_matrix_free_05_tol0/summary.json",
+      "bytes": 1823,
+      "sha256": "1fb0c129c3c0c2925d9f799590119320adab1a0b90f90debb073ac5731d1eaad",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 51
+    },
+    {
+      "path": "D003_matrix_free_05_tol0/trajectory.json",
+      "bytes": 4122,
+      "sha256": "0a6c35df1734f56736dc51b6338c74c65a38bc7cf388d21b682eeafb3c662220",
+      "unchanged": true,
+      "json_kind": "list",
+      "entries": 5
+    },
+    {
+      "path": "D003_matrix_free_10_tol0/measurement.json",
+      "bytes": 525,
+      "sha256": "617b4d6af4daa0c758e49923e20f5794bb4a8251ee7b6836a3c4261dd9143b33",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 20
+    },
+    {
+      "path": "D003_matrix_free_10_tol0/solves.json",
+      "bytes": 162722,
+      "sha256": "7315e56c2c34fb1c42940e45e668ccf625b2f53f7d3fd2f61d6c8d0fc2730c41",
+      "unchanged": true,
+      "json_kind": "list",
+      "entries": 20
+    },
+    {
+      "path": "D003_matrix_free_10_tol0/stdout.txt",
+      "bytes": 1725,
+      "sha256": "c2515bde771d889b48c34463bdc76d06f7fcd277946982869c426a1dc97be0c9",
+      "unchanged": true,
+      "lines": 1,
+      "traceback_lines": []
+    },
+    {
+      "path": "D003_matrix_free_10_tol0/summary.json",
+      "bytes": 1829,
+      "sha256": "f1057a602a41b4064609903c22af36055b9673da55f19b12260771f73e8a4b8c",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 51
+    },
+    {
+      "path": "D003_matrix_free_10_tol0/trajectory.json",
+      "bytes": 8201,
+      "sha256": "63cc157e54f705debf4754f73d6c95d03e25268c1f0d82d0d189a470503ffce4",
+      "unchanged": true,
+      "json_kind": "list",
+      "entries": 10
+    },
+    {
+      "path": "D003_matrix_free_20_tol0/measurement.json",
+      "bytes": 523,
+      "sha256": "b23907a5157bec274c33a4c7636210dcc9e66068d0c8eda46973a7e016c41768",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 20
+    },
+    {
+      "path": "D003_matrix_free_20_tol0/solves.json",
+      "bytes": 325455,
+      "sha256": "8344977fa36f347226825a2bb90c488b49923178363cf6d1eb11cc980a3eff8c",
+      "unchanged": true,
+      "json_kind": "list",
+      "entries": 40
+    },
+    {
+      "path": "D003_matrix_free_20_tol0/stdout.txt",
+      "bytes": 1745,
+      "sha256": "9fbf00bfd3996aee546807cd2ef328909be873134478aa987c52c20b97f7c3ff",
+      "unchanged": true,
+      "lines": 1,
+      "traceback_lines": []
+    },
+    {
+      "path": "D003_matrix_free_20_tol0/summary.json",
+      "bytes": 1849,
+      "sha256": "23dbda2a3d21c590ea24827b5c78ff1e0ec51a23b1fe1427e48a39913618cf96",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 51
+    },
+    {
+      "path": "D003_matrix_free_20_tol0/trajectory.json",
+      "bytes": 16503,
+      "sha256": "a1618734cff6bde0d756d2027ac55b6596f9be9d0bacb17b3bf0fa1522be11b7",
+      "unchanged": true,
+      "json_kind": "list",
+      "entries": 20
+    },
+    {
+      "path": "D003_root_05_tol0/measurement.json",
+      "bytes": 513,
+      "sha256": "13a3fc132225f34eb3e730c915dd0f4c6604c3c1169ed721795a61bc5575d38a",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 20
+    },
+    {
+      "path": "D003_root_05_tol0/stdout.txt",
+      "bytes": 1435,
+      "sha256": "6a9fd6721353a4551183d6d3d989d738af29681b003eb3966a5fb5cacd2c70ef",
+      "unchanged": true,
+      "lines": 1,
+      "traceback_lines": []
+    },
+    {
+      "path": "D003_root_05_tol0/summary.json",
+      "bytes": 1531,
+      "sha256": "c7ee25f6aae8e070efd81d59a70e237e3aa810ca824bf3d042a88cf2f6557ab6",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 47
+    },
+    {
+      "path": "D003_root_05_tol0/trajectory.json",
+      "bytes": 3693,
+      "sha256": "9066e27e36be28dffb9a7b86a73de28cf02070f5336946781656a4410657cd4c",
+      "unchanged": true,
+      "json_kind": "list",
+      "entries": 5
+    },
+    {
+      "path": "D003_root_10_tol0/measurement.json",
+      "bytes": 514,
+      "sha256": "348ceddcb4566432e62b8a4cd26ac9928eb17707969dbd0422af891216612484",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 20
+    },
+    {
+      "path": "D003_root_10_tol0/stdout.txt",
+      "bytes": 1440,
+      "sha256": "fdf9b51be841628410b8797473901d4d7770ae336312c8cc24f042a0222ed8ec",
+      "unchanged": true,
+      "lines": 1,
+      "traceback_lines": []
+    },
+    {
+      "path": "D003_root_10_tol0/summary.json",
+      "bytes": 1536,
+      "sha256": "8009b79528222078b5b3d3c3e00035c7aefc7107faa7bb5b3e5d9d402a01546d",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 47
+    },
+    {
+      "path": "D003_root_10_tol0/trajectory.json",
+      "bytes": 7348,
+      "sha256": "b84a7c9f89c51bb0d7bfafc5fd4f10ee3a39ac23d0436404ba738e1cae473ab4",
+      "unchanged": true,
+      "json_kind": "list",
+      "entries": 10
+    },
+    {
+      "path": "D003_root_20_tol0/measurement.json",
+      "bytes": 515,
+      "sha256": "8e96062b0843dbe856d60a986d9391c6c84c83af5a030a2b35440d842df4743a",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 20
+    },
+    {
+      "path": "D003_root_20_tol0/stdout.txt",
+      "bytes": 1440,
+      "sha256": "235595e4ae4f6f94aeddd703f386da09cbf9a9feb12cc5693b11c37ed9d42669",
+      "unchanged": true,
+      "lines": 1,
+      "traceback_lines": []
+    },
+    {
+      "path": "D003_root_20_tol0/summary.json",
+      "bytes": 1536,
+      "sha256": "789749336aea5f2d2b9586303b93a1adb51862301f6afca48001c680e4dcfa39",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 47
+    },
+    {
+      "path": "D003_root_20_tol0/trajectory.json",
+      "bytes": 14706,
+      "sha256": "27f6d3d74dec455b9357b88018092d3bf2342aefe8030670da279f7af90ef529",
+      "unchanged": true,
+      "json_kind": "list",
+      "entries": 20
+    },
+    {
+      "path": "D003_witness_05_tol1e-05/measurement.json",
+      "bytes": 458,
+      "sha256": "306b5ee0caf7c83c4b0943ad1221b65840c13f183b570210b15c91abdc27ba50",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 17
+    },
+    {
+      "path": "D003_witness_05_tol1e-05/n3_t0.1_s5_p0.12_a0.35_jensen_tdvp.csv",
+      "bytes": 1437,
+      "sha256": "b461ac65e0c9b87366c897f5932c8d31b26f6ea0d810a6bfebf2ef1d646f9925",
+      "unchanged": true,
+      "rows": 6
+    },
+    {
+      "path": "D003_witness_05_tol1e-05/n3_t0.1_s5_p0.12_a0.35_jensen_tdvp_last_accepted.npz",
+      "bytes": 3353,
+      "sha256": "9278d0e999fe950b686be8dd7e5a55ba5ca1b48eb7d4164fc15395ca888baa99",
+      "unchanged": true,
+      "arrays": {
+        "time": [],
+        "bound": [],
+        "g0": [
+          1,
+          4,
+          4
+        ],
+        "g1": [
+          4,
+          4,
+          4
+        ],
+        "g2": [
+          4,
+          4,
+          1
+        ],
+        "x0": [
+          1,
+          4,
+          4
+        ],
+        "x1": [
+          4,
+          4,
+          4
+        ],
+        "x2": [
+          4,
+          4,
+          1
+        ]
+      },
+      "all_finite": true
+    },
+    {
+      "path": "D003_witness_05_tol1e-05/n3_t0.1_s5_p0.12_a0.35_jensen_tdvp_settings.json",
+      "bytes": 451,
+      "sha256": "f333f007a2a0020a7b5100ee27be69ddeb90c61266dd61288133c121d7a9bede",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 14
+    },
+    {
+      "path": "D003_witness_05_tol1e-05/stdout.txt",
+      "bytes": 1166,
+      "sha256": "0143498f752a7d74a94c7779c1a536f8a761f2176d2a740a357b2901843cb0c6",
+      "unchanged": true,
+      "lines": 12,
+      "traceback_lines": []
+    },
+    {
+      "path": "D003_witness_05_tol1e-07/measurement.json",
+      "bytes": 458,
+      "sha256": "2c868035ce808bbc838f2a16d529afff4668b337ef831883c3e7bdfc41d129c4",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 17
+    },
+    {
+      "path": "D003_witness_05_tol1e-07/n3_t0.1_s5_p0.12_a0.35_jensen_tdvp.csv",
+      "bytes": 1430,
+      "sha256": "a60d288bd22526f8b190fed5aeb53b35af0381356f3ddb60dee4b3cf761aa115",
+      "unchanged": true,
+      "rows": 6
+    },
+    {
+      "path": "D003_witness_05_tol1e-07/n3_t0.1_s5_p0.12_a0.35_jensen_tdvp_last_accepted.npz",
+      "bytes": 3357,
+      "sha256": "76ac6a6a205c698dfc828e34166aed8916b0688c0921fa8871f5593a62e2cab3",
+      "unchanged": true,
+      "arrays": {
+        "time": [],
+        "bound": [],
+        "g0": [
+          1,
+          4,
+          4
+        ],
+        "g1": [
+          4,
+          4,
+          4
+        ],
+        "g2": [
+          4,
+          4,
+          1
+        ],
+        "x0": [
+          1,
+          4,
+          4
+        ],
+        "x1": [
+          4,
+          4,
+          4
+        ],
+        "x2": [
+          4,
+          4,
+          1
+        ]
+      },
+      "all_finite": true
+    },
+    {
+      "path": "D003_witness_05_tol1e-07/n3_t0.1_s5_p0.12_a0.35_jensen_tdvp_settings.json",
+      "bytes": 451,
+      "sha256": "5d1c90d47f6fc96a5816c906a03cf4ce3afbeadc4c46cfccecc6854e8377b53b",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 14
+    },
+    {
+      "path": "D003_witness_05_tol1e-07/n3_t0.1_s5_p0.12_a0.35_jensen_tdvp_trials.csv",
+      "bytes": 817,
+      "sha256": "1a15a5fd9bcd888ffe587ee737c81c4dead41c1464aa41b4ad419f172289f7e5",
+      "unchanged": true,
+      "rows": 5
+    },
+    {
+      "path": "D003_witness_05_tol1e-07/stdout.txt",
+      "bytes": 1168,
+      "sha256": "da9278374b7d7f3e3498cc33cb5d0e2dc1d376f4c9d488084fae76ffe5e1eba1",
+      "unchanged": true,
+      "lines": 12,
+      "traceback_lines": []
+    },
+    {
+      "path": "D004_correction_only_05_tol1e-05/measurement.json",
+      "bytes": 473,
+      "sha256": "76b8356ff8b2bf683ce16396ad57a5b52a83fee07e275057fd95045e01aa48d5",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 17
+    },
+    {
+      "path": "D004_correction_only_05_tol1e-05/n4_t0.1_s5_p0.12_a0.35_jensen.csv",
+      "bytes": 1350,
+      "sha256": "c031b53bd58bed3fc5b4f59f678fe810a73f94dce6923c542b8f586032252d04",
+      "unchanged": true,
+      "rows": 6
+    },
+    {
+      "path": "D004_correction_only_05_tol1e-05/n4_t0.1_s5_p0.12_a0.35_jensen_last_accepted.npz",
+      "bytes": 5561,
+      "sha256": "ba95d07d71f5496bb8b6f461e4cb6beef95ce0a11a46306e29f577d19eb29361",
+      "unchanged": true,
+      "arrays": {
+        "time": [],
+        "bound": [],
+        "g0": [
+          1,
+          4,
+          4
+        ],
+        "g1": [
+          4,
+          4,
+          4
+        ],
+        "g2": [
+          4,
+          4,
+          4
+        ],
+        "g3": [
+          4,
+          4,
+          1
+        ],
+        "x0": [
+          1,
+          4,
+          4
+        ],
+        "x1": [
+          4,
+          4,
+          6
+        ],
+        "x2": [
+          6,
+          4,
+          4
+        ],
+        "x3": [
+          4,
+          4,
+          1
+        ]
+      },
+      "all_finite": true
+    },
+    {
+      "path": "D004_correction_only_05_tol1e-05/n4_t0.1_s5_p0.12_a0.35_jensen_settings.json",
+      "bytes": 452,
+      "sha256": "e70f751805fb020b2c1d5b66482fc2218d912d5d4897b7315ce2cf9d0b8fcf6f",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 14
+    },
+    {
+      "path": "D004_correction_only_05_tol1e-05/n4_t0.1_s5_p0.12_a0.35_jensen_trials.csv",
+      "bytes": 1502,
+      "sha256": "1301944c92a70317b12d3a149a4f8d7c0007ff394116f0bd4453267aca9f77d9",
+      "unchanged": true,
+      "rows": 10
+    },
+    {
+      "path": "D004_correction_only_05_tol1e-05/stdout.txt",
+      "bytes": 1107,
+      "sha256": "ab5c188ca50a71f14894e3b96d6137d38cd1ea3ea17208d8a5512c8f0a221f64",
+      "unchanged": true,
+      "lines": 12,
+      "traceback_lines": []
+    },
+    {
+      "path": "D004_correction_only_05_tol1e-07/measurement.json",
+      "bytes": 468,
+      "sha256": "46e8e7f2fff39f60c606032a3c923c3865cd20355def9f4857c22e2fa12c78f2",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 17
+    },
+    {
+      "path": "D004_correction_only_05_tol1e-07/n4_t0.1_s5_p0.12_a0.35_jensen.csv",
+      "bytes": 1344,
+      "sha256": "95661aad8368d7eeaf54ecd50c78fb7f0cbc3616620f50ca8a745d502e8bb6d6",
+      "unchanged": true,
+      "rows": 6
+    },
+    {
+      "path": "D004_correction_only_05_tol1e-07/n4_t0.1_s5_p0.12_a0.35_jensen_last_accepted.npz",
+      "bytes": 6730,
+      "sha256": "8a1a3cd977710d79a8ef2b0a3ba8deede48e09f958e053231faec4625e0c7f26",
+      "unchanged": true,
+      "arrays": {
+        "time": [],
+        "bound": [],
+        "g0": [
+          1,
+          4,
+          4
+        ],
+        "g1": [
+          4,
+          4,
+          6
+        ],
+        "g2": [
+          6,
+          4,
+          4
+        ],
+        "g3": [
+          4,
+          4,
+          1
+        ],
+        "x0": [
+          1,
+          4,
+          4
+        ],
+        "x1": [
+          4,
+          4,
+          8
+        ],
+        "x2": [
+          8,
+          4,
+          4
+        ],
+        "x3": [
+          4,
+          4,
+          1
+        ]
+      },
+      "all_finite": true
+    },
+    {
+      "path": "D004_correction_only_05_tol1e-07/n4_t0.1_s5_p0.12_a0.35_jensen_settings.json",
+      "bytes": 452,
+      "sha256": "ab0c8ec9613040285bb94ca1a89d5a6bcc8ea04c8ba30a93474274615a9ffb65",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 14
+    },
+    {
+      "path": "D004_correction_only_05_tol1e-07/n4_t0.1_s5_p0.12_a0.35_jensen_trials.csv",
+      "bytes": 6115,
+      "sha256": "8f5a71b21b0e059afb03b0cb7cfba7255a67e6a1ef5a639b2012c4a1f423dd3e",
+      "unchanged": true,
+      "rows": 44
+    },
+    {
+      "path": "D004_correction_only_05_tol1e-07/stdout.txt",
+      "bytes": 1101,
+      "sha256": "049f5928ec249cfc2ae250e422c00badb3e221dda9dd76c88086177fc7a7bd7f",
+      "unchanged": true,
+      "lines": 12,
+      "traceback_lines": []
+    },
+    {
+      "path": "D004_matrix_free_05_tol0/measurement.json",
+      "bytes": 526,
+      "sha256": "7286316b457d7f7e1a40b228020baf0d4155151e1d9a9578f00e8b5082dbc346",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 20
+    },
+    {
+      "path": "D004_matrix_free_05_tol0/solves.json",
+      "bytes": 198150,
+      "sha256": "73970a4a1de4162b33a13f86d26c5f0942e7412d9a1a0efd924b38308b1cb7a6",
+      "unchanged": true,
+      "json_kind": "list",
+      "entries": 10
+    },
+    {
+      "path": "D004_matrix_free_05_tol0/stdout.txt",
+      "bytes": 1744,
+      "sha256": "b07e0c9ecc9208b240c538e0f670b52e0429ebb4e1630f83dd5cca02f6a4ddd9",
+      "unchanged": true,
+      "lines": 1,
+      "traceback_lines": []
+    },
+    {
+      "path": "D004_matrix_free_05_tol0/summary.json",
+      "bytes": 1848,
+      "sha256": "99095170c22eaf508e552ba3c3919bb9a2c20c9f6f5f69e6077c4f1f79fef19c",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 51
+    },
+    {
+      "path": "D004_matrix_free_05_tol0/trajectory.json",
+      "bytes": 4119,
+      "sha256": "86d0410d51265a56c31ebe6234bd61d86e1614fe43361ae8a3a23e0260bfba3f",
+      "unchanged": true,
+      "json_kind": "list",
+      "entries": 5
+    },
+    {
+      "path": "D004_matrix_free_10_tol0/measurement.json",
+      "bytes": 525,
+      "sha256": "f368af5238d13fdc6fcaf99c3ac5d5093caa7bd3327c7b8c62aaf32855965492",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 20
+    },
+    {
+      "path": "D004_matrix_free_10_tol0/solves.json",
+      "bytes": 402416,
+      "sha256": "41be27253a1818c6f7cf22738dfa9fd311d0caca27f4a828b3a9e744d7ffecfc",
+      "unchanged": true,
+      "json_kind": "list",
+      "entries": 20
+    },
+    {
+      "path": "D004_matrix_free_10_tol0/stdout.txt",
+      "bytes": 1719,
+      "sha256": "0ef632d1b44343884beb7c82669109c30cbd0efe157593f0354edaa8aaae80b8",
+      "unchanged": true,
+      "lines": 1,
+      "traceback_lines": []
+    },
+    {
+      "path": "D004_matrix_free_10_tol0/summary.json",
+      "bytes": 1823,
+      "sha256": "5fe2c820a3f54fc9a66db898cfe2fd6fb140a4cbadd6f196e78138da528259ac",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 51
+    },
+    {
+      "path": "D004_matrix_free_10_tol0/trajectory.json",
+      "bytes": 8262,
+      "sha256": "93a7c4009228e5e91089eb5ae02ca5c0ecaf48ac71b32f900d292cfab03a8f07",
+      "unchanged": true,
+      "json_kind": "list",
+      "entries": 10
+    },
+    {
+      "path": "D004_root_05_tol0/measurement.json",
+      "bytes": 516,
+      "sha256": "c2235fccd5203518a24760de06b1639fa5dcf2e34a652c99430a5ebbaf493403",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 20
+    },
+    {
+      "path": "D004_root_05_tol0/stdout.txt",
+      "bytes": 1424,
+      "sha256": "4737d402e7d6b7d0cd57de3b1c7b5492f42e30e862c78a65aef59f114ba4d527",
+      "unchanged": true,
+      "lines": 1,
+      "traceback_lines": []
+    },
+    {
+      "path": "D004_root_05_tol0/summary.json",
+      "bytes": 1520,
+      "sha256": "637665ed69d4b7c77aa5b740b37de8ecf93ef2f96ab73ce647a6da85a5de3acd",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 47
+    },
+    {
+      "path": "D004_root_05_tol0/trajectory.json",
+      "bytes": 3674,
+      "sha256": "809618d00559278c614c75c3b11bb2dc6ce57dd2f046e589285596c9dc8ce479",
+      "unchanged": true,
+      "json_kind": "list",
+      "entries": 5
+    },
+    {
+      "path": "D004_root_10_tol0/measurement.json",
+      "bytes": 517,
+      "sha256": "4cfea4f8d82fdef2abb8bcdd3ed0603f8ac165e84c2593a8c59af49eaf8a1a7f",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 20
+    },
+    {
+      "path": "D004_root_10_tol0/stdout.txt",
+      "bytes": 1445,
+      "sha256": "e059161511355de03b5bddc1a27db7e6e1abf9ff32c6c252123f32572c56d5dd",
+      "unchanged": true,
+      "lines": 1,
+      "traceback_lines": []
+    },
+    {
+      "path": "D004_root_10_tol0/summary.json",
+      "bytes": 1541,
+      "sha256": "46ec1342965628e79cc675af877ed020db28edfa01a005e2d18eac01d5e7de6d",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 47
+    },
+    {
+      "path": "D004_root_10_tol0/trajectory.json",
+      "bytes": 7371,
+      "sha256": "70c21534f90004393a28ec8f63d84fe1aaaa7fe84349a00e4632ee2f7f1cd4af",
+      "unchanged": true,
+      "json_kind": "list",
+      "entries": 10
+    },
+    {
+      "path": "D004_witness_05_tol1e-05/measurement.json",
+      "bytes": 457,
+      "sha256": "64b0ff08c454d194845205b5747f6dac9ded86bc055b15770afc446bae3de36c",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 17
+    },
+    {
+      "path": "D004_witness_05_tol1e-05/n4_t0.1_s5_p0.12_a0.35_jensen_tdvp.csv",
+      "bytes": 1454,
+      "sha256": "cc9cce9cabc2d5934e05cf3721327656e7c5dea3f83fe11b4b09ed6f27768d9b",
+      "unchanged": true,
+      "rows": 6
+    },
+    {
+      "path": "D004_witness_05_tol1e-05/n4_t0.1_s5_p0.12_a0.35_jensen_tdvp_last_accepted.npz",
+      "bytes": 5563,
+      "sha256": "9e1f10a4fca6251553220536bdb42b8ce954f1cd4ae49e2eb03a9612cfce2544",
+      "unchanged": true,
+      "arrays": {
+        "time": [],
+        "bound": [],
+        "g0": [
+          1,
+          4,
+          4
+        ],
+        "g1": [
+          4,
+          4,
+          4
+        ],
+        "g2": [
+          4,
+          4,
+          4
+        ],
+        "g3": [
+          4,
+          4,
+          1
+        ],
+        "x0": [
+          1,
+          4,
+          4
+        ],
+        "x1": [
+          4,
+          4,
+          6
+        ],
+        "x2": [
+          6,
+          4,
+          4
+        ],
+        "x3": [
+          4,
+          4,
+          1
+        ]
+      },
+      "all_finite": true
+    },
+    {
+      "path": "D004_witness_05_tol1e-05/n4_t0.1_s5_p0.12_a0.35_jensen_tdvp_settings.json",
+      "bytes": 451,
+      "sha256": "522cbac4d286dff7d2d941defefe697245a2d0b8119b77ca5c917a0250238a89",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 14
+    },
+    {
+      "path": "D004_witness_05_tol1e-05/stdout.txt",
+      "bytes": 1168,
+      "sha256": "57a30071d4f9a16c45b495ee86372b896590b25bc3d948f41838aa3ac8203c62",
+      "unchanged": true,
+      "lines": 12,
+      "traceback_lines": []
+    },
+    {
+      "path": "D004_witness_05_tol1e-07/measurement.json",
+      "bytes": 456,
+      "sha256": "904418fef5792a881d7af2e164087ef8fbe4b59171a3711c373c5ebd5c4157cc",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 17
+    },
+    {
+      "path": "D004_witness_05_tol1e-07/n4_t0.1_s5_p0.12_a0.35_jensen_tdvp.csv",
+      "bytes": 1443,
+      "sha256": "7d074e29e9be2903a628440bbffeccfa61cc3e32a03cd949693336e10402bae9",
+      "unchanged": true,
+      "rows": 6
+    },
+    {
+      "path": "D004_witness_05_tol1e-07/n4_t0.1_s5_p0.12_a0.35_jensen_tdvp_last_accepted.npz",
+      "bytes": 6727,
+      "sha256": "8ff050abf053c6094990a11e138aae346f59da478fe8e8fec1a6184ed4bb7729",
+      "unchanged": true,
+      "arrays": {
+        "time": [],
+        "bound": [],
+        "g0": [
+          1,
+          4,
+          4
+        ],
+        "g1": [
+          4,
+          4,
+          6
+        ],
+        "g2": [
+          6,
+          4,
+          4
+        ],
+        "g3": [
+          4,
+          4,
+          1
+        ],
+        "x0": [
+          1,
+          4,
+          4
+        ],
+        "x1": [
+          4,
+          4,
+          8
+        ],
+        "x2": [
+          8,
+          4,
+          4
+        ],
+        "x3": [
+          4,
+          4,
+          1
+        ]
+      },
+      "all_finite": true
+    },
+    {
+      "path": "D004_witness_05_tol1e-07/n4_t0.1_s5_p0.12_a0.35_jensen_tdvp_settings.json",
+      "bytes": 451,
+      "sha256": "79fc697ff48f8ce6ee1a342cee40c3befb3dd651806239dd4b6bcf8c045c78a9",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 14
+    },
+    {
+      "path": "D004_witness_05_tol1e-07/n4_t0.1_s5_p0.12_a0.35_jensen_tdvp_trials.csv",
+      "bytes": 5433,
+      "sha256": "b572d35054ba051c31445f49abb58d6b146be3de3b2fb6fc23a20ef947df14a6",
+      "unchanged": true,
+      "rows": 39
+    },
+    {
+      "path": "D004_witness_05_tol1e-07/stdout.txt",
+      "bytes": 1162,
+      "sha256": "ad44614042b82870ae146b43db1d6df353fb76db4144d4f553d5118ff207b28b",
+      "unchanged": true,
+      "lines": 12,
+      "traceback_lines": []
+    },
+    {
+      "path": "D005_matrix_free_05_tol0/measurement.json",
+      "bytes": 525,
+      "sha256": "513017d5e8ee04cebbef00b198636f1576077cbbc0c5c9a88e4e9482995b708f",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 20
+    },
+    {
+      "path": "D005_matrix_free_05_tol0/solves.json",
+      "bytes": 179706,
+      "sha256": "580a7d2688b06c9ade9bcb112bf9dda5c0abdca3578361ece653ed85015e6161",
+      "unchanged": true,
+      "json_kind": "list",
+      "entries": 10
+    },
+    {
+      "path": "D005_matrix_free_05_tol0/stdout.txt",
+      "bytes": 1747,
+      "sha256": "219a5581eb298d5f25613b9a229195eacbccdab320b0a7cf13504e562670d549",
+      "unchanged": true,
+      "lines": 1,
+      "traceback_lines": []
+    },
+    {
+      "path": "D005_matrix_free_05_tol0/summary.json",
+      "bytes": 1851,
+      "sha256": "4fd48f7fca91bf146faf4cbf96a74568c5c85f5a99e6826617d4b83053707a6a",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 51
+    },
+    {
+      "path": "D005_matrix_free_05_tol0/trajectory.json",
+      "bytes": 4115,
+      "sha256": "b12d6f685561da7ab0bd14198d2cf02c94b1240a628ae205886b18e3f8b7538f",
+      "unchanged": true,
+      "json_kind": "list",
+      "entries": 5
+    },
+    {
+      "path": "D005_root_05_tol0/measurement.json",
+      "bytes": 513,
+      "sha256": "e82466c5f54ba5977508c2c344104effa1c182440e3ac90c5982b6b345bfc83c",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 20
+    },
+    {
+      "path": "D005_root_05_tol0/stdout.txt",
+      "bytes": 1437,
+      "sha256": "aa1ca424821dcb41dc8321085c22649faa26d95e085a9e78ccf31a231e5ddccd",
+      "unchanged": true,
+      "lines": 1,
+      "traceback_lines": []
+    },
+    {
+      "path": "D005_root_05_tol0/summary.json",
+      "bytes": 1533,
+      "sha256": "5164348354075e16be2e758c219756ea9b9aea64445e39da25edfee1b096a26c",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 47
+    },
+    {
+      "path": "D005_root_05_tol0/trajectory.json",
+      "bytes": 3720,
+      "sha256": "62edfce6d7f5fdb1a7c804dad79b2a6998d4a23709aea277257ba295e8d27ed9",
+      "unchanged": true,
+      "json_kind": "list",
+      "entries": 5
+    },
+    {
+      "path": "D005_witness_05_tol1e-05/measurement.json",
+      "bytes": 457,
+      "sha256": "d69a6500a5cd952bd347c9c11de70f4804c6147ca16ac2ea17e531541245f453",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 17
+    },
+    {
+      "path": "D005_witness_05_tol1e-05/n5_t0.1_s5_p0.12_a0.35_jensen_tdvp.csv",
+      "bytes": 1454,
+      "sha256": "b6b67839f6897da0c9a79d54060e84b5967fd17a4a7532a31a5bb112d70861c4",
+      "unchanged": true,
+      "rows": 6
+    },
+    {
+      "path": "D005_witness_05_tol1e-05/n5_t0.1_s5_p0.12_a0.35_jensen_tdvp_last_accepted.npz",
+      "bytes": 7892,
+      "sha256": "31d9e8a21d6c2ca0922da0b3c662229a49eba35b15243431849be29e1195d5a1",
+      "unchanged": true,
+      "arrays": {
+        "time": [],
+        "bound": [],
+        "g0": [
+          1,
+          4,
+          4
+        ],
+        "g1": [
+          4,
+          4,
+          4
+        ],
+        "g2": [
+          4,
+          4,
+          4
+        ],
+        "g3": [
+          4,
+          4,
+          4
+        ],
+        "g4": [
+          4,
+          4,
+          1
+        ],
+        "x0": [
+          1,
+          4,
+          4
+        ],
+        "x1": [
+          4,
+          4,
+          6
+        ],
+        "x2": [
+          6,
+          4,
+          6
+        ],
+        "x3": [
+          6,
+          4,
+          4
+        ],
+        "x4": [
+          4,
+          4,
+          1
+        ]
+      },
+      "all_finite": true
+    },
+    {
+      "path": "D005_witness_05_tol1e-05/n5_t0.1_s5_p0.12_a0.35_jensen_tdvp_settings.json",
+      "bytes": 451,
+      "sha256": "774d97bfa3f2f94957edafb99e5d3f7bcd8fcfde0e9f39a8a948f501aae48215",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 14
+    },
+    {
+      "path": "D005_witness_05_tol1e-05/stdout.txt",
+      "bytes": 1173,
+      "sha256": "d3ba6f77bd78f32ee81a25621253a3537b42f8326c237e0b1b9bffcf98d244e6",
+      "unchanged": true,
+      "lines": 12,
+      "traceback_lines": []
+    },
+    {
+      "path": "D006_matrix_free_05_tol0/measurement.json",
+      "bytes": 589,
+      "sha256": "92517e1b09edaa430cd4bac1bb88b4e304ecffc565a8e738b3679b11fb435f95",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 20
+    },
+    {
+      "path": "D006_matrix_free_05_tol0/stdout.txt",
+      "bytes": 1462,
+      "sha256": "a3aaea06c4331fdb62df9c61e5f29d1ea9f8ef24ee7cefc2cff0f835b14d220f",
+      "unchanged": true,
+      "lines": 1,
+      "traceback_lines": []
+    },
+    {
+      "path": "D006_matrix_free_05_tol0/summary.json",
+      "bytes": 1558,
+      "sha256": "c48290770c4c685ac52b4183c6919f28814c99d1fe1a555318d35d2aa8fce9ce",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 47
+    },
+    {
+      "path": "D006_matrix_free_05_tol0/trajectory.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "unchanged": true,
+      "json_kind": "list",
+      "entries": 0
+    },
+    {
+      "path": "D006_root_05_tol0/measurement.json",
+      "bytes": 514,
+      "sha256": "be8fa3765d7d94d003d4ec9475835e497e5ba8f12f528b109d2a44974b57ce05",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 20
+    },
+    {
+      "path": "D006_root_05_tol0/stdout.txt",
+      "bytes": 1436,
+      "sha256": "6b0e4a585ea0d9e806d899047fc69df668434bd250dab6119da169dd1cd20033",
+      "unchanged": true,
+      "lines": 1,
+      "traceback_lines": []
+    },
+    {
+      "path": "D006_root_05_tol0/summary.json",
+      "bytes": 1532,
+      "sha256": "b273ad4d716c3eaa53674170e343b73dce8295387004fbf9f2423627e4b3bf15",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 47
+    },
+    {
+      "path": "D006_root_05_tol0/trajectory.json",
+      "bytes": 3713,
+      "sha256": "40b028030777d0a23f9117976f1b486ecdb9fec4d8619fbd3146afed70ac27b1",
+      "unchanged": true,
+      "json_kind": "list",
+      "entries": 5
+    },
+    {
+      "path": "D006_witness_05_tol1e-05/measurement.json",
+      "bytes": 455,
+      "sha256": "0da2db93689cd858a8aec291d5781fcba6b3171d933115ead9b5a97c6b267beb",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 17
+    },
+    {
+      "path": "D006_witness_05_tol1e-05/n6_t0.1_s5_p0.12_a0.35_jensen_tdvp.csv",
+      "bytes": 1545,
+      "sha256": "a68743afc8844604523cd921182d52ff4114a8852e48cec3eec5bf91df6f1743",
+      "unchanged": true,
+      "rows": 6
+    },
+    {
+      "path": "D006_witness_05_tol1e-05/n6_t0.1_s5_p0.12_a0.35_jensen_tdvp_last_accepted.npz",
+      "bytes": 10206,
+      "sha256": "d3d49fd5d3e0b4c74e23bc246fd0536f09956a13830870f6006bf9d7c0c04456",
+      "unchanged": true,
+      "arrays": {
+        "time": [],
+        "bound": [],
+        "g0": [
+          1,
+          4,
+          4
+        ],
+        "g1": [
+          4,
+          4,
+          4
+        ],
+        "g2": [
+          4,
+          4,
+          4
+        ],
+        "g3": [
+          4,
+          4,
+          4
+        ],
+        "g4": [
+          4,
+          4,
+          4
+        ],
+        "g5": [
+          4,
+          4,
+          1
+        ],
+        "x0": [
+          1,
+          4,
+          4
+        ],
+        "x1": [
+          4,
+          4,
+          6
+        ],
+        "x2": [
+          6,
+          4,
+          6
+        ],
+        "x3": [
+          6,
+          4,
+          6
+        ],
+        "x4": [
+          6,
+          4,
+          4
+        ],
+        "x5": [
+          4,
+          4,
+          1
+        ]
+      },
+      "all_finite": true
+    },
+    {
+      "path": "D006_witness_05_tol1e-05/n6_t0.1_s5_p0.12_a0.35_jensen_tdvp_settings.json",
+      "bytes": 451,
+      "sha256": "c9c5e30b8adfb1d77e477a1b8dbfd4742908f7f077cc9ec46670f99dc18e4748",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 14
+    },
+    {
+      "path": "D006_witness_05_tol1e-05/stdout.txt",
+      "bytes": 1165,
+      "sha256": "a44a0471c0e40e9d14c7b8143c3839a3d9015bf8617d9f8740da18e8ec3d0b4b",
+      "unchanged": true,
+      "lines": 12,
+      "traceback_lines": []
+    },
+    {
+      "path": "D008_correction_only_05_tol1e-05/measurement.json",
+      "bytes": 472,
+      "sha256": "586897e88840b3d9b62d84dfcbcb7a42e6faadd899f8f8152e2c605e1a480f5e",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 17
+    },
+    {
+      "path": "D008_correction_only_05_tol1e-05/n8_t0.1_s5_p0.12_a0.35_jensen.csv",
+      "bytes": 1433,
+      "sha256": "0a77e7b5263aad21542ad77b34b365d7055919d4f40953f3cd0fcbcdccdc302e",
+      "unchanged": true,
+      "rows": 6
+    },
+    {
+      "path": "D008_correction_only_05_tol1e-05/n8_t0.1_s5_p0.12_a0.35_jensen_last_accepted.npz",
+      "bytes": 14873,
+      "sha256": "0ee50bd8ac3e72177900ab712de7072f51be08461abfce86c83dff0dfae6be9e",
+      "unchanged": true,
+      "arrays": {
+        "time": [],
+        "bound": [],
+        "g0": [
+          1,
+          4,
+          4
+        ],
+        "g1": [
+          4,
+          4,
+          4
+        ],
+        "g2": [
+          4,
+          4,
+          4
+        ],
+        "g3": [
+          4,
+          4,
+          4
+        ],
+        "g4": [
+          4,
+          4,
+          4
+        ],
+        "g5": [
+          4,
+          4,
+          4
+        ],
+        "g6": [
+          4,
+          4,
+          4
+        ],
+        "g7": [
+          4,
+          4,
+          1
+        ],
+        "x0": [
+          1,
+          4,
+          4
+        ],
+        "x1": [
+          4,
+          4,
+          6
+        ],
+        "x2": [
+          6,
+          4,
+          6
+        ],
+        "x3": [
+          6,
+          4,
+          6
+        ],
+        "x4": [
+          6,
+          4,
+          6
+        ],
+        "x5": [
+          6,
+          4,
+          6
+        ],
+        "x6": [
+          6,
+          4,
+          4
+        ],
+        "x7": [
+          4,
+          4,
+          1
+        ]
+      },
+      "all_finite": true
+    },
+    {
+      "path": "D008_correction_only_05_tol1e-05/n8_t0.1_s5_p0.12_a0.35_jensen_settings.json",
+      "bytes": 452,
+      "sha256": "36294832652f729be45a334a9970c069ff84d1e38f81c6a078f5a950c6547bea",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 14
+    },
+    {
+      "path": "D008_correction_only_05_tol1e-05/n8_t0.1_s5_p0.12_a0.35_jensen_trials.csv",
+      "bytes": 1681,
+      "sha256": "06f549203ee2e77efa93e9a68214dd42bf324e667b4d006fe75e42cf9427ede1",
+      "unchanged": true,
+      "rows": 10
+    },
+    {
+      "path": "D008_correction_only_05_tol1e-05/stdout.txt",
+      "bytes": 1099,
+      "sha256": "1018bf25e6b9504c874feb6b1c18782580d343057f63fe0a06c5bc29ca84ee15",
+      "unchanged": true,
+      "lines": 12,
+      "traceback_lines": []
+    },
+    {
+      "path": "D008_witness_05_tol1e-05/measurement.json",
+      "bytes": 456,
+      "sha256": "1f7141562ee22d8a145d2cd194e35e43bbccabc8a7be73c3fbce14212380e57a",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 17
+    },
+    {
+      "path": "D008_witness_05_tol1e-05/n8_t0.1_s5_p0.12_a0.35_jensen_tdvp.csv",
+      "bytes": 1536,
+      "sha256": "b005bae4e822ad47e047e15ce9213cd802bb9336d7700407e5d72f462c7fccb2",
+      "unchanged": true,
+      "rows": 6
+    },
+    {
+      "path": "D008_witness_05_tol1e-05/n8_t0.1_s5_p0.12_a0.35_jensen_tdvp_last_accepted.npz",
+      "bytes": 14841,
+      "sha256": "1551012cdb1ec4fc6ec0714b0950afdb40f6e76766b2ed9b1578a5ab28cccd06",
+      "unchanged": true,
+      "arrays": {
+        "time": [],
+        "bound": [],
+        "g0": [
+          1,
+          4,
+          4
+        ],
+        "g1": [
+          4,
+          4,
+          4
+        ],
+        "g2": [
+          4,
+          4,
+          4
+        ],
+        "g3": [
+          4,
+          4,
+          4
+        ],
+        "g4": [
+          4,
+          4,
+          4
+        ],
+        "g5": [
+          4,
+          4,
+          4
+        ],
+        "g6": [
+          4,
+          4,
+          4
+        ],
+        "g7": [
+          4,
+          4,
+          1
+        ],
+        "x0": [
+          1,
+          4,
+          4
+        ],
+        "x1": [
+          4,
+          4,
+          6
+        ],
+        "x2": [
+          6,
+          4,
+          6
+        ],
+        "x3": [
+          6,
+          4,
+          6
+        ],
+        "x4": [
+          6,
+          4,
+          6
+        ],
+        "x5": [
+          6,
+          4,
+          6
+        ],
+        "x6": [
+          6,
+          4,
+          4
+        ],
+        "x7": [
+          4,
+          4,
+          1
+        ]
+      },
+      "all_finite": true
+    },
+    {
+      "path": "D008_witness_05_tol1e-05/n8_t0.1_s5_p0.12_a0.35_jensen_tdvp_settings.json",
+      "bytes": 451,
+      "sha256": "b44f1f23b3df52407d2db321c69f55f2c78f88da1596b569bf7d9bda448736c8",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 14
+    },
+    {
+      "path": "D008_witness_05_tol1e-05/stdout.txt",
+      "bytes": 1163,
+      "sha256": "ec92b63b4ca7e45fe4cacf20b93d61ca136abb97eaf4b9b177bc9dd22131b708",
+      "unchanged": true,
+      "lines": 12,
+      "traceback_lines": []
+    },
+    {
+      "path": "D016_witness_05_tol1e-05/measurement.json",
+      "bytes": 448,
+      "sha256": "422fa09bafb8aaeb6bf8132aa9f087f7f61253e85b236cda48071ee403e671d4",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 17
+    },
+    {
+      "path": "D016_witness_05_tol1e-05/n16_t0.1_s5_p0.12_a0.35_jensen_tdvp.csv",
+      "bytes": 1413,
+      "sha256": "f3fdc5630f037aaaa733db6377cc920e26451f59a543687d7c8745ffcb111f66",
+      "unchanged": true,
+      "rows": 6
+    },
+    {
+      "path": "D016_witness_05_tol1e-05/n16_t0.1_s5_p0.12_a0.35_jensen_tdvp_last_accepted.npz",
+      "bytes": 33407,
+      "sha256": "c3ca88762c0f3f3ff168fc0e0b76724d4b9f9e1dcf223c9e4fc7bb2f912373ae",
+      "unchanged": true,
+      "arrays": {
+        "time": [],
+        "bound": [],
+        "g0": [
+          1,
+          4,
+          4
+        ],
+        "g1": [
+          4,
+          4,
+          4
+        ],
+        "g2": [
+          4,
+          4,
+          4
+        ],
+        "g3": [
+          4,
+          4,
+          4
+        ],
+        "g4": [
+          4,
+          4,
+          4
+        ],
+        "g5": [
+          4,
+          4,
+          4
+        ],
+        "g6": [
+          4,
+          4,
+          4
+        ],
+        "g7": [
+          4,
+          4,
+          4
+        ],
+        "g8": [
+          4,
+          4,
+          4
+        ],
+        "g9": [
+          4,
+          4,
+          4
+        ],
+        "g10": [
+          4,
+          4,
+          4
+        ],
+        "g11": [
+          4,
+          4,
+          4
+        ],
+        "g12": [
+          4,
+          4,
+          4
+        ],
+        "g13": [
+          4,
+          4,
+          4
+        ],
+        "g14": [
+          4,
+          4,
+          4
+        ],
+        "g15": [
+          4,
+          4,
+          1
+        ],
+        "x0": [
+          1,
+          4,
+          4
+        ],
+        "x1": [
+          4,
+          4,
+          6
+        ],
+        "x2": [
+          6,
+          4,
+          6
+        ],
+        "x3": [
+          6,
+          4,
+          6
+        ],
+        "x4": [
+          6,
+          4,
+          6
+        ],
+        "x5": [
+          6,
+          4,
+          6
+        ],
+        "x6": [
+          6,
+          4,
+          6
+        ],
+        "x7": [
+          6,
+          4,
+          6
+        ],
+        "x8": [
+          6,
+          4,
+          6
+        ],
+        "x9": [
+          6,
+          4,
+          6
+        ],
+        "x10": [
+          6,
+          4,
+          6
+        ],
+        "x11": [
+          6,
+          4,
+          6
+        ],
+        "x12": [
+          6,
+          4,
+          6
+        ],
+        "x13": [
+          6,
+          4,
+          6
+        ],
+        "x14": [
+          6,
+          4,
+          4
+        ],
+        "x15": [
+          4,
+          4,
+          1
+        ]
+      },
+      "all_finite": true
+    },
+    {
+      "path": "D016_witness_05_tol1e-05/n16_t0.1_s5_p0.12_a0.35_jensen_tdvp_settings.json",
+      "bytes": 452,
+      "sha256": "2652df9ef56284e7a72d6faf1c4781ce5f4468f7fe9b0c184e333e0681daa20d",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 14
+    },
+    {
+      "path": "D016_witness_05_tol1e-05/n16_t0.1_s5_p0.12_a0.35_jensen_tdvp_trials.csv",
+      "bytes": 298,
+      "sha256": "42cc77538d33abb5e7decb9fd3b09a6712814a23ecbed4f39e7067c1e245a35e",
+      "unchanged": true,
+      "rows": 1
+    },
+    {
+      "path": "D016_witness_05_tol1e-05/stdout.txt",
+      "bytes": 1046,
+      "sha256": "f57703f05e2d591213ca888dfbdbd67bbbaca30d63d1907d85643f54b738f8dd",
+      "unchanged": true,
+      "lines": 12,
+      "traceback_lines": []
+    },
+    {
+      "path": "D032_witness_05_tol1e-05/measurement.json",
+      "bytes": 446,
+      "sha256": "220132417a02f9368a769afe61366b8c9554d15cd773766b6c878c1b9c6b5dee",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 17
+    },
+    {
+      "path": "D032_witness_05_tol1e-05/n32_t0.1_s5_p0.12_a0.35_jensen_tdvp.csv",
+      "bytes": 1413,
+      "sha256": "6d55bf49392ada316e68729f1da94863f1a9082ebb04da83229cf849b7ca17fe",
+      "unchanged": true,
+      "rows": 6
+    },
+    {
+      "path": "D032_witness_05_tol1e-05/n32_t0.1_s5_p0.12_a0.35_jensen_tdvp_last_accepted.npz",
+      "bytes": 70576,
+      "sha256": "8f816d83a0726d4fea1f0eddd000a673f0ba910a5adbc174b38c1909eb238158",
+      "unchanged": true,
+      "arrays": {
+        "time": [],
+        "bound": [],
+        "g0": [
+          1,
+          4,
+          4
+        ],
+        "g1": [
+          4,
+          4,
+          4
+        ],
+        "g2": [
+          4,
+          4,
+          4
+        ],
+        "g3": [
+          4,
+          4,
+          4
+        ],
+        "g4": [
+          4,
+          4,
+          4
+        ],
+        "g5": [
+          4,
+          4,
+          4
+        ],
+        "g6": [
+          4,
+          4,
+          4
+        ],
+        "g7": [
+          4,
+          4,
+          4
+        ],
+        "g8": [
+          4,
+          4,
+          4
+        ],
+        "g9": [
+          4,
+          4,
+          4
+        ],
+        "g10": [
+          4,
+          4,
+          4
+        ],
+        "g11": [
+          4,
+          4,
+          4
+        ],
+        "g12": [
+          4,
+          4,
+          4
+        ],
+        "g13": [
+          4,
+          4,
+          4
+        ],
+        "g14": [
+          4,
+          4,
+          4
+        ],
+        "g15": [
+          4,
+          4,
+          4
+        ],
+        "g16": [
+          4,
+          4,
+          4
+        ],
+        "g17": [
+          4,
+          4,
+          4
+        ],
+        "g18": [
+          4,
+          4,
+          4
+        ],
+        "g19": [
+          4,
+          4,
+          4
+        ],
+        "g20": [
+          4,
+          4,
+          4
+        ],
+        "g21": [
+          4,
+          4,
+          4
+        ],
+        "g22": [
+          4,
+          4,
+          4
+        ],
+        "g23": [
+          4,
+          4,
+          4
+        ],
+        "g24": [
+          4,
+          4,
+          4
+        ],
+        "g25": [
+          4,
+          4,
+          4
+        ],
+        "g26": [
+          4,
+          4,
+          4
+        ],
+        "g27": [
+          4,
+          4,
+          4
+        ],
+        "g28": [
+          4,
+          4,
+          4
+        ],
+        "g29": [
+          4,
+          4,
+          4
+        ],
+        "g30": [
+          4,
+          4,
+          4
+        ],
+        "g31": [
+          4,
+          4,
+          1
+        ],
+        "x0": [
+          1,
+          4,
+          4
+        ],
+        "x1": [
+          4,
+          4,
+          6
+        ],
+        "x2": [
+          6,
+          4,
+          6
+        ],
+        "x3": [
+          6,
+          4,
+          6
+        ],
+        "x4": [
+          6,
+          4,
+          6
+        ],
+        "x5": [
+          6,
+          4,
+          6
+        ],
+        "x6": [
+          6,
+          4,
+          6
+        ],
+        "x7": [
+          6,
+          4,
+          6
+        ],
+        "x8": [
+          6,
+          4,
+          6
+        ],
+        "x9": [
+          6,
+          4,
+          6
+        ],
+        "x10": [
+          6,
+          4,
+          6
+        ],
+        "x11": [
+          6,
+          4,
+          6
+        ],
+        "x12": [
+          6,
+          4,
+          6
+        ],
+        "x13": [
+          6,
+          4,
+          6
+        ],
+        "x14": [
+          6,
+          4,
+          6
+        ],
+        "x15": [
+          6,
+          4,
+          6
+        ],
+        "x16": [
+          6,
+          4,
+          6
+        ],
+        "x17": [
+          6,
+          4,
+          6
+        ],
+        "x18": [
+          6,
+          4,
+          6
+        ],
+        "x19": [
+          6,
+          4,
+          6
+        ],
+        "x20": [
+          6,
+          4,
+          6
+        ],
+        "x21": [
+          6,
+          4,
+          6
+        ],
+        "x22": [
+          6,
+          4,
+          6
+        ],
+        "x23": [
+          6,
+          4,
+          6
+        ],
+        "x24": [
+          6,
+          4,
+          6
+        ],
+        "x25": [
+          6,
+          4,
+          6
+        ],
+        "x26": [
+          6,
+          4,
+          6
+        ],
+        "x27": [
+          6,
+          4,
+          6
+        ],
+        "x28": [
+          6,
+          4,
+          6
+        ],
+        "x29": [
+          6,
+          4,
+          6
+        ],
+        "x30": [
+          6,
+          4,
+          4
+        ],
+        "x31": [
+          4,
+          4,
+          1
+        ]
+      },
+      "all_finite": true
+    },
+    {
+      "path": "D032_witness_05_tol1e-05/n32_t0.1_s5_p0.12_a0.35_jensen_tdvp_settings.json",
+      "bytes": 452,
+      "sha256": "79806973e31692cb36a770745d5ba7d8dee5df1eb03ec25f1bc2a881283f7336",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 14
+    },
+    {
+      "path": "D032_witness_05_tol1e-05/n32_t0.1_s5_p0.12_a0.35_jensen_tdvp_trials.csv",
+      "bytes": 452,
+      "sha256": "bde3bb4faeab7191fcd5c1256979c87ca9ea884ac35e83ec7993d8bca28e044f",
+      "unchanged": true,
+      "rows": 2
+    },
+    {
+      "path": "D032_witness_05_tol1e-05/stdout.txt",
+      "bytes": 1044,
+      "sha256": "2e267d26c593fc7582a4c2a9241ae0e4aa61d5e39fcfcc32918e51a47ec60879",
+      "unchanged": true,
+      "lines": 12,
+      "traceback_lines": []
+    },
+    {
+      "path": "D064_witness_05_tol1e-05/measurement.json",
+      "bytes": 446,
+      "sha256": "cd0e0d25df8a75d637e3a77e72199471383969849ba6583b241637e41f19f422",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 17
+    },
+    {
+      "path": "D064_witness_05_tol1e-05/n64_t0.1_s5_p0.12_a0.35_jensen_tdvp.csv",
+      "bytes": 1419,
+      "sha256": "779f225ce4bceea6b15884a44aa32bf9198663b6fc3617026ffacc563f0f8525",
+      "unchanged": true,
+      "rows": 6
+    },
+    {
+      "path": "D064_witness_05_tol1e-05/n64_t0.1_s5_p0.12_a0.35_jensen_tdvp_last_accepted.npz",
+      "bytes": 144890,
+      "sha256": "111ef95bfee3fef7a17bf8b62dba8fc726695c0f58eda06316510f37c4ee3957",
+      "unchanged": true,
+      "arrays": {
+        "time": [],
+        "bound": [],
+        "g0": [
+          1,
+          4,
+          4
+        ],
+        "g1": [
+          4,
+          4,
+          4
+        ],
+        "g2": [
+          4,
+          4,
+          4
+        ],
+        "g3": [
+          4,
+          4,
+          4
+        ],
+        "g4": [
+          4,
+          4,
+          4
+        ],
+        "g5": [
+          4,
+          4,
+          4
+        ],
+        "g6": [
+          4,
+          4,
+          4
+        ],
+        "g7": [
+          4,
+          4,
+          4
+        ],
+        "g8": [
+          4,
+          4,
+          4
+        ],
+        "g9": [
+          4,
+          4,
+          4
+        ],
+        "g10": [
+          4,
+          4,
+          4
+        ],
+        "g11": [
+          4,
+          4,
+          4
+        ],
+        "g12": [
+          4,
+          4,
+          4
+        ],
+        "g13": [
+          4,
+          4,
+          4
+        ],
+        "g14": [
+          4,
+          4,
+          4
+        ],
+        "g15": [
+          4,
+          4,
+          4
+        ],
+        "g16": [
+          4,
+          4,
+          4
+        ],
+        "g17": [
+          4,
+          4,
+          4
+        ],
+        "g18": [
+          4,
+          4,
+          4
+        ],
+        "g19": [
+          4,
+          4,
+          4
+        ],
+        "g20": [
+          4,
+          4,
+          4
+        ],
+        "g21": [
+          4,
+          4,
+          4
+        ],
+        "g22": [
+          4,
+          4,
+          4
+        ],
+        "g23": [
+          4,
+          4,
+          4
+        ],
+        "g24": [
+          4,
+          4,
+          4
+        ],
+        "g25": [
+          4,
+          4,
+          4
+        ],
+        "g26": [
+          4,
+          4,
+          4
+        ],
+        "g27": [
+          4,
+          4,
+          4
+        ],
+        "g28": [
+          4,
+          4,
+          4
+        ],
+        "g29": [
+          4,
+          4,
+          4
+        ],
+        "g30": [
+          4,
+          4,
+          4
+        ],
+        "g31": [
+          4,
+          4,
+          4
+        ],
+        "g32": [
+          4,
+          4,
+          4
+        ],
+        "g33": [
+          4,
+          4,
+          4
+        ],
+        "g34": [
+          4,
+          4,
+          4
+        ],
+        "g35": [
+          4,
+          4,
+          4
+        ],
+        "g36": [
+          4,
+          4,
+          4
+        ],
+        "g37": [
+          4,
+          4,
+          4
+        ],
+        "g38": [
+          4,
+          4,
+          4
+        ],
+        "g39": [
+          4,
+          4,
+          4
+        ],
+        "g40": [
+          4,
+          4,
+          4
+        ],
+        "g41": [
+          4,
+          4,
+          4
+        ],
+        "g42": [
+          4,
+          4,
+          4
+        ],
+        "g43": [
+          4,
+          4,
+          4
+        ],
+        "g44": [
+          4,
+          4,
+          4
+        ],
+        "g45": [
+          4,
+          4,
+          4
+        ],
+        "g46": [
+          4,
+          4,
+          4
+        ],
+        "g47": [
+          4,
+          4,
+          4
+        ],
+        "g48": [
+          4,
+          4,
+          4
+        ],
+        "g49": [
+          4,
+          4,
+          4
+        ],
+        "g50": [
+          4,
+          4,
+          4
+        ],
+        "g51": [
+          4,
+          4,
+          4
+        ],
+        "g52": [
+          4,
+          4,
+          4
+        ],
+        "g53": [
+          4,
+          4,
+          4
+        ],
+        "g54": [
+          4,
+          4,
+          4
+        ],
+        "g55": [
+          4,
+          4,
+          4
+        ],
+        "g56": [
+          4,
+          4,
+          4
+        ],
+        "g57": [
+          4,
+          4,
+          4
+        ],
+        "g58": [
+          4,
+          4,
+          4
+        ],
+        "g59": [
+          4,
+          4,
+          4
+        ],
+        "g60": [
+          4,
+          4,
+          4
+        ],
+        "g61": [
+          4,
+          4,
+          4
+        ],
+        "g62": [
+          4,
+          4,
+          4
+        ],
+        "g63": [
+          4,
+          4,
+          1
+        ],
+        "x0": [
+          1,
+          4,
+          4
+        ],
+        "x1": [
+          4,
+          4,
+          6
+        ],
+        "x2": [
+          6,
+          4,
+          6
+        ],
+        "x3": [
+          6,
+          4,
+          6
+        ],
+        "x4": [
+          6,
+          4,
+          6
+        ],
+        "x5": [
+          6,
+          4,
+          6
+        ],
+        "x6": [
+          6,
+          4,
+          6
+        ],
+        "x7": [
+          6,
+          4,
+          6
+        ],
+        "x8": [
+          6,
+          4,
+          6
+        ],
+        "x9": [
+          6,
+          4,
+          6
+        ],
+        "x10": [
+          6,
+          4,
+          6
+        ],
+        "x11": [
+          6,
+          4,
+          6
+        ],
+        "x12": [
+          6,
+          4,
+          6
+        ],
+        "x13": [
+          6,
+          4,
+          6
+        ],
+        "x14": [
+          6,
+          4,
+          6
+        ],
+        "x15": [
+          6,
+          4,
+          6
+        ],
+        "x16": [
+          6,
+          4,
+          6
+        ],
+        "x17": [
+          6,
+          4,
+          6
+        ],
+        "x18": [
+          6,
+          4,
+          6
+        ],
+        "x19": [
+          6,
+          4,
+          6
+        ],
+        "x20": [
+          6,
+          4,
+          6
+        ],
+        "x21": [
+          6,
+          4,
+          6
+        ],
+        "x22": [
+          6,
+          4,
+          6
+        ],
+        "x23": [
+          6,
+          4,
+          6
+        ],
+        "x24": [
+          6,
+          4,
+          6
+        ],
+        "x25": [
+          6,
+          4,
+          6
+        ],
+        "x26": [
+          6,
+          4,
+          6
+        ],
+        "x27": [
+          6,
+          4,
+          6
+        ],
+        "x28": [
+          6,
+          4,
+          6
+        ],
+        "x29": [
+          6,
+          4,
+          6
+        ],
+        "x30": [
+          6,
+          4,
+          6
+        ],
+        "x31": [
+          6,
+          4,
+          6
+        ],
+        "x32": [
+          6,
+          4,
+          6
+        ],
+        "x33": [
+          6,
+          4,
+          6
+        ],
+        "x34": [
+          6,
+          4,
+          6
+        ],
+        "x35": [
+          6,
+          4,
+          6
+        ],
+        "x36": [
+          6,
+          4,
+          6
+        ],
+        "x37": [
+          6,
+          4,
+          6
+        ],
+        "x38": [
+          6,
+          4,
+          6
+        ],
+        "x39": [
+          6,
+          4,
+          6
+        ],
+        "x40": [
+          6,
+          4,
+          6
+        ],
+        "x41": [
+          6,
+          4,
+          6
+        ],
+        "x42": [
+          6,
+          4,
+          6
+        ],
+        "x43": [
+          6,
+          4,
+          6
+        ],
+        "x44": [
+          6,
+          4,
+          6
+        ],
+        "x45": [
+          6,
+          4,
+          6
+        ],
+        "x46": [
+          6,
+          4,
+          6
+        ],
+        "x47": [
+          6,
+          4,
+          6
+        ],
+        "x48": [
+          6,
+          4,
+          6
+        ],
+        "x49": [
+          6,
+          4,
+          6
+        ],
+        "x50": [
+          6,
+          4,
+          6
+        ],
+        "x51": [
+          6,
+          4,
+          6
+        ],
+        "x52": [
+          6,
+          4,
+          6
+        ],
+        "x53": [
+          6,
+          4,
+          6
+        ],
+        "x54": [
+          6,
+          4,
+          6
+        ],
+        "x55": [
+          6,
+          4,
+          6
+        ],
+        "x56": [
+          6,
+          4,
+          6
+        ],
+        "x57": [
+          6,
+          4,
+          6
+        ],
+        "x58": [
+          6,
+          4,
+          6
+        ],
+        "x59": [
+          6,
+          4,
+          6
+        ],
+        "x60": [
+          6,
+          4,
+          6
+        ],
+        "x61": [
+          6,
+          4,
+          6
+        ],
+        "x62": [
+          6,
+          4,
+          4
+        ],
+        "x63": [
+          4,
+          4,
+          1
+        ]
+      },
+      "all_finite": true
+    },
+    {
+      "path": "D064_witness_05_tol1e-05/n64_t0.1_s5_p0.12_a0.35_jensen_tdvp_settings.json",
+      "bytes": 452,
+      "sha256": "0428c79e4dae604065309a3244c46f7dd9173496316eeabd1cfaf3d3c6467518",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 14
+    },
+    {
+      "path": "D064_witness_05_tol1e-05/n64_t0.1_s5_p0.12_a0.35_jensen_tdvp_trials.csv",
+      "bytes": 769,
+      "sha256": "7ffe9796b30e3f7e4b1214f17a49543d96c50b39588b8b4dba2fb7984662b057",
+      "unchanged": true,
+      "rows": 4
+    },
+    {
+      "path": "D064_witness_05_tol1e-05/stdout.txt",
+      "bytes": 1041,
+      "sha256": "f0f7964049599c832d7e377128f52102fb906ede34644d79d23b7a65d7d30307",
+      "unchanged": true,
+      "lines": 12,
+      "traceback_lines": []
+    },
+    {
+      "path": "D128_witness_05_tol1e-05/measurement.json",
+      "bytes": 443,
+      "sha256": "714af123120197713779a428346e5532a2be15da201fa7d4eddf33e31f987067",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 17
+    },
+    {
+      "path": "D128_witness_05_tol1e-05/n128_t0.1_s5_p0.12_a0.35_jensen_tdvp.csv",
+      "bytes": 1399,
+      "sha256": "8a0647acd4c332c3c5595f14952327e7b26e86e72b285eca7de0c1deefc92128",
+      "unchanged": true,
+      "rows": 6
+    },
+    {
+      "path": "D128_witness_05_tol1e-05/n128_t0.1_s5_p0.12_a0.35_jensen_tdvp_last_accepted.npz",
+      "bytes": 293582,
+      "sha256": "de85b89b22db919bdc0ac9aab3cc7eeebfacfc6709e57a9228de26531688767f",
+      "unchanged": true,
+      "arrays": {
+        "time": [],
+        "bound": [],
+        "g0": [
+          1,
+          4,
+          4
+        ],
+        "g1": [
+          4,
+          4,
+          4
+        ],
+        "g2": [
+          4,
+          4,
+          4
+        ],
+        "g3": [
+          4,
+          4,
+          4
+        ],
+        "g4": [
+          4,
+          4,
+          4
+        ],
+        "g5": [
+          4,
+          4,
+          4
+        ],
+        "g6": [
+          4,
+          4,
+          4
+        ],
+        "g7": [
+          4,
+          4,
+          4
+        ],
+        "g8": [
+          4,
+          4,
+          4
+        ],
+        "g9": [
+          4,
+          4,
+          4
+        ],
+        "g10": [
+          4,
+          4,
+          4
+        ],
+        "g11": [
+          4,
+          4,
+          4
+        ],
+        "g12": [
+          4,
+          4,
+          4
+        ],
+        "g13": [
+          4,
+          4,
+          4
+        ],
+        "g14": [
+          4,
+          4,
+          4
+        ],
+        "g15": [
+          4,
+          4,
+          4
+        ],
+        "g16": [
+          4,
+          4,
+          4
+        ],
+        "g17": [
+          4,
+          4,
+          4
+        ],
+        "g18": [
+          4,
+          4,
+          4
+        ],
+        "g19": [
+          4,
+          4,
+          4
+        ],
+        "g20": [
+          4,
+          4,
+          4
+        ],
+        "g21": [
+          4,
+          4,
+          4
+        ],
+        "g22": [
+          4,
+          4,
+          4
+        ],
+        "g23": [
+          4,
+          4,
+          4
+        ],
+        "g24": [
+          4,
+          4,
+          4
+        ],
+        "g25": [
+          4,
+          4,
+          4
+        ],
+        "g26": [
+          4,
+          4,
+          4
+        ],
+        "g27": [
+          4,
+          4,
+          4
+        ],
+        "g28": [
+          4,
+          4,
+          4
+        ],
+        "g29": [
+          4,
+          4,
+          4
+        ],
+        "g30": [
+          4,
+          4,
+          4
+        ],
+        "g31": [
+          4,
+          4,
+          4
+        ],
+        "g32": [
+          4,
+          4,
+          4
+        ],
+        "g33": [
+          4,
+          4,
+          4
+        ],
+        "g34": [
+          4,
+          4,
+          4
+        ],
+        "g35": [
+          4,
+          4,
+          4
+        ],
+        "g36": [
+          4,
+          4,
+          4
+        ],
+        "g37": [
+          4,
+          4,
+          4
+        ],
+        "g38": [
+          4,
+          4,
+          4
+        ],
+        "g39": [
+          4,
+          4,
+          4
+        ],
+        "g40": [
+          4,
+          4,
+          4
+        ],
+        "g41": [
+          4,
+          4,
+          4
+        ],
+        "g42": [
+          4,
+          4,
+          4
+        ],
+        "g43": [
+          4,
+          4,
+          4
+        ],
+        "g44": [
+          4,
+          4,
+          4
+        ],
+        "g45": [
+          4,
+          4,
+          4
+        ],
+        "g46": [
+          4,
+          4,
+          4
+        ],
+        "g47": [
+          4,
+          4,
+          4
+        ],
+        "g48": [
+          4,
+          4,
+          4
+        ],
+        "g49": [
+          4,
+          4,
+          4
+        ],
+        "g50": [
+          4,
+          4,
+          4
+        ],
+        "g51": [
+          4,
+          4,
+          4
+        ],
+        "g52": [
+          4,
+          4,
+          4
+        ],
+        "g53": [
+          4,
+          4,
+          4
+        ],
+        "g54": [
+          4,
+          4,
+          4
+        ],
+        "g55": [
+          4,
+          4,
+          4
+        ],
+        "g56": [
+          4,
+          4,
+          4
+        ],
+        "g57": [
+          4,
+          4,
+          4
+        ],
+        "g58": [
+          4,
+          4,
+          4
+        ],
+        "g59": [
+          4,
+          4,
+          4
+        ],
+        "g60": [
+          4,
+          4,
+          4
+        ],
+        "g61": [
+          4,
+          4,
+          4
+        ],
+        "g62": [
+          4,
+          4,
+          4
+        ],
+        "g63": [
+          4,
+          4,
+          4
+        ],
+        "g64": [
+          4,
+          4,
+          4
+        ],
+        "g65": [
+          4,
+          4,
+          4
+        ],
+        "g66": [
+          4,
+          4,
+          4
+        ],
+        "g67": [
+          4,
+          4,
+          4
+        ],
+        "g68": [
+          4,
+          4,
+          4
+        ],
+        "g69": [
+          4,
+          4,
+          4
+        ],
+        "g70": [
+          4,
+          4,
+          4
+        ],
+        "g71": [
+          4,
+          4,
+          4
+        ],
+        "g72": [
+          4,
+          4,
+          4
+        ],
+        "g73": [
+          4,
+          4,
+          4
+        ],
+        "g74": [
+          4,
+          4,
+          4
+        ],
+        "g75": [
+          4,
+          4,
+          4
+        ],
+        "g76": [
+          4,
+          4,
+          4
+        ],
+        "g77": [
+          4,
+          4,
+          4
+        ],
+        "g78": [
+          4,
+          4,
+          4
+        ],
+        "g79": [
+          4,
+          4,
+          4
+        ],
+        "g80": [
+          4,
+          4,
+          4
+        ],
+        "g81": [
+          4,
+          4,
+          4
+        ],
+        "g82": [
+          4,
+          4,
+          4
+        ],
+        "g83": [
+          4,
+          4,
+          4
+        ],
+        "g84": [
+          4,
+          4,
+          4
+        ],
+        "g85": [
+          4,
+          4,
+          4
+        ],
+        "g86": [
+          4,
+          4,
+          4
+        ],
+        "g87": [
+          4,
+          4,
+          4
+        ],
+        "g88": [
+          4,
+          4,
+          4
+        ],
+        "g89": [
+          4,
+          4,
+          4
+        ],
+        "g90": [
+          4,
+          4,
+          4
+        ],
+        "g91": [
+          4,
+          4,
+          4
+        ],
+        "g92": [
+          4,
+          4,
+          4
+        ],
+        "g93": [
+          4,
+          4,
+          4
+        ],
+        "g94": [
+          4,
+          4,
+          4
+        ],
+        "g95": [
+          4,
+          4,
+          4
+        ],
+        "g96": [
+          4,
+          4,
+          4
+        ],
+        "g97": [
+          4,
+          4,
+          4
+        ],
+        "g98": [
+          4,
+          4,
+          4
+        ],
+        "g99": [
+          4,
+          4,
+          4
+        ],
+        "g100": [
+          4,
+          4,
+          4
+        ],
+        "g101": [
+          4,
+          4,
+          4
+        ],
+        "g102": [
+          4,
+          4,
+          4
+        ],
+        "g103": [
+          4,
+          4,
+          4
+        ],
+        "g104": [
+          4,
+          4,
+          4
+        ],
+        "g105": [
+          4,
+          4,
+          4
+        ],
+        "g106": [
+          4,
+          4,
+          4
+        ],
+        "g107": [
+          4,
+          4,
+          4
+        ],
+        "g108": [
+          4,
+          4,
+          4
+        ],
+        "g109": [
+          4,
+          4,
+          4
+        ],
+        "g110": [
+          4,
+          4,
+          4
+        ],
+        "g111": [
+          4,
+          4,
+          4
+        ],
+        "g112": [
+          4,
+          4,
+          4
+        ],
+        "g113": [
+          4,
+          4,
+          4
+        ],
+        "g114": [
+          4,
+          4,
+          4
+        ],
+        "g115": [
+          4,
+          4,
+          4
+        ],
+        "g116": [
+          4,
+          4,
+          4
+        ],
+        "g117": [
+          4,
+          4,
+          4
+        ],
+        "g118": [
+          4,
+          4,
+          4
+        ],
+        "g119": [
+          4,
+          4,
+          4
+        ],
+        "g120": [
+          4,
+          4,
+          4
+        ],
+        "g121": [
+          4,
+          4,
+          4
+        ],
+        "g122": [
+          4,
+          4,
+          4
+        ],
+        "g123": [
+          4,
+          4,
+          4
+        ],
+        "g124": [
+          4,
+          4,
+          4
+        ],
+        "g125": [
+          4,
+          4,
+          4
+        ],
+        "g126": [
+          4,
+          4,
+          4
+        ],
+        "g127": [
+          4,
+          4,
+          1
+        ],
+        "x0": [
+          1,
+          4,
+          4
+        ],
+        "x1": [
+          4,
+          4,
+          6
+        ],
+        "x2": [
+          6,
+          4,
+          6
+        ],
+        "x3": [
+          6,
+          4,
+          6
+        ],
+        "x4": [
+          6,
+          4,
+          6
+        ],
+        "x5": [
+          6,
+          4,
+          6
+        ],
+        "x6": [
+          6,
+          4,
+          6
+        ],
+        "x7": [
+          6,
+          4,
+          6
+        ],
+        "x8": [
+          6,
+          4,
+          6
+        ],
+        "x9": [
+          6,
+          4,
+          6
+        ],
+        "x10": [
+          6,
+          4,
+          6
+        ],
+        "x11": [
+          6,
+          4,
+          6
+        ],
+        "x12": [
+          6,
+          4,
+          6
+        ],
+        "x13": [
+          6,
+          4,
+          6
+        ],
+        "x14": [
+          6,
+          4,
+          6
+        ],
+        "x15": [
+          6,
+          4,
+          6
+        ],
+        "x16": [
+          6,
+          4,
+          6
+        ],
+        "x17": [
+          6,
+          4,
+          6
+        ],
+        "x18": [
+          6,
+          4,
+          6
+        ],
+        "x19": [
+          6,
+          4,
+          6
+        ],
+        "x20": [
+          6,
+          4,
+          6
+        ],
+        "x21": [
+          6,
+          4,
+          6
+        ],
+        "x22": [
+          6,
+          4,
+          6
+        ],
+        "x23": [
+          6,
+          4,
+          6
+        ],
+        "x24": [
+          6,
+          4,
+          6
+        ],
+        "x25": [
+          6,
+          4,
+          6
+        ],
+        "x26": [
+          6,
+          4,
+          6
+        ],
+        "x27": [
+          6,
+          4,
+          6
+        ],
+        "x28": [
+          6,
+          4,
+          6
+        ],
+        "x29": [
+          6,
+          4,
+          6
+        ],
+        "x30": [
+          6,
+          4,
+          6
+        ],
+        "x31": [
+          6,
+          4,
+          6
+        ],
+        "x32": [
+          6,
+          4,
+          6
+        ],
+        "x33": [
+          6,
+          4,
+          6
+        ],
+        "x34": [
+          6,
+          4,
+          6
+        ],
+        "x35": [
+          6,
+          4,
+          6
+        ],
+        "x36": [
+          6,
+          4,
+          6
+        ],
+        "x37": [
+          6,
+          4,
+          6
+        ],
+        "x38": [
+          6,
+          4,
+          6
+        ],
+        "x39": [
+          6,
+          4,
+          6
+        ],
+        "x40": [
+          6,
+          4,
+          6
+        ],
+        "x41": [
+          6,
+          4,
+          6
+        ],
+        "x42": [
+          6,
+          4,
+          6
+        ],
+        "x43": [
+          6,
+          4,
+          6
+        ],
+        "x44": [
+          6,
+          4,
+          6
+        ],
+        "x45": [
+          6,
+          4,
+          6
+        ],
+        "x46": [
+          6,
+          4,
+          6
+        ],
+        "x47": [
+          6,
+          4,
+          6
+        ],
+        "x48": [
+          6,
+          4,
+          6
+        ],
+        "x49": [
+          6,
+          4,
+          6
+        ],
+        "x50": [
+          6,
+          4,
+          6
+        ],
+        "x51": [
+          6,
+          4,
+          6
+        ],
+        "x52": [
+          6,
+          4,
+          6
+        ],
+        "x53": [
+          6,
+          4,
+          6
+        ],
+        "x54": [
+          6,
+          4,
+          6
+        ],
+        "x55": [
+          6,
+          4,
+          6
+        ],
+        "x56": [
+          6,
+          4,
+          6
+        ],
+        "x57": [
+          6,
+          4,
+          6
+        ],
+        "x58": [
+          6,
+          4,
+          6
+        ],
+        "x59": [
+          6,
+          4,
+          6
+        ],
+        "x60": [
+          6,
+          4,
+          6
+        ],
+        "x61": [
+          6,
+          4,
+          6
+        ],
+        "x62": [
+          6,
+          4,
+          6
+        ],
+        "x63": [
+          6,
+          4,
+          6
+        ],
+        "x64": [
+          6,
+          4,
+          6
+        ],
+        "x65": [
+          6,
+          4,
+          6
+        ],
+        "x66": [
+          6,
+          4,
+          6
+        ],
+        "x67": [
+          6,
+          4,
+          6
+        ],
+        "x68": [
+          6,
+          4,
+          6
+        ],
+        "x69": [
+          6,
+          4,
+          6
+        ],
+        "x70": [
+          6,
+          4,
+          6
+        ],
+        "x71": [
+          6,
+          4,
+          6
+        ],
+        "x72": [
+          6,
+          4,
+          6
+        ],
+        "x73": [
+          6,
+          4,
+          6
+        ],
+        "x74": [
+          6,
+          4,
+          6
+        ],
+        "x75": [
+          6,
+          4,
+          6
+        ],
+        "x76": [
+          6,
+          4,
+          6
+        ],
+        "x77": [
+          6,
+          4,
+          6
+        ],
+        "x78": [
+          6,
+          4,
+          6
+        ],
+        "x79": [
+          6,
+          4,
+          6
+        ],
+        "x80": [
+          6,
+          4,
+          6
+        ],
+        "x81": [
+          6,
+          4,
+          6
+        ],
+        "x82": [
+          6,
+          4,
+          6
+        ],
+        "x83": [
+          6,
+          4,
+          6
+        ],
+        "x84": [
+          6,
+          4,
+          6
+        ],
+        "x85": [
+          6,
+          4,
+          6
+        ],
+        "x86": [
+          6,
+          4,
+          6
+        ],
+        "x87": [
+          6,
+          4,
+          6
+        ],
+        "x88": [
+          6,
+          4,
+          6
+        ],
+        "x89": [
+          6,
+          4,
+          6
+        ],
+        "x90": [
+          6,
+          4,
+          6
+        ],
+        "x91": [
+          6,
+          4,
+          6
+        ],
+        "x92": [
+          6,
+          4,
+          6
+        ],
+        "x93": [
+          6,
+          4,
+          6
+        ],
+        "x94": [
+          6,
+          4,
+          6
+        ],
+        "x95": [
+          6,
+          4,
+          6
+        ],
+        "x96": [
+          6,
+          4,
+          6
+        ],
+        "x97": [
+          6,
+          4,
+          6
+        ],
+        "x98": [
+          6,
+          4,
+          6
+        ],
+        "x99": [
+          6,
+          4,
+          6
+        ],
+        "x100": [
+          6,
+          4,
+          6
+        ],
+        "x101": [
+          6,
+          4,
+          6
+        ],
+        "x102": [
+          6,
+          4,
+          6
+        ],
+        "x103": [
+          6,
+          4,
+          6
+        ],
+        "x104": [
+          6,
+          4,
+          6
+        ],
+        "x105": [
+          6,
+          4,
+          6
+        ],
+        "x106": [
+          6,
+          4,
+          6
+        ],
+        "x107": [
+          6,
+          4,
+          6
+        ],
+        "x108": [
+          6,
+          4,
+          6
+        ],
+        "x109": [
+          6,
+          4,
+          6
+        ],
+        "x110": [
+          6,
+          4,
+          6
+        ],
+        "x111": [
+          6,
+          4,
+          6
+        ],
+        "x112": [
+          6,
+          4,
+          6
+        ],
+        "x113": [
+          6,
+          4,
+          6
+        ],
+        "x114": [
+          6,
+          4,
+          6
+        ],
+        "x115": [
+          6,
+          4,
+          6
+        ],
+        "x116": [
+          6,
+          4,
+          6
+        ],
+        "x117": [
+          6,
+          4,
+          6
+        ],
+        "x118": [
+          6,
+          4,
+          6
+        ],
+        "x119": [
+          6,
+          4,
+          6
+        ],
+        "x120": [
+          6,
+          4,
+          6
+        ],
+        "x121": [
+          6,
+          4,
+          6
+        ],
+        "x122": [
+          6,
+          4,
+          6
+        ],
+        "x123": [
+          6,
+          4,
+          6
+        ],
+        "x124": [
+          6,
+          4,
+          6
+        ],
+        "x125": [
+          6,
+          4,
+          6
+        ],
+        "x126": [
+          6,
+          4,
+          4
+        ],
+        "x127": [
+          4,
+          4,
+          1
+        ]
+      },
+      "all_finite": true
+    },
+    {
+      "path": "D128_witness_05_tol1e-05/n128_t0.1_s5_p0.12_a0.35_jensen_tdvp_settings.json",
+      "bytes": 453,
+      "sha256": "136b102f57152a46b6df6203cf384a6695c6ec8935c2fe1a592e528b6423cb7e",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 14
+    },
+    {
+      "path": "D128_witness_05_tol1e-05/n128_t0.1_s5_p0.12_a0.35_jensen_tdvp_trials.csv",
+      "bytes": 762,
+      "sha256": "608e89ace120d9ed9db18c7f2467b2894db6c0d96140be4f62ed75c78f9f8612",
+      "unchanged": true,
+      "rows": 4
+    },
+    {
+      "path": "D128_witness_05_tol1e-05/stdout.txt",
+      "bytes": 1055,
+      "sha256": "42ea42f19040abade35a329adf7b59f25b3c856f42347daad8e7b9f13085164c",
+      "unchanged": true,
+      "lines": 12,
+      "traceback_lines": []
+    },
+    {
+      "path": "D256_witness_05_tol1e-05/measurement.json",
+      "bytes": 447,
+      "sha256": "89a2011f6016dbf9ad32d38abb56c4a48fd2809ccd9c02edeb3da5fe1fcfe12a",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 17
+    },
+    {
+      "path": "D256_witness_05_tol1e-05/n256_t0.1_s5_p0.12_a0.35_jensen_tdvp.csv",
+      "bytes": 1313,
+      "sha256": "cc4d96a5bcf5f5e2a65c1f8a4c0cd062e657114c0989e4111622a37c61d8ec19",
+      "unchanged": true,
+      "rows": 6
+    },
+    {
+      "path": "D256_witness_05_tol1e-05/n256_t0.1_s5_p0.12_a0.35_jensen_tdvp_last_accepted.npz",
+      "bytes": 592503,
+      "sha256": "a7004590d2eb1356f3e12fdaace68114fce7410f240183a811de5471fce1a0be",
+      "unchanged": true,
+      "arrays": {
+        "time": [],
+        "bound": [],
+        "g0": [
+          1,
+          4,
+          4
+        ],
+        "g1": [
+          4,
+          4,
+          4
+        ],
+        "g2": [
+          4,
+          4,
+          4
+        ],
+        "g3": [
+          4,
+          4,
+          4
+        ],
+        "g4": [
+          4,
+          4,
+          4
+        ],
+        "g5": [
+          4,
+          4,
+          4
+        ],
+        "g6": [
+          4,
+          4,
+          4
+        ],
+        "g7": [
+          4,
+          4,
+          4
+        ],
+        "g8": [
+          4,
+          4,
+          4
+        ],
+        "g9": [
+          4,
+          4,
+          4
+        ],
+        "g10": [
+          4,
+          4,
+          4
+        ],
+        "g11": [
+          4,
+          4,
+          4
+        ],
+        "g12": [
+          4,
+          4,
+          4
+        ],
+        "g13": [
+          4,
+          4,
+          4
+        ],
+        "g14": [
+          4,
+          4,
+          4
+        ],
+        "g15": [
+          4,
+          4,
+          4
+        ],
+        "g16": [
+          4,
+          4,
+          4
+        ],
+        "g17": [
+          4,
+          4,
+          4
+        ],
+        "g18": [
+          4,
+          4,
+          4
+        ],
+        "g19": [
+          4,
+          4,
+          4
+        ],
+        "g20": [
+          4,
+          4,
+          4
+        ],
+        "g21": [
+          4,
+          4,
+          4
+        ],
+        "g22": [
+          4,
+          4,
+          4
+        ],
+        "g23": [
+          4,
+          4,
+          4
+        ],
+        "g24": [
+          4,
+          4,
+          4
+        ],
+        "g25": [
+          4,
+          4,
+          4
+        ],
+        "g26": [
+          4,
+          4,
+          4
+        ],
+        "g27": [
+          4,
+          4,
+          4
+        ],
+        "g28": [
+          4,
+          4,
+          4
+        ],
+        "g29": [
+          4,
+          4,
+          4
+        ],
+        "g30": [
+          4,
+          4,
+          4
+        ],
+        "g31": [
+          4,
+          4,
+          4
+        ],
+        "g32": [
+          4,
+          4,
+          4
+        ],
+        "g33": [
+          4,
+          4,
+          4
+        ],
+        "g34": [
+          4,
+          4,
+          4
+        ],
+        "g35": [
+          4,
+          4,
+          4
+        ],
+        "g36": [
+          4,
+          4,
+          4
+        ],
+        "g37": [
+          4,
+          4,
+          4
+        ],
+        "g38": [
+          4,
+          4,
+          4
+        ],
+        "g39": [
+          4,
+          4,
+          4
+        ],
+        "g40": [
+          4,
+          4,
+          4
+        ],
+        "g41": [
+          4,
+          4,
+          4
+        ],
+        "g42": [
+          4,
+          4,
+          4
+        ],
+        "g43": [
+          4,
+          4,
+          4
+        ],
+        "g44": [
+          4,
+          4,
+          4
+        ],
+        "g45": [
+          4,
+          4,
+          4
+        ],
+        "g46": [
+          4,
+          4,
+          4
+        ],
+        "g47": [
+          4,
+          4,
+          4
+        ],
+        "g48": [
+          4,
+          4,
+          4
+        ],
+        "g49": [
+          4,
+          4,
+          4
+        ],
+        "g50": [
+          4,
+          4,
+          4
+        ],
+        "g51": [
+          4,
+          4,
+          4
+        ],
+        "g52": [
+          4,
+          4,
+          4
+        ],
+        "g53": [
+          4,
+          4,
+          4
+        ],
+        "g54": [
+          4,
+          4,
+          4
+        ],
+        "g55": [
+          4,
+          4,
+          4
+        ],
+        "g56": [
+          4,
+          4,
+          4
+        ],
+        "g57": [
+          4,
+          4,
+          4
+        ],
+        "g58": [
+          4,
+          4,
+          4
+        ],
+        "g59": [
+          4,
+          4,
+          4
+        ],
+        "g60": [
+          4,
+          4,
+          4
+        ],
+        "g61": [
+          4,
+          4,
+          4
+        ],
+        "g62": [
+          4,
+          4,
+          4
+        ],
+        "g63": [
+          4,
+          4,
+          4
+        ],
+        "g64": [
+          4,
+          4,
+          4
+        ],
+        "g65": [
+          4,
+          4,
+          4
+        ],
+        "g66": [
+          4,
+          4,
+          4
+        ],
+        "g67": [
+          4,
+          4,
+          4
+        ],
+        "g68": [
+          4,
+          4,
+          4
+        ],
+        "g69": [
+          4,
+          4,
+          4
+        ],
+        "g70": [
+          4,
+          4,
+          4
+        ],
+        "g71": [
+          4,
+          4,
+          4
+        ],
+        "g72": [
+          4,
+          4,
+          4
+        ],
+        "g73": [
+          4,
+          4,
+          4
+        ],
+        "g74": [
+          4,
+          4,
+          4
+        ],
+        "g75": [
+          4,
+          4,
+          4
+        ],
+        "g76": [
+          4,
+          4,
+          4
+        ],
+        "g77": [
+          4,
+          4,
+          4
+        ],
+        "g78": [
+          4,
+          4,
+          4
+        ],
+        "g79": [
+          4,
+          4,
+          4
+        ],
+        "g80": [
+          4,
+          4,
+          4
+        ],
+        "g81": [
+          4,
+          4,
+          4
+        ],
+        "g82": [
+          4,
+          4,
+          4
+        ],
+        "g83": [
+          4,
+          4,
+          4
+        ],
+        "g84": [
+          4,
+          4,
+          4
+        ],
+        "g85": [
+          4,
+          4,
+          4
+        ],
+        "g86": [
+          4,
+          4,
+          4
+        ],
+        "g87": [
+          4,
+          4,
+          4
+        ],
+        "g88": [
+          4,
+          4,
+          4
+        ],
+        "g89": [
+          4,
+          4,
+          4
+        ],
+        "g90": [
+          4,
+          4,
+          4
+        ],
+        "g91": [
+          4,
+          4,
+          4
+        ],
+        "g92": [
+          4,
+          4,
+          4
+        ],
+        "g93": [
+          4,
+          4,
+          4
+        ],
+        "g94": [
+          4,
+          4,
+          4
+        ],
+        "g95": [
+          4,
+          4,
+          4
+        ],
+        "g96": [
+          4,
+          4,
+          4
+        ],
+        "g97": [
+          4,
+          4,
+          4
+        ],
+        "g98": [
+          4,
+          4,
+          4
+        ],
+        "g99": [
+          4,
+          4,
+          4
+        ],
+        "g100": [
+          4,
+          4,
+          4
+        ],
+        "g101": [
+          4,
+          4,
+          4
+        ],
+        "g102": [
+          4,
+          4,
+          4
+        ],
+        "g103": [
+          4,
+          4,
+          4
+        ],
+        "g104": [
+          4,
+          4,
+          4
+        ],
+        "g105": [
+          4,
+          4,
+          4
+        ],
+        "g106": [
+          4,
+          4,
+          4
+        ],
+        "g107": [
+          4,
+          4,
+          4
+        ],
+        "g108": [
+          4,
+          4,
+          4
+        ],
+        "g109": [
+          4,
+          4,
+          4
+        ],
+        "g110": [
+          4,
+          4,
+          4
+        ],
+        "g111": [
+          4,
+          4,
+          4
+        ],
+        "g112": [
+          4,
+          4,
+          4
+        ],
+        "g113": [
+          4,
+          4,
+          4
+        ],
+        "g114": [
+          4,
+          4,
+          4
+        ],
+        "g115": [
+          4,
+          4,
+          4
+        ],
+        "g116": [
+          4,
+          4,
+          4
+        ],
+        "g117": [
+          4,
+          4,
+          4
+        ],
+        "g118": [
+          4,
+          4,
+          4
+        ],
+        "g119": [
+          4,
+          4,
+          4
+        ],
+        "g120": [
+          4,
+          4,
+          4
+        ],
+        "g121": [
+          4,
+          4,
+          4
+        ],
+        "g122": [
+          4,
+          4,
+          4
+        ],
+        "g123": [
+          4,
+          4,
+          4
+        ],
+        "g124": [
+          4,
+          4,
+          4
+        ],
+        "g125": [
+          4,
+          4,
+          4
+        ],
+        "g126": [
+          4,
+          4,
+          4
+        ],
+        "g127": [
+          4,
+          4,
+          4
+        ],
+        "g128": [
+          4,
+          4,
+          4
+        ],
+        "g129": [
+          4,
+          4,
+          4
+        ],
+        "g130": [
+          4,
+          4,
+          4
+        ],
+        "g131": [
+          4,
+          4,
+          4
+        ],
+        "g132": [
+          4,
+          4,
+          4
+        ],
+        "g133": [
+          4,
+          4,
+          4
+        ],
+        "g134": [
+          4,
+          4,
+          4
+        ],
+        "g135": [
+          4,
+          4,
+          4
+        ],
+        "g136": [
+          4,
+          4,
+          4
+        ],
+        "g137": [
+          4,
+          4,
+          4
+        ],
+        "g138": [
+          4,
+          4,
+          4
+        ],
+        "g139": [
+          4,
+          4,
+          4
+        ],
+        "g140": [
+          4,
+          4,
+          4
+        ],
+        "g141": [
+          4,
+          4,
+          4
+        ],
+        "g142": [
+          4,
+          4,
+          4
+        ],
+        "g143": [
+          4,
+          4,
+          4
+        ],
+        "g144": [
+          4,
+          4,
+          4
+        ],
+        "g145": [
+          4,
+          4,
+          4
+        ],
+        "g146": [
+          4,
+          4,
+          4
+        ],
+        "g147": [
+          4,
+          4,
+          4
+        ],
+        "g148": [
+          4,
+          4,
+          4
+        ],
+        "g149": [
+          4,
+          4,
+          4
+        ],
+        "g150": [
+          4,
+          4,
+          4
+        ],
+        "g151": [
+          4,
+          4,
+          4
+        ],
+        "g152": [
+          4,
+          4,
+          4
+        ],
+        "g153": [
+          4,
+          4,
+          4
+        ],
+        "g154": [
+          4,
+          4,
+          4
+        ],
+        "g155": [
+          4,
+          4,
+          4
+        ],
+        "g156": [
+          4,
+          4,
+          4
+        ],
+        "g157": [
+          4,
+          4,
+          4
+        ],
+        "g158": [
+          4,
+          4,
+          4
+        ],
+        "g159": [
+          4,
+          4,
+          4
+        ],
+        "g160": [
+          4,
+          4,
+          4
+        ],
+        "g161": [
+          4,
+          4,
+          4
+        ],
+        "g162": [
+          4,
+          4,
+          4
+        ],
+        "g163": [
+          4,
+          4,
+          4
+        ],
+        "g164": [
+          4,
+          4,
+          4
+        ],
+        "g165": [
+          4,
+          4,
+          4
+        ],
+        "g166": [
+          4,
+          4,
+          4
+        ],
+        "g167": [
+          4,
+          4,
+          4
+        ],
+        "g168": [
+          4,
+          4,
+          4
+        ],
+        "g169": [
+          4,
+          4,
+          4
+        ],
+        "g170": [
+          4,
+          4,
+          4
+        ],
+        "g171": [
+          4,
+          4,
+          4
+        ],
+        "g172": [
+          4,
+          4,
+          4
+        ],
+        "g173": [
+          4,
+          4,
+          4
+        ],
+        "g174": [
+          4,
+          4,
+          4
+        ],
+        "g175": [
+          4,
+          4,
+          4
+        ],
+        "g176": [
+          4,
+          4,
+          4
+        ],
+        "g177": [
+          4,
+          4,
+          4
+        ],
+        "g178": [
+          4,
+          4,
+          4
+        ],
+        "g179": [
+          4,
+          4,
+          4
+        ],
+        "g180": [
+          4,
+          4,
+          4
+        ],
+        "g181": [
+          4,
+          4,
+          4
+        ],
+        "g182": [
+          4,
+          4,
+          4
+        ],
+        "g183": [
+          4,
+          4,
+          4
+        ],
+        "g184": [
+          4,
+          4,
+          4
+        ],
+        "g185": [
+          4,
+          4,
+          4
+        ],
+        "g186": [
+          4,
+          4,
+          4
+        ],
+        "g187": [
+          4,
+          4,
+          4
+        ],
+        "g188": [
+          4,
+          4,
+          4
+        ],
+        "g189": [
+          4,
+          4,
+          4
+        ],
+        "g190": [
+          4,
+          4,
+          4
+        ],
+        "g191": [
+          4,
+          4,
+          4
+        ],
+        "g192": [
+          4,
+          4,
+          4
+        ],
+        "g193": [
+          4,
+          4,
+          4
+        ],
+        "g194": [
+          4,
+          4,
+          4
+        ],
+        "g195": [
+          4,
+          4,
+          4
+        ],
+        "g196": [
+          4,
+          4,
+          4
+        ],
+        "g197": [
+          4,
+          4,
+          4
+        ],
+        "g198": [
+          4,
+          4,
+          4
+        ],
+        "g199": [
+          4,
+          4,
+          4
+        ],
+        "g200": [
+          4,
+          4,
+          4
+        ],
+        "g201": [
+          4,
+          4,
+          4
+        ],
+        "g202": [
+          4,
+          4,
+          4
+        ],
+        "g203": [
+          4,
+          4,
+          4
+        ],
+        "g204": [
+          4,
+          4,
+          4
+        ],
+        "g205": [
+          4,
+          4,
+          4
+        ],
+        "g206": [
+          4,
+          4,
+          4
+        ],
+        "g207": [
+          4,
+          4,
+          4
+        ],
+        "g208": [
+          4,
+          4,
+          4
+        ],
+        "g209": [
+          4,
+          4,
+          4
+        ],
+        "g210": [
+          4,
+          4,
+          4
+        ],
+        "g211": [
+          4,
+          4,
+          4
+        ],
+        "g212": [
+          4,
+          4,
+          4
+        ],
+        "g213": [
+          4,
+          4,
+          4
+        ],
+        "g214": [
+          4,
+          4,
+          4
+        ],
+        "g215": [
+          4,
+          4,
+          4
+        ],
+        "g216": [
+          4,
+          4,
+          4
+        ],
+        "g217": [
+          4,
+          4,
+          4
+        ],
+        "g218": [
+          4,
+          4,
+          4
+        ],
+        "g219": [
+          4,
+          4,
+          4
+        ],
+        "g220": [
+          4,
+          4,
+          4
+        ],
+        "g221": [
+          4,
+          4,
+          4
+        ],
+        "g222": [
+          4,
+          4,
+          4
+        ],
+        "g223": [
+          4,
+          4,
+          4
+        ],
+        "g224": [
+          4,
+          4,
+          4
+        ],
+        "g225": [
+          4,
+          4,
+          4
+        ],
+        "g226": [
+          4,
+          4,
+          4
+        ],
+        "g227": [
+          4,
+          4,
+          4
+        ],
+        "g228": [
+          4,
+          4,
+          4
+        ],
+        "g229": [
+          4,
+          4,
+          4
+        ],
+        "g230": [
+          4,
+          4,
+          4
+        ],
+        "g231": [
+          4,
+          4,
+          4
+        ],
+        "g232": [
+          4,
+          4,
+          4
+        ],
+        "g233": [
+          4,
+          4,
+          4
+        ],
+        "g234": [
+          4,
+          4,
+          4
+        ],
+        "g235": [
+          4,
+          4,
+          4
+        ],
+        "g236": [
+          4,
+          4,
+          4
+        ],
+        "g237": [
+          4,
+          4,
+          4
+        ],
+        "g238": [
+          4,
+          4,
+          4
+        ],
+        "g239": [
+          4,
+          4,
+          4
+        ],
+        "g240": [
+          4,
+          4,
+          4
+        ],
+        "g241": [
+          4,
+          4,
+          4
+        ],
+        "g242": [
+          4,
+          4,
+          4
+        ],
+        "g243": [
+          4,
+          4,
+          4
+        ],
+        "g244": [
+          4,
+          4,
+          4
+        ],
+        "g245": [
+          4,
+          4,
+          4
+        ],
+        "g246": [
+          4,
+          4,
+          4
+        ],
+        "g247": [
+          4,
+          4,
+          4
+        ],
+        "g248": [
+          4,
+          4,
+          4
+        ],
+        "g249": [
+          4,
+          4,
+          4
+        ],
+        "g250": [
+          4,
+          4,
+          4
+        ],
+        "g251": [
+          4,
+          4,
+          4
+        ],
+        "g252": [
+          4,
+          4,
+          4
+        ],
+        "g253": [
+          4,
+          4,
+          4
+        ],
+        "g254": [
+          4,
+          4,
+          4
+        ],
+        "g255": [
+          4,
+          4,
+          1
+        ],
+        "x0": [
+          1,
+          4,
+          4
+        ],
+        "x1": [
+          4,
+          4,
+          6
+        ],
+        "x2": [
+          6,
+          4,
+          6
+        ],
+        "x3": [
+          6,
+          4,
+          6
+        ],
+        "x4": [
+          6,
+          4,
+          6
+        ],
+        "x5": [
+          6,
+          4,
+          6
+        ],
+        "x6": [
+          6,
+          4,
+          6
+        ],
+        "x7": [
+          6,
+          4,
+          6
+        ],
+        "x8": [
+          6,
+          4,
+          6
+        ],
+        "x9": [
+          6,
+          4,
+          6
+        ],
+        "x10": [
+          6,
+          4,
+          6
+        ],
+        "x11": [
+          6,
+          4,
+          6
+        ],
+        "x12": [
+          6,
+          4,
+          6
+        ],
+        "x13": [
+          6,
+          4,
+          6
+        ],
+        "x14": [
+          6,
+          4,
+          6
+        ],
+        "x15": [
+          6,
+          4,
+          6
+        ],
+        "x16": [
+          6,
+          4,
+          6
+        ],
+        "x17": [
+          6,
+          4,
+          6
+        ],
+        "x18": [
+          6,
+          4,
+          6
+        ],
+        "x19": [
+          6,
+          4,
+          6
+        ],
+        "x20": [
+          6,
+          4,
+          6
+        ],
+        "x21": [
+          6,
+          4,
+          6
+        ],
+        "x22": [
+          6,
+          4,
+          6
+        ],
+        "x23": [
+          6,
+          4,
+          6
+        ],
+        "x24": [
+          6,
+          4,
+          6
+        ],
+        "x25": [
+          6,
+          4,
+          6
+        ],
+        "x26": [
+          6,
+          4,
+          6
+        ],
+        "x27": [
+          6,
+          4,
+          6
+        ],
+        "x28": [
+          6,
+          4,
+          6
+        ],
+        "x29": [
+          6,
+          4,
+          6
+        ],
+        "x30": [
+          6,
+          4,
+          6
+        ],
+        "x31": [
+          6,
+          4,
+          6
+        ],
+        "x32": [
+          6,
+          4,
+          6
+        ],
+        "x33": [
+          6,
+          4,
+          6
+        ],
+        "x34": [
+          6,
+          4,
+          6
+        ],
+        "x35": [
+          6,
+          4,
+          6
+        ],
+        "x36": [
+          6,
+          4,
+          6
+        ],
+        "x37": [
+          6,
+          4,
+          6
+        ],
+        "x38": [
+          6,
+          4,
+          6
+        ],
+        "x39": [
+          6,
+          4,
+          6
+        ],
+        "x40": [
+          6,
+          4,
+          6
+        ],
+        "x41": [
+          6,
+          4,
+          6
+        ],
+        "x42": [
+          6,
+          4,
+          6
+        ],
+        "x43": [
+          6,
+          4,
+          6
+        ],
+        "x44": [
+          6,
+          4,
+          6
+        ],
+        "x45": [
+          6,
+          4,
+          6
+        ],
+        "x46": [
+          6,
+          4,
+          6
+        ],
+        "x47": [
+          6,
+          4,
+          6
+        ],
+        "x48": [
+          6,
+          4,
+          6
+        ],
+        "x49": [
+          6,
+          4,
+          6
+        ],
+        "x50": [
+          6,
+          4,
+          6
+        ],
+        "x51": [
+          6,
+          4,
+          6
+        ],
+        "x52": [
+          6,
+          4,
+          6
+        ],
+        "x53": [
+          6,
+          4,
+          6
+        ],
+        "x54": [
+          6,
+          4,
+          6
+        ],
+        "x55": [
+          6,
+          4,
+          6
+        ],
+        "x56": [
+          6,
+          4,
+          6
+        ],
+        "x57": [
+          6,
+          4,
+          6
+        ],
+        "x58": [
+          6,
+          4,
+          6
+        ],
+        "x59": [
+          6,
+          4,
+          6
+        ],
+        "x60": [
+          6,
+          4,
+          6
+        ],
+        "x61": [
+          6,
+          4,
+          6
+        ],
+        "x62": [
+          6,
+          4,
+          6
+        ],
+        "x63": [
+          6,
+          4,
+          6
+        ],
+        "x64": [
+          6,
+          4,
+          6
+        ],
+        "x65": [
+          6,
+          4,
+          6
+        ],
+        "x66": [
+          6,
+          4,
+          6
+        ],
+        "x67": [
+          6,
+          4,
+          6
+        ],
+        "x68": [
+          6,
+          4,
+          6
+        ],
+        "x69": [
+          6,
+          4,
+          6
+        ],
+        "x70": [
+          6,
+          4,
+          6
+        ],
+        "x71": [
+          6,
+          4,
+          6
+        ],
+        "x72": [
+          6,
+          4,
+          6
+        ],
+        "x73": [
+          6,
+          4,
+          6
+        ],
+        "x74": [
+          6,
+          4,
+          6
+        ],
+        "x75": [
+          6,
+          4,
+          6
+        ],
+        "x76": [
+          6,
+          4,
+          6
+        ],
+        "x77": [
+          6,
+          4,
+          6
+        ],
+        "x78": [
+          6,
+          4,
+          6
+        ],
+        "x79": [
+          6,
+          4,
+          6
+        ],
+        "x80": [
+          6,
+          4,
+          6
+        ],
+        "x81": [
+          6,
+          4,
+          6
+        ],
+        "x82": [
+          6,
+          4,
+          6
+        ],
+        "x83": [
+          6,
+          4,
+          6
+        ],
+        "x84": [
+          6,
+          4,
+          6
+        ],
+        "x85": [
+          6,
+          4,
+          6
+        ],
+        "x86": [
+          6,
+          4,
+          6
+        ],
+        "x87": [
+          6,
+          4,
+          6
+        ],
+        "x88": [
+          6,
+          4,
+          6
+        ],
+        "x89": [
+          6,
+          4,
+          6
+        ],
+        "x90": [
+          6,
+          4,
+          6
+        ],
+        "x91": [
+          6,
+          4,
+          6
+        ],
+        "x92": [
+          6,
+          4,
+          6
+        ],
+        "x93": [
+          6,
+          4,
+          6
+        ],
+        "x94": [
+          6,
+          4,
+          6
+        ],
+        "x95": [
+          6,
+          4,
+          6
+        ],
+        "x96": [
+          6,
+          4,
+          6
+        ],
+        "x97": [
+          6,
+          4,
+          6
+        ],
+        "x98": [
+          6,
+          4,
+          6
+        ],
+        "x99": [
+          6,
+          4,
+          6
+        ],
+        "x100": [
+          6,
+          4,
+          6
+        ],
+        "x101": [
+          6,
+          4,
+          6
+        ],
+        "x102": [
+          6,
+          4,
+          6
+        ],
+        "x103": [
+          6,
+          4,
+          6
+        ],
+        "x104": [
+          6,
+          4,
+          6
+        ],
+        "x105": [
+          6,
+          4,
+          6
+        ],
+        "x106": [
+          6,
+          4,
+          6
+        ],
+        "x107": [
+          6,
+          4,
+          6
+        ],
+        "x108": [
+          6,
+          4,
+          6
+        ],
+        "x109": [
+          6,
+          4,
+          6
+        ],
+        "x110": [
+          6,
+          4,
+          6
+        ],
+        "x111": [
+          6,
+          4,
+          6
+        ],
+        "x112": [
+          6,
+          4,
+          6
+        ],
+        "x113": [
+          6,
+          4,
+          6
+        ],
+        "x114": [
+          6,
+          4,
+          6
+        ],
+        "x115": [
+          6,
+          4,
+          6
+        ],
+        "x116": [
+          6,
+          4,
+          6
+        ],
+        "x117": [
+          6,
+          4,
+          6
+        ],
+        "x118": [
+          6,
+          4,
+          6
+        ],
+        "x119": [
+          6,
+          4,
+          6
+        ],
+        "x120": [
+          6,
+          4,
+          6
+        ],
+        "x121": [
+          6,
+          4,
+          6
+        ],
+        "x122": [
+          6,
+          4,
+          6
+        ],
+        "x123": [
+          6,
+          4,
+          6
+        ],
+        "x124": [
+          6,
+          4,
+          6
+        ],
+        "x125": [
+          6,
+          4,
+          6
+        ],
+        "x126": [
+          6,
+          4,
+          6
+        ],
+        "x127": [
+          6,
+          4,
+          6
+        ],
+        "x128": [
+          6,
+          4,
+          6
+        ],
+        "x129": [
+          6,
+          4,
+          6
+        ],
+        "x130": [
+          6,
+          4,
+          6
+        ],
+        "x131": [
+          6,
+          4,
+          6
+        ],
+        "x132": [
+          6,
+          4,
+          6
+        ],
+        "x133": [
+          6,
+          4,
+          6
+        ],
+        "x134": [
+          6,
+          4,
+          6
+        ],
+        "x135": [
+          6,
+          4,
+          6
+        ],
+        "x136": [
+          6,
+          4,
+          6
+        ],
+        "x137": [
+          6,
+          4,
+          6
+        ],
+        "x138": [
+          6,
+          4,
+          6
+        ],
+        "x139": [
+          6,
+          4,
+          6
+        ],
+        "x140": [
+          6,
+          4,
+          6
+        ],
+        "x141": [
+          6,
+          4,
+          6
+        ],
+        "x142": [
+          6,
+          4,
+          6
+        ],
+        "x143": [
+          6,
+          4,
+          6
+        ],
+        "x144": [
+          6,
+          4,
+          6
+        ],
+        "x145": [
+          6,
+          4,
+          6
+        ],
+        "x146": [
+          6,
+          4,
+          6
+        ],
+        "x147": [
+          6,
+          4,
+          6
+        ],
+        "x148": [
+          6,
+          4,
+          6
+        ],
+        "x149": [
+          6,
+          4,
+          6
+        ],
+        "x150": [
+          6,
+          4,
+          6
+        ],
+        "x151": [
+          6,
+          4,
+          6
+        ],
+        "x152": [
+          6,
+          4,
+          6
+        ],
+        "x153": [
+          6,
+          4,
+          6
+        ],
+        "x154": [
+          6,
+          4,
+          6
+        ],
+        "x155": [
+          6,
+          4,
+          6
+        ],
+        "x156": [
+          6,
+          4,
+          6
+        ],
+        "x157": [
+          6,
+          4,
+          6
+        ],
+        "x158": [
+          6,
+          4,
+          6
+        ],
+        "x159": [
+          6,
+          4,
+          6
+        ],
+        "x160": [
+          6,
+          4,
+          6
+        ],
+        "x161": [
+          6,
+          4,
+          6
+        ],
+        "x162": [
+          6,
+          4,
+          6
+        ],
+        "x163": [
+          6,
+          4,
+          6
+        ],
+        "x164": [
+          6,
+          4,
+          6
+        ],
+        "x165": [
+          6,
+          4,
+          6
+        ],
+        "x166": [
+          6,
+          4,
+          6
+        ],
+        "x167": [
+          6,
+          4,
+          6
+        ],
+        "x168": [
+          6,
+          4,
+          6
+        ],
+        "x169": [
+          6,
+          4,
+          6
+        ],
+        "x170": [
+          6,
+          4,
+          6
+        ],
+        "x171": [
+          6,
+          4,
+          6
+        ],
+        "x172": [
+          6,
+          4,
+          6
+        ],
+        "x173": [
+          6,
+          4,
+          6
+        ],
+        "x174": [
+          6,
+          4,
+          6
+        ],
+        "x175": [
+          6,
+          4,
+          6
+        ],
+        "x176": [
+          6,
+          4,
+          6
+        ],
+        "x177": [
+          6,
+          4,
+          6
+        ],
+        "x178": [
+          6,
+          4,
+          6
+        ],
+        "x179": [
+          6,
+          4,
+          6
+        ],
+        "x180": [
+          6,
+          4,
+          6
+        ],
+        "x181": [
+          6,
+          4,
+          6
+        ],
+        "x182": [
+          6,
+          4,
+          6
+        ],
+        "x183": [
+          6,
+          4,
+          6
+        ],
+        "x184": [
+          6,
+          4,
+          6
+        ],
+        "x185": [
+          6,
+          4,
+          6
+        ],
+        "x186": [
+          6,
+          4,
+          6
+        ],
+        "x187": [
+          6,
+          4,
+          6
+        ],
+        "x188": [
+          6,
+          4,
+          6
+        ],
+        "x189": [
+          6,
+          4,
+          6
+        ],
+        "x190": [
+          6,
+          4,
+          6
+        ],
+        "x191": [
+          6,
+          4,
+          6
+        ],
+        "x192": [
+          6,
+          4,
+          6
+        ],
+        "x193": [
+          6,
+          4,
+          6
+        ],
+        "x194": [
+          6,
+          4,
+          6
+        ],
+        "x195": [
+          6,
+          4,
+          6
+        ],
+        "x196": [
+          6,
+          4,
+          6
+        ],
+        "x197": [
+          6,
+          4,
+          6
+        ],
+        "x198": [
+          6,
+          4,
+          6
+        ],
+        "x199": [
+          6,
+          4,
+          6
+        ],
+        "x200": [
+          6,
+          4,
+          6
+        ],
+        "x201": [
+          6,
+          4,
+          6
+        ],
+        "x202": [
+          6,
+          4,
+          6
+        ],
+        "x203": [
+          6,
+          4,
+          6
+        ],
+        "x204": [
+          6,
+          4,
+          6
+        ],
+        "x205": [
+          6,
+          4,
+          6
+        ],
+        "x206": [
+          6,
+          4,
+          6
+        ],
+        "x207": [
+          6,
+          4,
+          6
+        ],
+        "x208": [
+          6,
+          4,
+          6
+        ],
+        "x209": [
+          6,
+          4,
+          6
+        ],
+        "x210": [
+          6,
+          4,
+          6
+        ],
+        "x211": [
+          6,
+          4,
+          6
+        ],
+        "x212": [
+          6,
+          4,
+          6
+        ],
+        "x213": [
+          6,
+          4,
+          6
+        ],
+        "x214": [
+          6,
+          4,
+          6
+        ],
+        "x215": [
+          6,
+          4,
+          6
+        ],
+        "x216": [
+          6,
+          4,
+          6
+        ],
+        "x217": [
+          6,
+          4,
+          6
+        ],
+        "x218": [
+          6,
+          4,
+          6
+        ],
+        "x219": [
+          6,
+          4,
+          6
+        ],
+        "x220": [
+          6,
+          4,
+          6
+        ],
+        "x221": [
+          6,
+          4,
+          6
+        ],
+        "x222": [
+          6,
+          4,
+          6
+        ],
+        "x223": [
+          6,
+          4,
+          6
+        ],
+        "x224": [
+          6,
+          4,
+          6
+        ],
+        "x225": [
+          6,
+          4,
+          6
+        ],
+        "x226": [
+          6,
+          4,
+          6
+        ],
+        "x227": [
+          6,
+          4,
+          6
+        ],
+        "x228": [
+          6,
+          4,
+          6
+        ],
+        "x229": [
+          6,
+          4,
+          6
+        ],
+        "x230": [
+          6,
+          4,
+          6
+        ],
+        "x231": [
+          6,
+          4,
+          6
+        ],
+        "x232": [
+          6,
+          4,
+          6
+        ],
+        "x233": [
+          6,
+          4,
+          6
+        ],
+        "x234": [
+          6,
+          4,
+          6
+        ],
+        "x235": [
+          6,
+          4,
+          6
+        ],
+        "x236": [
+          6,
+          4,
+          6
+        ],
+        "x237": [
+          6,
+          4,
+          6
+        ],
+        "x238": [
+          6,
+          4,
+          6
+        ],
+        "x239": [
+          6,
+          4,
+          6
+        ],
+        "x240": [
+          6,
+          4,
+          6
+        ],
+        "x241": [
+          6,
+          4,
+          6
+        ],
+        "x242": [
+          6,
+          4,
+          6
+        ],
+        "x243": [
+          6,
+          4,
+          6
+        ],
+        "x244": [
+          6,
+          4,
+          6
+        ],
+        "x245": [
+          6,
+          4,
+          6
+        ],
+        "x246": [
+          6,
+          4,
+          6
+        ],
+        "x247": [
+          6,
+          4,
+          6
+        ],
+        "x248": [
+          6,
+          4,
+          6
+        ],
+        "x249": [
+          6,
+          4,
+          6
+        ],
+        "x250": [
+          6,
+          4,
+          6
+        ],
+        "x251": [
+          6,
+          4,
+          6
+        ],
+        "x252": [
+          6,
+          4,
+          6
+        ],
+        "x253": [
+          6,
+          4,
+          6
+        ],
+        "x254": [
+          6,
+          4,
+          4
+        ],
+        "x255": [
+          4,
+          4,
+          1
+        ]
+      },
+      "all_finite": true
+    },
+    {
+      "path": "D256_witness_05_tol1e-05/n256_t0.1_s5_p0.12_a0.35_jensen_tdvp_settings.json",
+      "bytes": 453,
+      "sha256": "69519ec6075def54a29c5f2c44fecca5dd94311edc39c453f566f6c27db9f58e",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 14
+    },
+    {
+      "path": "D256_witness_05_tol1e-05/n256_t0.1_s5_p0.12_a0.35_jensen_tdvp_trials.csv",
+      "bytes": 1086,
+      "sha256": "bbdaee3c6c6058304b75ba943126abaa4a1b6dad131aaef3b9ec26964f934a51",
+      "unchanged": true,
+      "rows": 7
+    },
+    {
+      "path": "D256_witness_05_tol1e-05/stdout.txt",
+      "bytes": 1049,
+      "sha256": "0291e3a8e87889cef55bdadb7db37b926f3c2a9cd09c51e95de7857b418cb39d",
+      "unchanged": true,
+      "lines": 12,
+      "traceback_lines": []
+    },
+    {
+      "path": "environment.json",
+      "bytes": 406,
+      "sha256": "0edda0b7aea38eaf8e72d88fca92b52fce13d52300fc59aa5c9f7915cf25e9d2",
+      "unchanged": true,
+      "json_kind": "dict",
+      "entries": 5
+    },
+    {
+      "path": "frontier_1e-05.csv",
+      "bytes": 2171,
+      "sha256": "e33b3cae02ee0ffb909c955306c1edc811a0ca59ff8b52bc7f622764e304a8cc",
+      "unchanged": true,
+      "rows": 40
+    },
+    {
+      "path": "frontier_1e-07.csv",
+      "bytes": 1521,
+      "sha256": "db2f9e9a7fed001e77a97d81a80215d31036e7612a47a8066fc0a4f3d3d85ced",
+      "unchanged": true,
+      "rows": 40
+    },
+    {
+      "path": "measurements.csv",
+      "bytes": 5569,
+      "sha256": "ddb5ea196c7de5ddba122cea48d603ebb91ec3f2e6136ec815cc51c81aefd276",
+      "unchanged": true,
+      "rows": 31
+    },
+    {
+      "path": "measurements.json",
+      "bytes": 16414,
+      "sha256": "b652fd6265d2c50b08b69af1576c774fb290a6d4044d66c02f36edb320d6eb12",
+      "unchanged": true,
+      "json_kind": "list",
+      "entries": 31
+    },
+    {
+      "path": "report.md",
+      "bytes": 5319,
+      "sha256": "dd8040b9cd043c0c6c42c9d147f45963600185df2c0acc3aee0e7e9a70d35e2b",
+      "unchanged": true,
+      "lines": 85,
+      "traceback_lines": []
+    }
+  ],
+  "cases": [
+    {
+      "directory": "D003_root_05_tol0",
+      "n": 3,
+      "method": "root",
+      "steps": 5,
+      "status": "completed",
+      "wall_seconds": 0.6152672179999996,
+      "global_cp_error": 9.276230787503505e-07,
+      "global_cp_bound": null,
+      "stdout_lines": 1,
+      "stdout_summary_agrees": true,
+      "accepted_steps": 5,
+      "reached_time": 0.1,
+      "error_message": null,
+      "setup_seconds": 0.120368114999998,
+      "evolution_seconds": 0.017532967000001065,
+      "scoring_seconds": 0.0007220790000062038,
+      "force_seconds": null,
+      "total_seconds": 0.13950270799999487,
+      "max_krylov_iterations": null,
+      "max_conditioning": null,
+      "max_stationarity_relative": null,
+      "h_bond": null,
+      "x_bond": 4,
+      "peak_process_memory_mib": 92.41796875
+    },
+    {
+      "directory": "D003_matrix_free_05_tol0",
+      "n": 3,
+      "method": "matrix_free",
+      "steps": 5,
+      "status": "completed",
+      "wall_seconds": 0.9658435420000018,
+      "global_cp_error": 9.323700037005576e-07,
+      "global_cp_bound": null,
+      "stdout_lines": 1,
+      "stdout_summary_agrees": true,
+      "accepted_steps": 5,
+      "reached_time": 0.1,
+      "error_message": null,
+      "setup_seconds": 0.013150145999993867,
+      "evolution_seconds": 0.7419976300000073,
+      "scoring_seconds": 0.0025597100000140927,
+      "force_seconds": 0.7045350679999984,
+      "total_seconds": 0.7609249899999995,
+      "max_krylov_iterations": 11,
+      "max_conditioning": 11.96655191671022,
+      "max_stationarity_relative": 2.9970406155639488e-09,
+      "h_bond": 4,
+      "x_bond": 16,
+      "peak_process_memory_mib": 80.5,
+      "solve_records": 10
+    },
+    {
+      "directory": "D003_root_10_tol0",
+      "n": 3,
+      "method": "root",
+      "steps": 10,
+      "status": "completed",
+      "wall_seconds": 0.3146956220000021,
+      "global_cp_error": 2.2846681793052848e-07,
+      "global_cp_bound": null,
+      "stdout_lines": 1,
+      "stdout_summary_agrees": true,
+      "accepted_steps": 10,
+      "reached_time": 0.1,
+      "error_message": null,
+      "setup_seconds": 0.06860524500000054,
+      "evolution_seconds": 0.034972921999994355,
+      "scoring_seconds": 0.0014868709999973362,
+      "force_seconds": null,
+      "total_seconds": 0.10669927600000051,
+      "max_krylov_iterations": null,
+      "max_conditioning": null,
+      "max_stationarity_relative": null,
+      "h_bond": null,
+      "x_bond": 4,
+      "peak_process_memory_mib": 91.7890625
+    },
+    {
+      "directory": "D003_matrix_free_10_tol0",
+      "n": 3,
+      "method": "matrix_free",
+      "steps": 10,
+      "status": "completed",
+      "wall_seconds": 1.7678256919999953,
+      "global_cp_error": 2.296274663738343e-07,
+      "global_cp_bound": null,
+      "stdout_lines": 1,
+      "stdout_summary_agrees": true,
+      "accepted_steps": 10,
+      "reached_time": 0.1,
+      "error_message": null,
+      "setup_seconds": 0.013674967000000038,
+      "evolution_seconds": 1.5021697849999711,
+      "scoring_seconds": 0.005280643999988399,
+      "force_seconds": 1.428332198000028,
+      "total_seconds": 1.5276655510000055,
+      "max_krylov_iterations": 11,
+      "max_conditioning": 11.970161832037267,
+      "max_stationarity_relative": 3.082087353312675e-09,
+      "h_bond": 4,
+      "x_bond": 16,
+      "peak_process_memory_mib": 80.27734375,
+      "solve_records": 20
+    },
+    {
+      "directory": "D003_root_20_tol0",
+      "n": 3,
+      "method": "root",
+      "steps": 20,
+      "status": "completed",
+      "wall_seconds": 0.36491340999999977,
+      "global_cp_error": 5.6692218600094433e-08,
+      "global_cp_bound": null,
+      "stdout_lines": 1,
+      "stdout_summary_agrees": true,
+      "accepted_steps": 20,
+      "reached_time": 0.1,
+      "error_message": null,
+      "setup_seconds": 0.06951122099999907,
+      "evolution_seconds": 0.06596525899998085,
+      "scoring_seconds": 0.0028250120000024026,
+      "force_seconds": null,
+      "total_seconds": 0.14148537500000202,
+      "max_krylov_iterations": null,
+      "max_conditioning": null,
+      "max_stationarity_relative": null,
+      "h_bond": null,
+      "x_bond": 4,
+      "peak_process_memory_mib": 92.1328125
+    },
+    {
+      "directory": "D003_matrix_free_20_tol0",
+      "n": 3,
+      "method": "matrix_free",
+      "steps": 20,
+      "status": "completed",
+      "wall_seconds": 3.2209892880000126,
+      "global_cp_error": 5.697946423787253e-08,
+      "global_cp_bound": null,
+      "stdout_lines": 1,
+      "stdout_summary_agrees": true,
+      "accepted_steps": 20,
+      "reached_time": 0.1,
+      "error_message": null,
+      "setup_seconds": 0.013638087999993331,
+      "evolution_seconds": 2.976202017999995,
+      "scoring_seconds": 0.010341569000019035,
+      "force_seconds": 2.8314574830000367,
+      "total_seconds": 3.013064828999987,
+      "max_krylov_iterations": 11,
+      "max_conditioning": 11.971876836243595,
+      "max_stationarity_relative": 7.14665903887462e-09,
+      "h_bond": 4,
+      "x_bond": 16,
+      "peak_process_memory_mib": 80.6484375,
+      "solve_records": 40
+    },
+    {
+      "directory": "D004_root_05_tol0",
+      "n": 4,
+      "method": "root",
+      "steps": 5,
+      "status": "completed",
+      "wall_seconds": 0.31459410000000787,
+      "global_cp_error": 1.1321244584652779e-06,
+      "global_cp_bound": null,
+      "stdout_lines": 1,
+      "stdout_summary_agrees": true,
+      "accepted_steps": 5,
+      "reached_time": 0.1,
+      "error_message": null,
+      "setup_seconds": 0.08533375599999715,
+      "evolution_seconds": 0.02694139299997289,
+      "scoring_seconds": 0.0011337069999797222,
+      "force_seconds": null,
+      "total_seconds": 0.11468410899999526,
+      "max_krylov_iterations": null,
+      "max_conditioning": null,
+      "max_stationarity_relative": null,
+      "h_bond": null,
+      "x_bond": 16,
+      "peak_process_memory_mib": 96.796875
+    },
+    {
+      "directory": "D004_matrix_free_05_tol0",
+      "n": 4,
+      "method": "matrix_free",
+      "steps": 5,
+      "status": "completed",
+      "wall_seconds": 2.9707338900000053,
+      "global_cp_error": 1.137602034168257e-06,
+      "global_cp_bound": null,
+      "stdout_lines": 1,
+      "stdout_summary_agrees": true,
+      "accepted_steps": 5,
+      "reached_time": 0.1,
+      "error_message": null,
+      "setup_seconds": 0.014235413999998059,
+      "evolution_seconds": 2.739075993,
+      "scoring_seconds": 0.004964160000000106,
+      "force_seconds": 2.2928134310000132,
+      "total_seconds": 2.7655250560000013,
+      "max_krylov_iterations": 46,
+      "max_conditioning": 140.2259206685904,
+      "max_stationarity_relative": 8.858718391319947e-09,
+      "h_bond": 16,
+      "x_bond": 256,
+      "peak_process_memory_mib": 233.59375,
+      "solve_records": 10
+    },
+    {
+      "directory": "D004_root_10_tol0",
+      "n": 4,
+      "method": "root",
+      "steps": 10,
+      "status": "completed",
+      "wall_seconds": 0.3647696040000028,
+      "global_cp_error": 2.7882429707902677e-07,
+      "global_cp_bound": null,
+      "stdout_lines": 1,
+      "stdout_summary_agrees": true,
+      "accepted_steps": 10,
+      "reached_time": 0.1,
+      "error_message": null,
+      "setup_seconds": 0.08062602399999719,
+      "evolution_seconds": 0.05359299000002693,
+      "scoring_seconds": 0.002316578999980834,
+      "force_seconds": null,
+      "total_seconds": 0.13908828099999937,
+      "max_krylov_iterations": null,
+      "max_conditioning": null,
+      "max_stationarity_relative": null,
+      "h_bond": null,
+      "x_bond": 16,
+      "peak_process_memory_mib": 96.7421875
+    },
+    {
+      "directory": "D004_matrix_free_10_tol0",
+      "n": 4,
+      "method": "matrix_free",
+      "steps": 10,
+      "status": "completed",
+      "wall_seconds": 5.577139340999992,
+      "global_cp_error": 2.801704711759604e-07,
+      "global_cp_bound": null,
+      "stdout_lines": 1,
+      "stdout_summary_agrees": true,
+      "accepted_steps": 10,
+      "reached_time": 0.1,
+      "error_message": null,
+      "setup_seconds": 0.014654234999994742,
+      "evolution_seconds": 5.2891738100000225,
+      "scoring_seconds": 0.00981834300000628,
+      "force_seconds": 4.348963024,
+      "total_seconds": 5.327810827999997,
+      "max_krylov_iterations": 46,
+      "max_conditioning": 225.38836726040734,
+      "max_stationarity_relative": 8.880552252795492e-09,
+      "h_bond": 16,
+      "x_bond": 256,
+      "peak_process_memory_mib": 233.78125,
+      "solve_records": 20
+    },
+    {
+      "directory": "D005_root_05_tol0",
+      "n": 5,
+      "method": "root",
+      "steps": 5,
+      "status": "completed",
+      "wall_seconds": 0.4649570549999993,
+      "global_cp_error": 1.3149517610760559e-06,
+      "global_cp_bound": null,
+      "stdout_lines": 1,
+      "stdout_summary_agrees": true,
+      "accepted_steps": 5,
+      "reached_time": 0.1,
+      "error_message": null,
+      "setup_seconds": 0.17703006100001062,
+      "evolution_seconds": 0.0454040830000082,
+      "scoring_seconds": 0.0027235859999876766,
+      "force_seconds": null,
+      "total_seconds": 0.22849599100000262,
+      "max_krylov_iterations": null,
+      "max_conditioning": null,
+      "max_stationarity_relative": null,
+      "h_bond": null,
+      "x_bond": 4,
+      "peak_process_memory_mib": 173.09375
+    },
+    {
+      "directory": "D005_matrix_free_05_tol0",
+      "n": 5,
+      "method": "matrix_free",
+      "steps": 5,
+      "status": "completed",
+      "wall_seconds": 15.497168439999996,
+      "global_cp_error": 1.3164307440083085e-06,
+      "global_cp_bound": null,
+      "stdout_lines": 1,
+      "stdout_summary_agrees": true,
+      "accepted_steps": 5,
+      "reached_time": 0.1,
+      "error_message": null,
+      "setup_seconds": 0.016155670000003397,
+      "evolution_seconds": 15.232474334999992,
+      "scoring_seconds": 0.005481763000020123,
+      "force_seconds": 15.072637150000006,
+      "total_seconds": 15.262600028999998,
+      "max_krylov_iterations": 40,
+      "max_conditioning": 5719.45397787495,
+      "max_stationarity_relative": 8.507845056094822e-09,
+      "h_bond": 4,
+      "x_bond": 16,
+      "peak_process_memory_mib": 90.0859375,
+      "solve_records": 10
+    },
+    {
+      "directory": "D006_root_05_tol0",
+      "n": 6,
+      "method": "root",
+      "steps": 5,
+      "status": "completed",
+      "wall_seconds": 2.269415391999999,
+      "global_cp_error": 1.470629617098531e-06,
+      "global_cp_bound": null,
+      "stdout_lines": 1,
+      "stdout_summary_agrees": true,
+      "accepted_steps": 5,
+      "reached_time": 0.1,
+      "error_message": null,
+      "setup_seconds": 1.8116761010000033,
+      "evolution_seconds": 0.189758077999997,
+      "scoring_seconds": 0.009339651999965781,
+      "force_seconds": null,
+      "total_seconds": 2.0268686240000022,
+      "max_krylov_iterations": null,
+      "max_conditioning": null,
+      "max_stationarity_relative": null,
+      "h_bond": null,
+      "x_bond": 4,
+      "peak_process_memory_mib": 1373.76953125
+    },
+    {
+      "directory": "D006_matrix_free_05_tol0",
+      "n": 6,
+      "method": "matrix_free",
+      "steps": 5,
+      "status": "failed",
+      "wall_seconds": 0.6151375520000073,
+      "global_cp_error": null,
+      "global_cp_bound": null,
+      "stdout_lines": 1,
+      "stdout_summary_agrees": true,
+      "accepted_steps": 0,
+      "reached_time": 0.0,
+      "error_message": "CompressionError: MPO work bond discarded too much for a reliable Krylov operation",
+      "setup_seconds": 0.02049635400000227,
+      "evolution_seconds": 0.401877601999999,
+      "scoring_seconds": 0.0,
+      "force_seconds": null,
+      "total_seconds": 0.42247129199999733,
+      "max_krylov_iterations": null,
+      "max_conditioning": 0.0,
+      "max_stationarity_relative": null,
+      "h_bond": null,
+      "x_bond": null,
+      "peak_process_memory_mib": 79.796875
+    },
+    {
+      "directory": "D003_witness_05_tol1e-05",
+      "n": 3,
+      "method": "witness",
+      "steps": 5,
+      "status": "completed",
+      "wall_seconds": 0.31475224099999366,
+      "global_cp_error": 1.1480351937140182e-06,
+      "global_cp_bound": 2.342573554044823e-06,
+      "stdout_lines": 12,
+      "endpoint_rows": 6,
+      "all_endpoints_accepted": true,
+      "reached_time": 0.1,
+      "total_seconds": 0.12061389100000497,
+      "h_bond": 4,
+      "x_bond": 4,
+      "prediction_bound": 2.342573554044823e-06,
+      "witness_defect": 5.8064237770430556e-11,
+      "weighted_residual": 2.3424574255692824e-06,
+      "endpoint_corrections": 0,
+      "correction_trials": 0
+    },
+    {
+      "directory": "D003_witness_05_tol1e-07",
+      "n": 3,
+      "method": "witness",
+      "steps": 5,
+      "status": "completed",
+      "wall_seconds": 0.36473667700001045,
+      "global_cp_error": 3.0875514203060492e-09,
+      "global_cp_bound": 6.289437165860632e-09,
+      "stdout_lines": 12,
+      "endpoint_rows": 6,
+      "all_endpoints_accepted": true,
+      "reached_time": 0.1,
+      "total_seconds": 0.13871921300000167,
+      "h_bond": 4,
+      "x_bond": 4,
+      "prediction_bound": 4.998965509667957e-07,
+      "witness_defect": 5.426507465078227e-16,
+      "weighted_residual": 6.289436080559139e-09,
+      "endpoint_corrections": 5,
+      "correction_trials": 5,
+      "improving_correction_trials": 5
+    },
+    {
+      "directory": "D003_correction_only_05_tol1e-05",
+      "n": 3,
+      "method": "correction_only",
+      "steps": 5,
+      "status": "completed",
+      "wall_seconds": 0.2644867099999999,
+      "global_cp_error": 1.196255311143111e-07,
+      "global_cp_bound": 2.443429285064875e-07,
+      "stdout_lines": 12,
+      "endpoint_rows": 6,
+      "all_endpoints_accepted": true,
+      "reached_time": 0.1,
+      "total_seconds": 0.04962808000000507,
+      "h_bond": 4,
+      "x_bond": 4,
+      "prediction_bound": null,
+      "witness_defect": 3.1140381343873974e-16,
+      "weighted_residual": 2.443429278836799e-07,
+      "endpoint_corrections": 5,
+      "correction_trials": 10,
+      "improving_correction_trials": 10
+    },
+    {
+      "directory": "D003_correction_only_05_tol1e-07",
+      "n": 3,
+      "method": "correction_only",
+      "steps": 5,
+      "status": "completed",
+      "wall_seconds": 0.26460300600000153,
+      "global_cp_error": 2.060517112599675e-09,
+      "global_cp_bound": 4.2383495806677595e-09,
+      "stdout_lines": 12,
+      "endpoint_rows": 6,
+      "all_endpoints_accepted": true,
+      "reached_time": 0.1,
+      "total_seconds": 0.06561591099999475,
+      "h_bond": 4,
+      "x_bond": 4,
+      "prediction_bound": null,
+      "witness_defect": 7.597510351273547e-16,
+      "weighted_residual": 4.238348061165689e-09,
+      "endpoint_corrections": 5,
+      "correction_trials": 15,
+      "improving_correction_trials": 15
+    },
+    {
+      "directory": "D004_witness_05_tol1e-05",
+      "n": 4,
+      "method": "witness",
+      "steps": 5,
+      "status": "completed",
+      "wall_seconds": 0.41490508100000056,
+      "global_cp_error": 1.4553628887702684e-06,
+      "global_cp_bound": 3.54433897302191e-06,
+      "stdout_lines": 12,
+      "endpoint_rows": 6,
+      "all_endpoints_accepted": true,
+      "reached_time": 0.1,
+      "total_seconds": 0.19302842700000156,
+      "h_bond": 4,
+      "x_bond": 6,
+      "prediction_bound": 3.54433897302191e-06,
+      "witness_defect": 2.871043729305733e-07,
+      "weighted_residual": 2.9701302271607637e-06,
+      "endpoint_corrections": 0,
+      "correction_trials": 0
+    },
+    {
+      "directory": "D004_witness_05_tol1e-07",
+      "n": 4,
+      "method": "witness",
+      "steps": 5,
+      "status": "completed",
+      "wall_seconds": 0.6153622829999961,
+      "global_cp_error": 3.7758023104271136e-08,
+      "global_cp_bound": 8.215764398070718e-08,
+      "stdout_lines": 12,
+      "endpoint_rows": 6,
+      "all_endpoints_accepted": true,
+      "reached_time": 0.1,
+      "total_seconds": 0.3756811780000078,
+      "h_bond": 6,
+      "x_bond": 8,
+      "prediction_bound": 7.624033917332224e-07,
+      "witness_defect": 2.830173906581631e-09,
+      "weighted_residual": 7.649729616754391e-08,
+      "endpoint_corrections": 5,
+      "correction_trials": 39,
+      "improving_correction_trials": 27
+    },
+    {
+      "directory": "D004_correction_only_05_tol1e-05",
+      "n": 4,
+      "method": "correction_only",
+      "steps": 5,
+      "status": "completed",
+      "wall_seconds": 0.3146514289999942,
+      "global_cp_error": 3.1667900559434633e-07,
+      "global_cp_bound": 6.631108824487457e-07,
+      "stdout_lines": 12,
+      "endpoint_rows": 6,
+      "all_endpoints_accepted": true,
+      "reached_time": 0.1,
+      "total_seconds": 0.08755374499999391,
+      "h_bond": 4,
+      "x_bond": 6,
+      "prediction_bound": null,
+      "witness_defect": 8.528707631749913e-09,
+      "weighted_residual": 6.460534671852459e-07,
+      "endpoint_corrections": 5,
+      "correction_trials": 10,
+      "improving_correction_trials": 10
+    },
+    {
+      "directory": "D004_correction_only_05_tol1e-07",
+      "n": 4,
+      "method": "correction_only",
+      "steps": 5,
+      "status": "completed",
+      "wall_seconds": 0.464999516000006,
+      "global_cp_error": 3.775802157379296e-08,
+      "global_cp_bound": 8.21576402627473e-08,
+      "stdout_lines": 12,
+      "endpoint_rows": 6,
+      "all_endpoints_accepted": true,
+      "reached_time": 0.1,
+      "total_seconds": 0.267001098999998,
+      "h_bond": 6,
+      "x_bond": 8,
+      "prediction_bound": null,
+      "witness_defect": 2.830173748461661e-09,
+      "weighted_residual": 7.649729276582397e-08,
+      "endpoint_corrections": 5,
+      "correction_trials": 44,
+      "improving_correction_trials": 36
+    },
+    {
+      "directory": "D005_witness_05_tol1e-05",
+      "n": 5,
+      "method": "witness",
+      "steps": 5,
+      "status": "completed",
+      "wall_seconds": 0.6153468529999913,
+      "global_cp_error": 1.7409371376414372e-06,
+      "global_cp_bound": 4.370024090796458e-06,
+      "stdout_lines": 12,
+      "endpoint_rows": 6,
+      "all_endpoints_accepted": true,
+      "reached_time": 0.1,
+      "total_seconds": 0.40294570999999735,
+      "h_bond": 4,
+      "x_bond": 6,
+      "prediction_bound": 4.370024090796458e-06,
+      "witness_defect": 4.085611917960914e-07,
+      "weighted_residual": 3.5529017072042754e-06,
+      "endpoint_corrections": 0,
+      "correction_trials": 0
+    },
+    {
+      "directory": "D006_witness_05_tol1e-05",
+      "n": 6,
+      "method": "witness",
+      "steps": 5,
+      "status": "completed",
+      "wall_seconds": 0.6654239189999913,
+      "global_cp_error": 2.0184905952090275e-06,
+      "global_cp_bound": 5.138659894059813e-06,
+      "stdout_lines": 12,
+      "endpoint_rows": 6,
+      "all_endpoints_accepted": true,
+      "reached_time": 0.1,
+      "total_seconds": 0.439253094999998,
+      "h_bond": 4,
+      "x_bond": 6,
+      "prediction_bound": 5.138659894059813e-06,
+      "witness_defect": 5.089750122971496e-07,
+      "weighted_residual": 4.120641986125717e-06,
+      "endpoint_corrections": 0,
+      "correction_trials": 0
+    },
+    {
+      "directory": "D008_witness_05_tol1e-05",
+      "n": 8,
+      "method": "witness",
+      "steps": 5,
+      "status": "completed",
+      "wall_seconds": 0.9664397399999984,
+      "global_cp_error": 2.5568754247504045e-06,
+      "global_cp_bound": 6.685228428318002e-06,
+      "stdout_lines": 12,
+      "endpoint_rows": 6,
+      "all_endpoints_accepted": true,
+      "reached_time": 0.1,
+      "total_seconds": 0.7515701129999997,
+      "h_bond": 4,
+      "x_bond": 6,
+      "prediction_bound": 6.685228428318002e-06,
+      "witness_defect": 7.320153791994396e-07,
+      "weighted_residual": 5.221094147743576e-06,
+      "endpoint_corrections": 0,
+      "correction_trials": 0
+    },
+    {
+      "directory": "D008_correction_only_05_tol1e-05",
+      "n": 8,
+      "method": "correction_only",
+      "steps": 5,
+      "status": "completed",
+      "wall_seconds": 0.5655813249999966,
+      "global_cp_error": 6.982427786807424e-07,
+      "global_cp_bound": 1.4619020173353625e-06,
+      "stdout_lines": 12,
+      "endpoint_rows": 6,
+      "all_endpoints_accepted": true,
+      "reached_time": 0.1,
+      "total_seconds": 0.3609145649999874,
+      "h_bond": 4,
+      "x_bond": 6,
+      "prediction_bound": null,
+      "witness_defect": 1.8396222755426237e-08,
+      "weighted_residual": 1.425108866997809e-06,
+      "endpoint_corrections": 5,
+      "correction_trials": 10,
+      "improving_correction_trials": 10
+    },
+    {
+      "directory": "D016_witness_05_tol1e-05",
+      "n": 16,
+      "method": "witness",
+      "steps": 5,
+      "status": "completed",
+      "wall_seconds": 1.8181185869999865,
+      "global_cp_error": null,
+      "global_cp_bound": 1.8836503391535739e-06,
+      "stdout_lines": 12,
+      "endpoint_rows": 6,
+      "all_endpoints_accepted": true,
+      "reached_time": 0.1,
+      "total_seconds": 1.5968470389999965,
+      "h_bond": 4,
+      "x_bond": 6,
+      "prediction_bound": 1.307320158209896e-05,
+      "witness_defect": 2.9617777485172914e-08,
+      "weighted_residual": 1.8244070582332456e-06,
+      "endpoint_corrections": 1,
+      "correction_trials": 1,
+      "improving_correction_trials": 1
+    },
+    {
+      "directory": "D032_witness_05_tol1e-05",
+      "n": 32,
+      "method": "witness",
+      "steps": 5,
+      "status": "completed",
+      "wall_seconds": 3.772794775999998,
+      "global_cp_error": null,
+      "global_cp_bound": 2.8420238927710968e-06,
+      "stdout_lines": 12,
+      "endpoint_rows": 6,
+      "all_endpoints_accepted": true,
+      "reached_time": 0.1,
+      "total_seconds": 3.550395327000004,
+      "h_bond": 4,
+      "x_bond": 6,
+      "prediction_bound": 1.9813140929767857e-05,
+      "witness_defect": 4.42246105547193e-08,
+      "weighted_residual": 2.7535094524064568e-06,
+      "endpoint_corrections": 2,
+      "correction_trials": 2,
+      "improving_correction_trials": 2
+    },
+    {
+      "directory": "D064_witness_05_tol1e-05",
+      "n": 64,
+      "method": "witness",
+      "steps": 5,
+      "status": "completed",
+      "wall_seconds": 8.031680467000001,
+      "global_cp_error": null,
+      "global_cp_bound": 4.222851432655953e-06,
+      "stdout_lines": 12,
+      "endpoint_rows": 6,
+      "all_endpoints_accepted": true,
+      "reached_time": 0.1,
+      "total_seconds": 7.7756195460000015,
+      "h_bond": 4,
+      "x_bond": 6,
+      "prediction_bound": 3.455274242268434e-05,
+      "witness_defect": 6.414600879545012e-08,
+      "weighted_residual": 4.093111756095003e-06,
+      "endpoint_corrections": 4,
+      "correction_trials": 4,
+      "improving_correction_trials": 4
+    },
+    {
+      "directory": "D128_witness_05_tol1e-05",
+      "n": 128,
+      "method": "witness",
+      "steps": 5,
+      "status": "completed",
+      "wall_seconds": 16.901801385,
+      "global_cp_error": null,
+      "global_cp_bound": 7.3314691158761776e-06,
+      "stdout_lines": 12,
+      "endpoint_rows": 6,
+      "all_endpoints_accepted": true,
+      "reached_time": 0.1,
+      "total_seconds": 16.681723569000013,
+      "h_bond": 4,
+      "x_bond": 6,
+      "prediction_bound": 8.467069566231019e-05,
+      "witness_defect": 9.183559754803476e-08,
+      "weighted_residual": 6.891290623621114e-06,
+      "endpoint_corrections": 4,
+      "correction_trials": 4,
+      "improving_correction_trials": 4
+    },
+    {
+      "directory": "D256_witness_05_tol1e-05",
+      "n": 256,
+      "method": "witness",
+      "steps": 5,
+      "status": "completed",
+      "wall_seconds": 38.799661345000004,
+      "global_cp_error": null,
+      "global_cp_bound": 8.943669588227428e-06,
+      "stdout_lines": 12,
+      "endpoint_rows": 6,
+      "all_endpoints_accepted": true,
+      "reached_time": 0.1,
+      "total_seconds": 38.52934145500001,
+      "h_bond": 4,
+      "x_bond": 6,
+      "prediction_bound": 0.00025354513275928077,
+      "witness_defect": 1.305676397294767e-07,
+      "weighted_residual": 8.682534308768475e-06,
+      "endpoint_corrections": 5,
+      "correction_trials": 7,
+      "improving_correction_trials": 7
+    }
+  ]
+}

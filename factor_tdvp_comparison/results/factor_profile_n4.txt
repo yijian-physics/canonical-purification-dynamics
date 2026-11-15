@@ -1,0 +1,24 @@
+         32141649 function calls (31546837 primitive calls) in 26.830 seconds
+
+   Ordered by: cumulative time
+   List reduced from 217 to 18 due to restriction <18>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       10    0.006    0.001   26.803    2.680 /workspace/scratch/ed386a29fd8a/factor-benchmarks-fork/factor_tdvp/tangent_solver.py:301(midpoint_step)
+       20    0.054    0.003   26.597    1.330 /workspace/scratch/ed386a29fd8a/factor-benchmarks-fork/factor_tdvp/tangent_solver.py:158(factor_velocity)
+     4480    0.037    0.000   24.238    0.005 /workspace/scratch/ed386a29fd8a/factor-benchmarks-fork/factor_tdvp/tangent_solver.py:83(apply)
+    18400    0.041    0.000   19.253    0.001 /workspace/scratch/ed386a29fd8a/factor-benchmarks-fork/factor_tdvp/tangent_solver.py:70(product)
+    29748    0.048    0.000   17.662    0.001 /workspace/scratch/ed386a29fd8a/factor-benchmarks-fork/factor_tdvp/tangent_solver.py:65(round)
+    29768    1.419    0.000   17.619    0.001 /workspace/scratch/ed386a29fd8a/factor-benchmarks-fork/scalable_cp_witness/code/tdvp_core.py:44(compress)
+    29888    0.437    0.000    8.127    0.000 /workspace/scratch/ed386a29fd8a/factor-benchmarks-fork/scalable_cp_witness/code/cluster_dephasing.py:76(move_center)
+    18499    0.366    0.000    7.413    0.000 /workspace/scratch/ed386a29fd8a/factor-benchmarks-fork/scalable_cp_witness/code/mpo_cp_force.py:25(multiply)
+    73996    0.697    0.000    6.278    0.000 /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/_core/einsumfunc.py:1057(einsum)
+    11348    0.022    0.000    6.195    0.001 /workspace/scratch/ed386a29fd8a/factor-benchmarks-fork/factor_tdvp/tangent_solver.py:73(add)
+    89724    2.866    0.000    5.380    0.000 /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/linalg/_linalg.py:986(qr)
+   273514    3.610    0.000    5.354    0.000 /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/_core/numeric.py:1002(tensordot)
+    89378    2.968    0.000    3.660    0.000 /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/linalg/_linalg.py:1689(svd)
+    73996    1.356    0.000    3.641    0.000 /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/_core/einsumfunc.py:742(einsum_path)
+626382/36846    0.830    0.000    2.257    0.000 /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/copy.py:118(deepcopy)
+    36846    0.131    0.000    1.962    0.000 /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/copy.py:247(_reconstruct)
+    36846    0.131    0.000    1.597    0.000 /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/copy.py:217(_deepcopy_dict)
+    89724    0.451    0.000    1.357    0.000 /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/lib/_twodim_base_impl.py:510(triu)

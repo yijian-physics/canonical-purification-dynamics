@@ -1,0 +1,20 @@
+test_bound_is_labeled_and_never_substituted_for_existing_error (factor_tdvp_accelerated.test_repeated_scaling.FrontierTests) ... ok
+test_missing_and_timeout_runs_are_not_measured_costs (factor_tdvp_accelerated.test_repeated_scaling.FrontierTests) ... ok
+test_one_failed_accuracy_repeat_disqualifies_configuration (factor_tdvp_accelerated.test_repeated_scaling.FrontierTests) ... ok
+test_resource_guard_does_not_mark_factor_eight_unsupported (factor_tdvp_accelerated.test_repeated_scaling.FrontierTests) ... ok
+test_selects_median_of_three_not_luckiest_timing (factor_tdvp_accelerated.test_repeated_scaling.FrontierTests) ... ok
+test_classmethod_instrumentation_preserves_behavior (factor_tdvp_accelerated.test_repeated_scaling.LedgerTests) ... ok
+test_failed_call_still_records_and_restores_stack (factor_tdvp_accelerated.test_repeated_scaling.LedgerTests) ... ok
+test_nested_accounting_never_double_counts (factor_tdvp_accelerated.test_repeated_scaling.LedgerTests) ... ok
+test_child_rss_guard_writes_evidence_before_guarded_exit (factor_tdvp_accelerated.test_repeated_scaling.MemoryGuardTests) ... ok
+test_different_physical_endpoints_are_separate_comparisons (factor_tdvp_accelerated.test_frontier_evidence.FrontierEvidenceTests) ... ok
+test_invalid_actual_is_not_hidden_by_a_good_bound (factor_tdvp_accelerated.test_frontier_evidence.FrontierEvidenceTests) ... ok
+test_missing_requested_repeat_and_duplicate_repeat_are_rejected (factor_tdvp_accelerated.test_frontier_evidence.FrontierEvidenceTests) ... ok
+test_mixed_evidence_requires_every_repeat_to_qualify (factor_tdvp_accelerated.test_frontier_evidence.FrontierEvidenceTests) ... ok
+test_nonfinite_negative_or_missing_accuracy_is_rejected (factor_tdvp_accelerated.test_frontier_evidence.FrontierEvidenceTests) ... ok
+test_nonfinite_or_nonpositive_runtime_is_rejected (factor_tdvp_accelerated.test_frontier_evidence.FrontierEvidenceTests) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.167s
+
+OK

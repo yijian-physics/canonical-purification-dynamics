@@ -1,0 +1,20 @@
+[
+  {
+    "n": 3,
+    "relative_velocity_difference": 1.942607039465663e-14,
+    "relative_jacobian_image_difference": 1.3399649008992357e-14,
+    "force_speedup": 3.585679223897295
+  },
+  {
+    "n": 4,
+    "relative_velocity_difference": 2.021727255648255e-09,
+    "relative_jacobian_image_difference": 2.037343215962332e-09,
+    "force_speedup": 5.360372923826088
+  },
+  {
+    "n": 6,
+    "relative_velocity_difference": 3.825982479083214e-09,
+    "relative_jacobian_image_difference": 3.383333507788849e-09,
+    "force_speedup": 27.118842912620174
+  }
+]

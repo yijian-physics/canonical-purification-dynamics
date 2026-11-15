@@ -1,0 +1,23 @@
+n3_t0.1_s10_p0.12_a0.35_jensen_tdvp start 0.0 2.8123277697398215e-15
+n3_t0.1_s10_p0.12_a0.35_jensen_tdvp endpoint 0.0 True 2.8123277697398215e-15 1.2509056511015721e-15 seconds 0.0019780000000000075
+n3_t0.1_s10_p0.12_a0.35_jensen_tdvp start 0.01 9.492116003266911e-08
+n3_t0.1_s10_p0.12_a0.35_jensen_tdvp endpoint 0.01 True 9.492116003266911e-08 4.6476047738601147e-08 seconds 0.019490249999999987
+n3_t0.1_s10_p0.12_a0.35_jensen_tdvp start 0.02 1.8740159311480195e-07
+n3_t0.1_s10_p0.12_a0.35_jensen_tdvp endpoint 0.02 True 1.8740159311480195e-07 9.175944412104673e-08 seconds 0.035691583
+n3_t0.1_s10_p0.12_a0.35_jensen_tdvp start 0.03 2.7837329902118946e-07
+n3_t0.1_s10_p0.12_a0.35_jensen_tdvp endpoint 0.03 True 2.7837329902118946e-07 1.363046965744501e-07 seconds 0.051983541999999994
+n3_t0.1_s10_p0.12_a0.35_jensen_tdvp start 0.04 3.6867120563471367e-07
+n3_t0.1_s10_p0.12_a0.35_jensen_tdvp endpoint 0.04 True 3.6867120563471367e-07 1.8052118281371552e-07 seconds 0.068567458
+n3_t0.1_s10_p0.12_a0.35_jensen_tdvp start 0.05 4.5904523368351106e-07
+n3_t0.1_s10_p0.12_a0.35_jensen_tdvp endpoint 0.05 True 4.5904523368351106e-07 2.2477676779814422e-07 seconds 0.08447608300000001
+n3_t0.1_s10_p0.12_a0.35_jensen_tdvp start 0.06 5.501664371121263e-07
+n3_t0.1_s10_p0.12_a0.35_jensen_tdvp endpoint 0.06 True 5.501664371121263e-07 2.6940088009042795e-07 seconds 0.10022758299999998
+n3_t0.1_s10_p0.12_a0.35_jensen_tdvp start 0.07 6.426323412971526e-07
+n3_t0.1_s10_p0.12_a0.35_jensen_tdvp endpoint 0.07 True 6.426323412971526e-07 3.1468714546161447e-07 seconds 0.11587891699999997
+n3_t0.1_s10_p0.12_a0.35_jensen_tdvp start 0.08 7.369716799123012e-07
+n3_t0.1_s10_p0.12_a0.35_jensen_tdvp endpoint 0.08 True 7.369716799123012e-07 3.608956872711535e-07 seconds 0.13158416699999997
+n3_t0.1_s10_p0.12_a0.35_jensen_tdvp start 0.09 8.336486236762189e-07
+n3_t0.1_s10_p0.12_a0.35_jensen_tdvp endpoint 0.09 True 8.336486236762189e-07 4.0825518030838555e-07 seconds 0.14782791699999998
+n3_t0.1_s10_p0.12_a0.35_jensen_tdvp start 0.1 9.330667700165248e-07
+n3_t0.1_s10_p0.12_a0.35_jensen_tdvp endpoint 0.1 True 9.330667700165248e-07 4.5696473812020003e-07 seconds 0.164238875
+{"kind": "trajectory", "family": "D", "n": 3, "method": "witness", "tolerance": 0.001, "steps": 10, "status": "completed", "time": 0.1, "reached_time": 0.1, "global_cp_error": 4.5696473812020003e-07, "global_cp_bound": 9.330667700165248e-07, "density_error": 3.227561804894053e-07, "normalization_defect": 1.5543122344752192e-15, "h_bond": 4, "x_bond": 4, "total_seconds": 0.16627208400000001, "native_combined_seconds": 0.165217084, "scoring_seconds": 0.0006747909999999524, "peak_process_memory_mib": 45.46875, "time_grid": [0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.1], "used_predictions": 10, "certificate_kind": "independent_density_inverse_metric_bound_float_evaluation", "timing_categories_overlap": true, "timing_note": "reference calls may be nested in predictor/certificate; native time includes initialization, I/O and internal exact scoring", "reference_seconds": 0.0005274580000000917, "certificate_seconds": 0.013392666000000053, "prediction_seconds": 0.09282183599999994, "correction_seconds": 0.0}

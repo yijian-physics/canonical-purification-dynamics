@@ -1,0 +1,58 @@
+         705119 function calls (689204 primitive calls) in 0.247 seconds
+
+   Ordered by: cumulative time
+   List reduced from 164 to 50 due to restriction <50>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.001    0.001    0.247    0.247 /Users/xiaoyanghuang/Documents/ChatGPT/Tensor Network study/canonical-purification-dynamics/factor_tdvp/tangent_solver.py:158(factor_velocity)
+      128    0.000    0.000    0.219    0.002 /Users/xiaoyanghuang/Documents/ChatGPT/Tensor Network study/canonical-purification-dynamics/factor_tdvp/tangent_solver.py:83(apply)
+      531    0.001    0.000    0.175    0.000 /Users/xiaoyanghuang/Documents/ChatGPT/Tensor Network study/canonical-purification-dynamics/factor_tdvp/tangent_solver.py:70(product)
+      861    0.001    0.000    0.150    0.000 /Users/xiaoyanghuang/Documents/ChatGPT/Tensor Network study/canonical-purification-dynamics/factor_tdvp/tangent_solver.py:65(round)
+      861    0.013    0.000    0.149    0.000 /Users/xiaoyanghuang/Documents/ChatGPT/Tensor Network study/canonical-purification-dynamics/scalable_cp_witness/code/tdvp_core.py:44(compress)
+      532    0.004    0.000    0.078    0.000 /Users/xiaoyanghuang/Documents/ChatGPT/Tensor Network study/canonical-purification-dynamics/scalable_cp_witness/code/mpo_cp_force.py:25(multiply)
+     1596    0.008    0.000    0.069    0.000 /Users/xiaoyanghuang/Library/Python/3.9/lib/python/site-packages/numpy/_core/einsumfunc.py:1057(einsum)
+      863    0.004    0.000    0.062    0.000 /Users/xiaoyanghuang/Documents/ChatGPT/Tensor Network study/canonical-purification-dynamics/scalable_cp_witness/code/cluster_dephasing.py:76(move_center)
+      330    0.000    0.000    0.059    0.000 /Users/xiaoyanghuang/Documents/ChatGPT/Tensor Network study/canonical-purification-dynamics/factor_tdvp/tangent_solver.py:73(add)
+     5446    0.027    0.000    0.045    0.000 /Users/xiaoyanghuang/Library/Python/3.9/lib/python/site-packages/numpy/_core/numeric.py:978(tensordot)
+     1596    0.015    0.000    0.044    0.000 /Users/xiaoyanghuang/Library/Python/3.9/lib/python/site-packages/numpy/_core/einsumfunc.py:742(einsum_path)
+     1728    0.019    0.000    0.041    0.000 /Users/xiaoyanghuang/Library/Python/3.9/lib/python/site-packages/numpy/linalg/_linalg.py:894(qr)
+     1722    0.022    0.000    0.028    0.000 /Users/xiaoyanghuang/Library/Python/3.9/lib/python/site-packages/numpy/linalg/_linalg.py:1613(svd)
+16976/1061    0.011    0.000    0.025    0.000 /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/copy.py:128(deepcopy)
+     1061    0.002    0.000    0.021    0.000 /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/copy.py:258(_reconstruct)
+     1061    0.002    0.000    0.016    0.000 /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/copy.py:226(_deepcopy_dict)
+     1728    0.003    0.000    0.011    0.000 /Users/xiaoyanghuang/Library/Python/3.9/lib/python/site-packages/numpy/lib/_twodim_base_impl.py:490(triu)
+     3444    0.002    0.000    0.008    0.000 /Users/xiaoyanghuang/Library/Python/3.9/lib/python/site-packages/numpy/_core/fromnumeric.py:2255(sum)
+     1596    0.005    0.000    0.008    0.000 /Users/xiaoyanghuang/Library/Python/3.9/lib/python/site-packages/numpy/_core/einsumfunc.py:552(_parse_einsum_input)
+     1596    0.006    0.000    0.008    0.000 /Users/xiaoyanghuang/Library/Python/3.9/lib/python/site-packages/numpy/_core/einsumfunc.py:442(_can_dot)
+     1728    0.002    0.000    0.008    0.000 /Users/xiaoyanghuang/Library/Python/3.9/lib/python/site-packages/numpy/lib/_twodim_base_impl.py:371(tri)
+        1    0.000    0.000    0.007    0.007 /Users/xiaoyanghuang/Documents/ChatGPT/Tensor Network study/canonical-purification-dynamics/factor_tdvp/tangent_solver.py:101(generator_mpo)
+     2122    0.001    0.000    0.007    0.000 /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/copy.py:200(_deepcopy_list)
+    28305    0.007    0.000    0.007    0.000 {method 'reshape' of 'numpy.ndarray' objects}
+     3444    0.002    0.000    0.006    0.000 /Users/xiaoyanghuang/Library/Python/3.9/lib/python/site-packages/numpy/_core/fromnumeric.py:69(_wrapreduction)
+    21784    0.004    0.000    0.005    0.000 {built-in method math.prod}
+      926    0.001    0.000    0.004    0.000 /Users/xiaoyanghuang/Documents/ChatGPT/Tensor Network study/canonical-purification-dynamics/scalable_cp_witness/code/cluster_dephasing.py:71(__init__)
+      330    0.002    0.000    0.004    0.000 /Users/xiaoyanghuang/Documents/ChatGPT/Tensor Network study/canonical-purification-dynamics/scalable_cp_witness/code/tdvp_core.py:17(add)
+      133    0.000    0.000    0.004    0.000 /Users/xiaoyanghuang/Documents/ChatGPT/Tensor Network study/canonical-purification-dynamics/scalable_cp_witness/code/mpo_cp_force.py:15(adjoint)
+      926    0.001    0.000    0.004    0.000 /Users/xiaoyanghuang/Documents/ChatGPT/Tensor Network study/canonical-purification-dynamics/scalable_cp_witness/code/cluster_dephasing.py:73(<listcomp>)
+     3451    0.002    0.000    0.004    0.000 /Users/xiaoyanghuang/Library/Python/3.9/lib/python/site-packages/numpy/linalg/_linalg.py:148(_commonType)
+     5179    0.002    0.000    0.004    0.000 /Users/xiaoyanghuang/Library/Python/3.9/lib/python/site-packages/numpy/_core/_ufunc_config.py:410(__enter__)
+      201    0.000    0.000    0.003    0.000 /Users/xiaoyanghuang/Documents/ChatGPT/Tensor Network study/canonical-purification-dynamics/scalable_cp_witness/code/cluster_dephasing.py:113(dense)
+    36708    0.003    0.000    0.003    0.000 {method 'count' of 'str' objects}
+     2778    0.002    0.000    0.003    0.000 /Users/xiaoyanghuang/Library/Python/3.9/lib/python/site-packages/numpy/_core/numeric.py:300(full)
+     3446    0.003    0.000    0.003    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+    49330    0.003    0.000    0.003    0.000 {built-in method builtins.len}
+     9576    0.003    0.000    0.003    0.000 /Users/xiaoyanghuang/Library/Python/3.9/lib/python/site-packages/numpy/_core/einsumfunc.py:58(_compute_size_by_dict)
+      875    0.002    0.000    0.003    0.000 /Users/xiaoyanghuang/Library/Python/3.9/lib/python/site-packages/numpy/linalg/_linalg.py:2566(norm)
+     7427    0.002    0.000    0.003    0.000 /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/copy.py:242(_keep_alive)
+     3192    0.001    0.000    0.003    0.000 /Users/xiaoyanghuang/Library/Python/3.9/lib/python/site-packages/numpy/_core/einsumfunc.py:20(_flop_count)
+        1    0.002    0.002    0.002    0.002 /Users/xiaoyanghuang/Library/Python/3.9/lib/python/site-packages/numpy/linalg/_linalg.py:2382(lstsq)
+     3456    0.001    0.000    0.002    0.000 /Users/xiaoyanghuang/Library/Python/3.9/lib/python/site-packages/numpy/lib/_twodim_base_impl.py:34(_min_int)
+     1728    0.002    0.000    0.002    0.000 {method 'outer' of 'numpy.ufunc' objects}
+    37796    0.002    0.000    0.002    0.000 {method 'append' of 'list' objects}
+     4056    0.001    0.000    0.002    0.000 {built-in method builtins.sum}
+     1596    0.001    0.000    0.002    0.000 /Users/xiaoyanghuang/Library/Python/3.9/lib/python/site-packages/numpy/_core/einsumfunc.py:925(<listcomp>)
+    40188    0.002    0.000    0.002    0.000 {method 'get' of 'dict' objects}
+    10900    0.002    0.000    0.002    0.000 {method 'transpose' of 'numpy.ndarray' objects}
+    12081    0.002    0.000    0.002    0.000 {method 'astype' of 'numpy.ndarray' objects}
+
+

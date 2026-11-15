@@ -1,0 +1,43 @@
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp start 0.0 2.8123277697398215e-15
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp endpoint 0.0 True 2.8123277697398215e-15 1.2509056511015721e-15 seconds 0.0022165839999999937
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp start 0.005 2.7133586772345682e-08
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp endpoint 0.005 True 2.7133586772345682e-08 1.3272373838328939e-08 seconds 0.020292916999999994
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp start 0.01 5.393965710577652e-08
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp endpoint 0.01 True 5.393965710577652e-08 2.6385923666153516e-08 seconds 0.03642237499999998
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp start 0.015 8.054971038237649e-08
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp endpoint 0.015 True 8.054971038237649e-08 3.940376323277555e-08 seconds 0.05233299999999999
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp start 0.02 1.0708631862792887e-07
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp endpoint 0.02 True 1.03645713937743e-09 5.061047449516569e-10 seconds 0.07055041699999998
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp start 0.025 2.6719426683207884e-08
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp endpoint 0.025 True 2.6719426683207884e-08 1.3070832531052087e-08 seconds 0.08692187499999998
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp start 0.03 5.4634121393788834e-08
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp endpoint 0.03 True 5.4634121393788834e-08 2.6727452923299695e-08 seconds 0.103087084
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp start 0.035 8.283144743693867e-08
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp endpoint 0.035 True 8.283144743693867e-08 4.052252405096641e-08 seconds 0.11907562499999996
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp start 0.04 1.1140597748283268e-07
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp endpoint 0.04 True 1.202793131864526e-09 5.865852008786906e-10 seconds 0.137551875
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp start 0.045 2.9065897162076327e-08
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp endpoint 0.045 True 2.9065897162076327e-08 1.4219258273971231e-08 seconds 0.153429209
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp start 0.05 5.985629438732764e-08
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp endpoint 0.05 True 5.985629438732764e-08 2.928483014154199e-08 seconds 0.169389167
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp start 0.055 9.128893860082996e-08
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp endpoint 0.055 True 9.128893860082996e-08 4.46655801762505e-08 seconds 0.18558175
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp start 0.06 1.2343255200301894e-07
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp endpoint 0.06 True 1.527291539972048e-09 7.441872391793699e-10 seconds 0.203796667
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp start 0.065 3.276540446804543e-08
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp endpoint 0.065 True 3.276540446804543e-08 1.603200837776499e-08 seconds 0.21978016699999997
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp start 0.07 6.781097621747929e-08
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp endpoint 0.07 True 6.781097621747929e-08 3.318522229226057e-08 seconds 0.235663334
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp start 0.075 1.0375207308455162e-07
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp endpoint 0.075 True 1.4250792809167555e-09 6.943308167514964e-10 seconds 0.25371125
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp start 0.08 3.662190332555501e-08
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp endpoint 0.08 True 3.662190332555501e-08 1.7922404975899415e-08 seconds 0.269474584
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp start 0.085 7.554894334631408e-08
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp endpoint 0.085 True 7.554894334631408e-08 3.6982064219495354e-08 seconds 0.285479167
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp start 0.09 1.1550337471276328e-07
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp endpoint 0.09 True 1.7322136830875778e-09 8.443785357925618e-10 seconds 0.303525167
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp start 0.095 4.059583530084137e-08
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp endpoint 0.095 True 4.059583530084137e-08 1.987253890841189e-08 seconds 0.319477709
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp start 0.1 8.386386100295762e-08
+n3_t0.1_s20_p0.12_a0.35_jensen_tdvp endpoint 0.1 True 8.386386100295762e-08 4.10660472588381e-08 seconds 0.33535241699999996
+{"kind": "trajectory", "family": "D", "n": 3, "method": "witness", "tolerance": 1e-07, "steps": 20, "status": "completed", "time": 0.1, "reached_time": 0.1, "global_cp_error": 4.10660472588381e-08, "global_cp_bound": 8.386386100295762e-08, "density_error": 2.872285318162407e-08, "normalization_defect": 8.881784197001252e-16, "h_bond": 4, "x_bond": 4, "total_seconds": 0.33747941700000006, "native_combined_seconds": 0.336444042, "scoring_seconds": 0.0006427919999999476, "peak_process_memory_mib": 45.59375, "time_grid": [0.005, 0.01, 0.015, 0.02, 0.025, 0.03, 0.035, 0.04, 0.045, 0.05, 0.055, 0.06, 0.065, 0.07, 0.075, 0.08, 0.085, 0.09, 0.095, 0.1], "used_predictions": 20, "certificate_kind": "independent_density_inverse_metric_bound_float_evaluation", "timing_categories_overlap": true, "timing_note": "reference calls may be nested in predictor/certificate; native time includes initialization, I/O and internal exact scoring", "reference_seconds": 0.0010467069999998968, "certificate_seconds": 0.028288960999999918, "prediction_seconds": 0.18391899700000003, "correction_seconds": 0.0049094169999999715}

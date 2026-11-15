@@ -1,14 +1,36 @@
 # Canonical purification dynamics
 
+**Latest: [factor versus positive-witness scaling study](factor_tdvp_accelerated/scaling_report.md)** —
+recovered Actions experiments, repeated comparisons at matched global error,
+separate witness/force/physical-reference costs, and explicit resource limits.
+At three and four spins and global error at most 1e-7, factor MPO-LSQR is
+22.7 and 29.3 times slower than root plus witness in the measured configurations.
+This is an implementation-specific result, not a universal scaling law.
+[Original matrix-free force study](factor_tdvp_accelerated/report.md) ·
+[Reproduce](factor_tdvp_accelerated/README.md) · [Continue this work](HANDOFF.md)
+
+## New: direct factor-TDVP and benchmark comparison (November 2026)
+
+| Research note | Read on GitHub | Typeset PDF |
+|---|---|---|
+| Factor-TDVP mathematics and implementation | [Mathematical note](factor_tdvp/report.md) | [Download PDF](factor_tdvp/factor_tdvp_note.pdf) |
+| Cross-algorithm benchmarks | [Comparison report](factor_tdvp_comparison/report.md) | [Download PDF](factor_tdvp_comparison/comparison_report.pdf) |
+
+- **[Factor-TDVP mathematical note and implementation](factor_tdvp/report.md)** — positive canonical-root factorization $`X=HH^\dagger`$, real-linear MPO tangent dynamics, rank-opening bridges, tests, and limitations.
+- **[Cross-algorithm benchmark report](factor_tdvp_comparison/report.md)** — matched comparisons against root TDVP, positive-witness correction, practical local-unitary fitting, and half-Petz, including measured global errors, failure cases, and scaling bottlenecks.
+- **[Reproduce the new experiments](factor_tdvp_comparison/README.md)** — tests, benchmark commands, tables, and plots. The earlier [overview of the methods](two_ways_to_evolve_canonical_purification.md) remains available.
+
+**Current status:** The factor representation enforces positivity of its reconstructed root, but the finite-size solver has not shown a speed or scalability advantage over existing methods. The comparison retains accuracy failures and distinguishes global errors from local diagnostics and certificate bounds.
+
 Research implementations for evolving the canonical purification of a mixed spin state under local noise.
 
 The current scope assumes a specified path of physical channels whose steps are locally reversible on the states encountered. The two approaches are tensor TDVP with explicit rank-opening treatment and finite local lifts on buffered physical and reference sites. The new half-Petz implementation constructs the latter directly from physical marginals and the channel.
 
-Read [the algorithm note](two_ways_to_evolve_canonical_purification.md) for the assumptions, algorithms and numerical evidence. The note proposes a common-trajectory comparison at matched global CP error. That comparison remains open.
+Read [the original algorithm note](two_ways_to_evolve_canonical_purification.md) for the assumptions, algorithms and earlier evidence. The [new benchmark comparison](factor_tdvp_comparison/report.md) now tests several shared physical examples, though a generic matched-accuracy scaling result remains open.
 
 **Latest comparison.** On a tilted-noise benchmark, fitting a three-site unitary gives about **289 times lower global CP error** than a three-site half-Petz update at tilt 0.1. A five-site active window restores numerical precision for both. The accuracy difference persists through 256 spins. The unitary fit uses five-site physical data, and half-Petz uses its active window. These are single-update results. [Comparison report and figure](tilted_half_petz_comparison/report.md)
 
-**TDVP at 512 spins.** A positive MPO witness and an independent density-residual check bounded the global CP error by $2.97\times10^{-6}$ on a correlated mixed chain under uniform dephasing. On an exactly solvable noncommuting parity ensemble at the same size, the measured CP error was $2.32\times10^{-7}$. The full-rank extension and its scaling limits are described in the [witness study](scalable_cp_witness/report.md).
+**TDVP at 512 spins.** A positive MPO witness and an independent density-residual check bounded the global CP error by $`2.97\times10^{-6}`$ on a correlated mixed chain under uniform dephasing. On an exactly solvable noncommuting parity ensemble at the same size, the measured CP error was $`2.32\times10^{-7}`$. The full-rank extension and its scaling limits are described in the [witness study](scalable_cp_witness/report.md).
 
 ## Implementations
 
@@ -16,6 +38,9 @@ Read [the algorithm note](two_ways_to_evolve_canonical_purification.md) for the 
 |---|---|
 | [cp_tdvp](cp_tdvp/report.md) | MPS tensor TDVP, square-root-time integration, dense and single-excitation force backends |
 | [scalable_cp_witness](scalable_cp_witness/report.md) | Two-site TDVP, positive-factor correction, global CP bounds and a long-range parity benchmark through 512 spins |
+| [factor_tdvp](factor_tdvp/report.md) | Recovered finite-size factor-MPO TDVP implementation with support audits |
+| [factor_tdvp_accelerated](factor_tdvp_accelerated/scaling_report.md) | Matrix-free MPO-LSQR force, repeated four-method scaling comparisons, retained raw measurements and resource failures |
+| [factor_tdvp_comparison](factor_tdvp_comparison/report.md) | Executed comparisons of factor/root TDVP, witness correction, local-unitary fitting and half-Petz, with timings and failure diagnostics |
 | [tilted_half_petz_comparison](tilted_half_petz_comparison/report.md) | Half-Petz versus local-data fitting and the exact-target unitary optimum, through 256 spins |
 | [half_petz_evolution](half_petz_evolution/report.md) | Explicit half-Petz MPS evolution, local Kraus-factor caches and global CP-error benchmarks through 256 spins |
 | [local_cp_large](local_cp_large/report.md) | Finite doubled-site unitary fitting from physical marginals, MPS application and local error checks |

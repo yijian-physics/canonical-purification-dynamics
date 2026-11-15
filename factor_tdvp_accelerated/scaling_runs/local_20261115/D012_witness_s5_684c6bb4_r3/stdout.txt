@@ -1,0 +1,12 @@
+n12_t0.1_s5_p0.12_a0.35_jensen_tdvp start 0.0 1.9646248089801146e-14
+n12_t0.1_s5_p0.12_a0.35_jensen_tdvp endpoint 0.0 True 1.9646248089801146e-14  seconds 0.00974449999999999
+n12_t0.1_s5_p0.12_a0.35_jensen_tdvp start 0.02 1.374494213056861e-06
+n12_t0.1_s5_p0.12_a0.35_jensen_tdvp endpoint 0.02 True 1.374494213056861e-06  seconds 0.21776837500000001
+n12_t0.1_s5_p0.12_a0.35_jensen_tdvp start 0.04 2.8549835860103e-06
+n12_t0.1_s5_p0.12_a0.35_jensen_tdvp endpoint 0.04 True 2.8549835860103e-06  seconds 0.459636291
+n12_t0.1_s5_p0.12_a0.35_jensen_tdvp start 0.06 4.61844086902065e-06
+n12_t0.1_s5_p0.12_a0.35_jensen_tdvp endpoint 0.06 True 4.61844086902065e-06  seconds 0.70597775
+n12_t0.1_s5_p0.12_a0.35_jensen_tdvp start 0.08 6.882024736348882e-06
+n12_t0.1_s5_p0.12_a0.35_jensen_tdvp endpoint 0.08 True 6.882024736348882e-06  seconds 0.956595833
+n12_t0.1_s5_p0.12_a0.35_jensen_tdvp start 0.1 9.741609233720832e-06
+n12_t0.1_s5_p0.12_a0.35_jensen_tdvp endpoint 0.1 True 9.741609233720832e-06  seconds 1.200304583

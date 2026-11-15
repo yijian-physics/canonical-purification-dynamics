@@ -1,0 +1,2 @@
+time,level_factor,level_root,work,iteration,step_length,improved,bound,witness,weighted_residual,scalar_bound,no_error_mass,residual_rounding
+0.1,4,6,10,1,1.0,True,1.8836503391385143e-06,2.9617777485176425e-08,1.8244070582181792e-06,5.320370190140802e-06,0.4584021938157936,7.725949982244019e-12

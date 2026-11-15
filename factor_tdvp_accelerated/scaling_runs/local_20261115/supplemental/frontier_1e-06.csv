@@ -1,0 +1,6 @@
+family,n,method,total,target,attained,reason,config_id,repeats,median_seconds,min_seconds,max_seconds,max_error,evidence,steps
+D,256,witness,0.1,1e-06,False,No complete configuration with at least three distinct repeats met target in every repeat,,,,,,,,
+D,512,witness,0.1,1e-06,False,No complete configuration with at least three distinct repeats met target in every repeat,,,,,,,,
+E,3,matrix_free,1.0,1e-06,True,,E003_matrix_free_s150_d77b24b5,3,6.7129457079999995,6.686004375,6.782448584,9.44746500329477e-07,measured,150
+E,3,root,1.0,1e-06,True,,E003_root_s150_cf920949,3,0.460826917,0.460732458,0.467127125,8.060658743707403e-07,measured,150
+E,8,matrix_free,1.0,1e-06,False,No complete configuration with at least three distinct repeats met target in every repeat,,,,,,,,

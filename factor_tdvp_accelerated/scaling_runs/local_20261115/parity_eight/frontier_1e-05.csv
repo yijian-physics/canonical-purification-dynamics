@@ -1,0 +1,2 @@
+family,n,method,total,target,attained,reason
+E,8,matrix_free,1.0,1e-05,False,No complete configuration with at least three distinct repeats met target in every repeat

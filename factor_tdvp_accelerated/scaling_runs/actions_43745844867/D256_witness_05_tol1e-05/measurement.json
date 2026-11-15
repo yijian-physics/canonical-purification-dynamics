@@ -1,0 +1,19 @@
+{
+  "kind": "trajectory",
+  "family": "D",
+  "method": "witness",
+  "n": 256,
+  "steps": 5,
+  "total": 0.1,
+  "tolerance": 1e-05,
+  "status": "completed",
+  "global_cp_error": null,
+  "global_cp_bound": 8.943669588227428e-06,
+  "reached_time": 0.1,
+  "native_seconds": 38.52934145500001,
+  "root_bond": 6,
+  "factor_bond": 4,
+  "accuracy_kind": "upper_bound_only",
+  "wall_seconds": 38.799661345000004,
+  "directory": "D256_witness_05_tol1e-05"
+}

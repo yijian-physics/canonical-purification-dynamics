@@ -1,0 +1,19 @@
+{
+  "kind": "trajectory",
+  "family": "D",
+  "method": "correction_only",
+  "n": 3,
+  "steps": 5,
+  "total": 0.1,
+  "tolerance": 1e-07,
+  "status": "completed",
+  "global_cp_error": 2.060517112599675e-09,
+  "global_cp_bound": 4.2383495806677595e-09,
+  "reached_time": 0.1,
+  "native_seconds": 0.06552376300000162,
+  "root_bond": 4,
+  "factor_bond": 4,
+  "accuracy_kind": "measured",
+  "wall_seconds": 0.2645419929999946,
+  "directory": "D003_correction_only_05_tol1e-07"
+}

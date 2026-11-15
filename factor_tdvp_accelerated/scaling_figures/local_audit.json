@@ -1,0 +1,16 @@
+{
+  "rows": 328,
+  "status_counts": {
+    "completed": 289,
+    "failed": 5,
+    "timeout": 4,
+    "unsupported": 30
+  },
+  "constituent_table_hashes": {
+    "measurements_main.json": true,
+    "supplemental/measurements.json": true,
+    "parity_eight/measurements.json": true
+  },
+  "failures": [],
+  "all_checks_pass": true
+}

@@ -1,0 +1,4 @@
+# Numerical versions used in this comparison; legacy root requirements unchanged.
+numpy==2.3.5
+scipy==1.17.0
+matplotlib==3.10.8

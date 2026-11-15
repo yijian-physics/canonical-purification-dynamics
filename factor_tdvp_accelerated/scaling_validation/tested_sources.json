@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-15",
+  "numerical_regression_tests": 70,
+  "publication_integration_tests": 4,
+  "source_sha256": {
+    "factor_tdvp_accelerated/repeated_scaling.py": "7609cf3733072f6bb5b28d42286ef65a9187d6bbe2408412cb0774bc7c47996b",
+    "factor_tdvp_accelerated/analyze_scaling.py": "16fb02551f15d42c1fc44c0c78b269610a8dbdcc7b3f53f0e624b1b60f4965ab",
+    "factor_tdvp_accelerated/merge_local_cohorts.py": "dc59304fdee9255664d920c5af6fbb5018c6c3039ffd1f664a710d7e17705dba",
+    "factor_tdvp_accelerated/test_repeated_scaling.py": "fcaf318cd591842808d45ffe319a753a8ce609535b7f9d6f20c84a3e0f75e5c1",
+    "factor_tdvp_accelerated/test_frontier_evidence.py": "cb640c5adfdbc4438daa4ecb59f84071fe5f0b67c499a07cc391407c7ec34e49",
+    "factor_tdvp_accelerated/test_analyze_scaling.py": "d1bc90ce9ce60fcecc99cf84d78b1a3b0f41a3f3b04ed8b1652ee305390a55a4",
+    ".github/scripts/publish_benchmark_results.py": "5193c091b041369ccda11a81e091c3820431921377f7c29019868837f677a521",
+    ".github/scripts/test_publish_benchmark_results.py": "2c04a30c473ad07d8acc517b4820abd3b2d33d71f2927d35b3949a749139d810"
+  }
+}

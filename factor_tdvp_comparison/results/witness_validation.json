@@ -1,0 +1,62 @@
+[
+  {
+    "benchmark": "D",
+    "n": 8,
+    "bond": 6,
+    "reference": 5.59705664761406e-07,
+    "reference_file": "scalable_cp_witness/n8_t0.3_s5_p0.12_a0.35_jensen_tdvp.csv",
+    "reference_field": "actual",
+    "rerun": 5.597056647395342e-07,
+    "absolute_deviation": 2.1871767126645323e-17,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "benchmark": "D",
+    "n": 512,
+    "bond": 8,
+    "reference": 2.9718030560310473e-06,
+    "reference_file": "scalable_cp_witness/n512_t0.1_s4_p0.12_a0.35_jensen_tdvp.csv",
+    "reference_field": "bound",
+    "rerun": 2.9718030560285833e-06,
+    "absolute_deviation": 2.4640188435627597e-18,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "benchmark": "E",
+    "n": 512,
+    "bond": 2,
+    "reference": 2.316622259103779e-07,
+    "reference_file": "scalable_cp_witness/n512_t1_s5_parity0.6_x0.4_jensen_tdvp.csv",
+    "reference_field": "actual",
+    "rerun": 2.3166222372783833e-07,
+    "absolute_deviation": 2.1825395778552294e-15,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "benchmark": "F",
+    "n": 8,
+    "bond": 64,
+    "reference": 4.9205355443888185e-06,
+    "reference_file": "scalable_cp_witness/trajectory_n8_chi64_s8_correct1.csv",
+    "reference_field": "cp_error",
+    "rerun": 4.920535544440589e-06,
+    "absolute_deviation": 5.1770653736182837e-17,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "benchmark": "F",
+    "n": 8,
+    "bond": 128,
+    "reference": 3.104196454728213e-07,
+    "reference_file": "scalable_cp_witness/trajectory_n8_chi128_s8_correct1.csv",
+    "reference_field": "cp_error",
+    "rerun": 3.1041964544823457e-07,
+    "absolute_deviation": 2.458671948083217e-17,
+    "tolerance": 1e-10,
+    "passed": true
+  }
+]

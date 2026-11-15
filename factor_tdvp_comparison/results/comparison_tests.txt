@@ -1,0 +1,15 @@
+test_factor_metrics_use_squared_positive_root (test_comparison.MetricTests.test_factor_metrics_use_squared_positive_root) ... ok
+test_local_root_fit_does_not_determine_global_extension (test_comparison.MetricTests.test_local_root_fit_does_not_determine_global_extension) ... ok
+test_nonpositive_reference_is_rejected (test_comparison.MetricTests.test_nonpositive_reference_is_rejected) ... ok
+test_reported_error_categories_stay_distinct (test_comparison.MetricTests.test_reported_error_categories_stay_distinct) ... ok
+test_right_unitary_gauge_is_not_removed_from_cp_error (test_comparison.MetricTests.test_right_unitary_gauge_is_not_removed_from_cp_error) ... ok
+test_scoring_never_normalizes_a_bad_output (test_comparison.MetricTests.test_scoring_never_normalizes_a_bad_output) ... ok
+test_cluster_analytic_root_against_independent_channel (test_comparison.ReferenceTests.test_cluster_analytic_root_against_independent_channel) ... ok
+test_mixed_chain_preparation_matches_existing_witness (test_comparison.ReferenceTests.test_mixed_chain_preparation_matches_existing_witness) ... ok
+test_nonclifford_inhomogeneous_angles (test_comparison.ReferenceTests.test_nonclifford_inhomogeneous_angles) ... ok
+test_tilted_semigroup_endpoint_matches_finite_channel (test_comparison.ReferenceTests.test_tilted_semigroup_endpoint_matches_finite_channel) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.140s
+
+OK

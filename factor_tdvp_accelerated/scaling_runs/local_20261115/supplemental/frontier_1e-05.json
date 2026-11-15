@@ -1,0 +1,61 @@
+[
+  {
+    "family": "D",
+    "n": 256,
+    "method": "witness",
+    "total": 0.1,
+    "target": 1e-05,
+    "attained": false,
+    "reason": "No complete configuration with at least three distinct repeats met target in every repeat"
+  },
+  {
+    "family": "D",
+    "n": 512,
+    "method": "witness",
+    "total": 0.1,
+    "target": 1e-05,
+    "attained": false,
+    "reason": "No complete configuration with at least three distinct repeats met target in every repeat"
+  },
+  {
+    "family": "E",
+    "n": 3,
+    "method": "matrix_free",
+    "total": 1.0,
+    "target": 1e-05,
+    "attained": true,
+    "config_id": "E003_matrix_free_s50_d4fe9e20",
+    "repeats": 3,
+    "median_seconds": 2.2673882080000003,
+    "min_seconds": 2.2513488749999997,
+    "max_seconds": 2.2736310410000002,
+    "max_error": 8.607370074367827e-06,
+    "evidence": "measured",
+    "steps": 50
+  },
+  {
+    "family": "E",
+    "n": 3,
+    "method": "root",
+    "total": 1.0,
+    "target": 1e-05,
+    "attained": true,
+    "config_id": "E003_root_s50_1824c78c",
+    "repeats": 3,
+    "median_seconds": 0.20480525,
+    "min_seconds": 0.203663833,
+    "max_seconds": 0.266068042,
+    "max_error": 7.336928753749869e-06,
+    "evidence": "measured",
+    "steps": 50
+  },
+  {
+    "family": "E",
+    "n": 8,
+    "method": "matrix_free",
+    "total": 1.0,
+    "target": 1e-05,
+    "attained": false,
+    "reason": "No complete configuration with at least three distinct repeats met target in every repeat"
+  }
+]

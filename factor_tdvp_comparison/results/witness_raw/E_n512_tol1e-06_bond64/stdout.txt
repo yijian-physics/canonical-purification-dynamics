@@ -1,0 +1,13 @@
+n512_t1_s5_parity0.6_x0.4_jensen_tdvp start 0.0 4.035794994676974e-13
+n512_t1_s5_parity0.6_x0.4_jensen_tdvp endpoint 0.0 True 4.035794994676974e-13 1.0491744328975521e-13 seconds 0.2628785130000324
+n512_t1_s5_parity0.6_x0.4_jensen_tdvp start 0.02 0.00010813554345694176
+n512_t1_s5_parity0.6_x0.4_jensen_tdvp endpoint 0.02 True 2.80543221905555e-07 1.0550996045843094e-07 seconds 4.634361790999719
+n512_t1_s5_parity0.6_x0.4_jensen_tdvp start 0.1 0.0005182517155405561
+n512_t1_s5_parity0.6_x0.4_jensen_tdvp endpoint 0.1 True 2.5884324863152043e-07 9.741606028231049e-08 seconds 9.54492200300001
+n512_t1_s5_parity0.6_x0.4_jensen_tdvp start 0.3 0.002448316425960858
+n512_t1_s5_parity0.6_x0.4_jensen_tdvp endpoint 0.3 True 5.785309906925265e-07 2.2640100989867125e-07 seconds 15.297627862999889
+n512_t1_s5_parity0.6_x0.4_jensen_tdvp start 0.6 0.005476127116254988
+n512_t1_s5_parity0.6_x0.4_jensen_tdvp endpoint 0.6 True 3.255462647059751e-07 1.307893221891149e-07 seconds 21.2317600399997
+n512_t1_s5_parity0.6_x0.4_jensen_tdvp start 1.0 0.008112546020330628
+n512_t1_s5_parity0.6_x0.4_jensen_tdvp endpoint 1.0 True 5.80532309637194e-07 2.3166222372783833e-07 seconds 27.70443132599985
+{"benchmark": "E", "method": "positive_witness_tdvp", "n": 512, "status": "success", "global_cp_error": 2.3166222372783833e-07, "global_cp_bound": 5.80532309637194e-07, "error_kind": "measured_global_and_analytic_bound", "density_error": 3.4735059114154827e-84, "normalization_defect": 7.838174553853605e-14, "canonical_branch_defect": null, "positivity_witness_distance": 3.677162374342444e-14, "time": 1.0, "requested_time": 1.0, "dt": null, "time_grid": [0.02, 0.1, 0.3, 0.6, 1.0], "steps": 5, "accepted_steps": 5, "rejected_steps": 0, "rank_events": 0, "h_bond": 2, "factor_role": "separately_fitted_witness_not_evolving_factor", "x_bond": 2, "x_bond_max": 2, "x_bond_average": 2.0, "witness_bond_max": 3, "setup_seconds": null, "evolution_seconds": null, "scoring_seconds": 0.11824056100022062, "native_combined_seconds": 27.756594674000098, "native_includes_scoring": true, "timing_scope": "native_setup_evolution_certification_scoring_plus_extra_scoring", "endpoint_tolerance": 1e-06, "command": "python scalable_cp_witness/code/scalable_cp_witness.py --n 512 --tdvp --parity --times 0.02 0.1 0.3 0.6 1.0 --tol 1e-06 --levels 4,6,8:6,8,12 --passes 8 --out factor_tdvp_comparison/results/witness_raw/E_n512_tol1e-06_bond64", "worker_total_seconds": 27.87628543000028, "peak_rss_mb": 87.203125}

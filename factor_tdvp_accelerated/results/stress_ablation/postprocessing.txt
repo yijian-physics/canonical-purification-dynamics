@@ -1,0 +1,1 @@
+Final-stage Jacobian residual and LSQR condition estimate reconstructed from each saved solves.json. Historical recursive maxima included intermediate Krylov iterates; these are now excluded. Raw solve diagnostics and measured timings are unchanged.

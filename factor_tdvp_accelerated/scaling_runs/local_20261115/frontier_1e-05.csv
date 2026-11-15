@@ -1,0 +1,99 @@
+family,n,method,total,target,attained,config_id,repeats,median_seconds,min_seconds,max_seconds,max_error,evidence,steps,reason
+D,3,correction_only,0.1,1e-05,True,D003_correction_only_s5_d64bcddb,3,0.038271082999999984,0.038135417000000005,0.038513959000000014,1.1962553117838406e-07,measured,5,
+D,3,matrix_free,0.1,1e-05,True,D003_matrix_free_s5_55f36fa0,3,0.520271666,0.516486708,0.522736375,9.323700036157785e-07,measured,5,
+D,3,root,0.1,1e-05,True,D003_root_s5_f006e220,3,0.08767504200000001,0.086736375,0.345369583,9.276230784659256e-07,measured,5,
+D,3,witness,0.1,1e-05,True,D003_witness_s5_f8b77af6,3,0.09344845800000001,0.09314666600000002,0.095032792,8.649280508617753e-09,measured,5,
+D,4,correction_only,0.1,1e-05,True,D004_correction_only_s5_f2f6e1a2,3,0.062370958000000004,0.06227112500000001,0.06261304200000001,3.16679005457459e-07,measured,5,
+D,4,matrix_free,0.1,1e-05,True,D004_matrix_free_s5_ff5a418d,3,2.099658083,2.0807715829999998,2.170535416,1.1376020345633986e-06,measured,5,
+D,4,root,0.1,1e-05,True,D004_root_s5_5809975a,3,0.10831587499999998,0.10646708299999999,0.15440366600000002,1.1321244589488462e-06,measured,5,
+D,4,witness,0.1,1e-05,True,D004_witness_s5_4eabdeb0,3,0.16809879099999997,0.16717449999999998,0.169168458,1.455362888698162e-06,measured,5,
+D,5,correction_only,0.1,1e-05,True,D005_correction_only_s5_7bb7c731,3,0.10413562499999998,0.10251125,0.104474167,4.390062429604823e-07,measured,5,
+D,5,matrix_free,0.1,1e-05,True,D005_matrix_free_s5_0a0df8f3,3,6.919161375,6.896965708000001,7.230447834,1.3164307392694298e-06,measured,5,
+D,5,root,0.1,1e-05,True,D005_root_s5_9bc1555a,3,0.183731667,0.18291933300000002,0.1949795,1.3149517610323024e-06,measured,5,
+D,5,witness,0.1,1e-05,True,D005_witness_s5_36649d4d,3,0.273689041,0.272771584,0.275293334,1.7409371376873328e-06,measured,5,
+D,6,correction_only,0.1,1e-05,True,D006_correction_only_s5_848b8b92,3,0.155099041,0.154060167,0.158956333,5.371643458524135e-07,measured,5,
+D,6,matrix_free,0.1,1e-05,True,D006_matrix_free_s5_57df28d0,3,34.933511333,34.816337083,35.48026075,1.4705147220047078e-06,measured,5,
+D,6,root,0.1,1e-05,True,D006_root_s5_aca419e8,3,1.7540477909999999,1.5771334579999998,1.818794417,1.470629617214685e-06,measured,5,
+D,6,witness,0.1,1e-05,True,D006_witness_s5_feb3da00,3,0.416287292,0.411366791,0.42040904199999996,2.0184905951706175e-06,measured,5,
+D,8,correction_only,0.1,1e-05,True,D008_correction_only_s5_c099bed6,3,0.370143583,0.369983417,0.37364924999999993,6.982427786687195e-07,measured,5,
+D,8,matrix_free,0.1,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+D,8,root,0.1,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+D,8,witness,0.1,1e-05,True,D008_witness_s5_b42117a5,3,0.7794673329999999,0.774503625,0.780359958,2.556875424782809e-06,measured,5,
+D,12,correction_only,0.1,1e-05,True,D012_correction_only_s5_3449b0e7,3,0.47945562499999994,0.4767714580000001,0.48242062500000005,2.005762649018892e-06,bound,5,
+D,12,matrix_free,0.1,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+D,12,root,0.1,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+D,12,witness,0.1,1e-05,True,D012_witness_s5_684c6bb4,3,1.201555417,1.1910986659999998,1.205404792,9.741609233720832e-06,bound,5,
+D,16,correction_only,0.1,1e-05,True,D016_correction_only_s5_75f4b7e6,3,0.706096625,0.697803292,0.708271417,2.476015340339352e-06,bound,5,
+D,16,matrix_free,0.1,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+D,16,root,0.1,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+D,16,witness,0.1,1e-05,True,D016_witness_s5_8bd306aa,3,1.800317375,1.794050833,1.825503125,1.8836503391385143e-06,bound,5,
+D,32,correction_only,0.1,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+D,32,matrix_free,0.1,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+D,32,root,0.1,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+D,32,witness,0.1,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+D,64,correction_only,0.1,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+D,64,matrix_free,0.1,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+D,64,root,0.1,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+D,64,witness,0.1,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+D,128,correction_only,0.1,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+D,128,matrix_free,0.1,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+D,128,root,0.1,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+D,128,witness,0.1,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+D,256,correction_only,0.1,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+D,256,matrix_free,0.1,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+D,256,root,0.1,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+D,256,witness,0.1,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+D,512,correction_only,0.1,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+D,512,matrix_free,0.1,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+D,512,root,0.1,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+D,512,witness,0.1,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,3,correction_only,1.0,1e-05,True,E003_correction_only_s5_9b4c1414,3,0.09059245800000001,0.084514916,0.112407333,3.963622894492281e-06,measured,5,
+E,3,matrix_free,1.0,1e-05,True,E003_matrix_free_s50_d4fe9e20,3,2.2673882080000003,2.2513488749999997,2.2736310410000002,8.607370074367827e-06,measured,50,
+E,3,root,1.0,1e-05,True,E003_root_s50_1824c78c,3,0.20480525,0.203663833,0.266068042,7.336928753749869e-06,measured,50,
+E,3,witness,1.0,1e-05,True,E003_witness_s5_0505544b,3,0.13043241699999997,0.13041008299999998,0.13071704100000003,3.0894769557645478e-06,measured,5,
+E,4,correction_only,1.0,1e-05,True,E004_correction_only_s5_f0223cb1,3,0.112222125,0.11218545799999999,0.11240987499999999,3.9636228948559445e-06,measured,5,
+E,4,matrix_free,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,4,root,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,4,witness,1.0,1e-05,True,E004_witness_s5_f351e9ac,3,0.17681004200000003,0.17652845800000003,0.17692083300000003,3.0894769553236536e-06,measured,5,
+E,5,correction_only,1.0,1e-05,True,E005_correction_only_s5_0aacfed5,3,0.140256375,0.139015541,0.14138820900000001,3.963622894715162e-06,measured,5,
+E,5,matrix_free,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,5,root,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,5,witness,1.0,1e-05,True,E005_witness_s5_74349b33,3,0.222323,0.221117291,0.3324142499999999,3.0894769554621502e-06,measured,5,
+E,6,correction_only,1.0,1e-05,True,E006_correction_only_s5_afba26de,3,0.163827375,0.16352441699999998,0.164450708,3.963622894397511e-06,measured,5,
+E,6,matrix_free,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,6,root,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,6,witness,1.0,1e-05,True,E006_witness_s5_320af076,3,0.270993209,0.26693404099999996,0.272099458,3.0894769551817226e-06,measured,5,
+E,8,correction_only,1.0,1e-05,True,E008_correction_only_s5_2b82674b,3,0.216857041,0.216684417,0.217658209,3.963622894457374e-06,measured,5,
+E,8,matrix_free,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,8,root,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,8,witness,1.0,1e-05,True,E008_witness_s5_ce36516c,3,0.355588958,0.35337462500000005,0.35875350000000006,3.0894769550425102e-06,measured,5,
+E,12,correction_only,1.0,1e-05,True,E012_correction_only_s5_f46dc316,3,0.318615875,0.31598375,0.319460875,3.963622894706098e-06,measured,5,
+E,12,matrix_free,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,12,root,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,12,witness,1.0,1e-05,True,E012_witness_s5_56020860,3,0.5345217919999999,0.52755025,0.5345546670000001,3.08947695477784e-06,measured,5,
+E,16,correction_only,1.0,1e-05,True,E016_correction_only_s5_f1d96688,3,0.418450792,0.4179179169999999,0.41856983400000003,3.963622894994134e-06,measured,5,
+E,16,matrix_free,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,16,root,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,16,witness,1.0,1e-05,True,E016_witness_s5_bbd85210,3,0.6954062919999999,0.6940217919999999,0.6996822079999999,3.0894769555436844e-06,measured,5,
+E,32,correction_only,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,32,matrix_free,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,32,root,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,32,witness,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,64,correction_only,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,64,matrix_free,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,64,root,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,64,witness,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,128,correction_only,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,128,matrix_free,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,128,root,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,128,witness,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,256,correction_only,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,256,matrix_free,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,256,root,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,256,witness,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,512,correction_only,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,512,matrix_free,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,512,root,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+E,512,witness,1.0,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+F_loss,3,matrix_free,0.03,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
+F_loss,3,root,0.03,1e-05,False,,,,,,,,,No complete configuration with at least three distinct repeats met target in every repeat
